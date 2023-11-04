@@ -1,0 +1,3 @@
+<ng-container *ngrxLet="users$; let users" >
+    <hh-feature-users-list [users]="users" class="users-container" (deleteUser)="onDeleteUser($event)" (likeUser)="onLikeUser($event)"></hh-feature-users-list>
+</ng-container>

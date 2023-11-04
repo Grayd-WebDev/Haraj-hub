@@ -1,6 +1,6 @@
 {
   "extends": "./tsconfig.json",
-  "include": ["src/**/*.ts"],
+  "include": ["src/**/*.ts", "../../libs/haraj-hub/users-feature/src/lib/users/user.interface.ts", "../../libs/haraj-hub/users-feature/src/lib/users/user.service.ts"],
   "compilerOptions": {
     "types": ["jest", "node"]
   }

@@ -14,7 +14,22 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@org/data-access": ["libs/haraj-hub/data-access/src/index.ts"],
+      "@org/feature-users-list": [
+        "libs/haraj-hub/feature-users-list/src/index.ts"
+      ],
+      "@org/feature-users-search": [
+        "libs/haraj-hub/feature-users-search/src/index.ts"
+      ],
+      "@org/layout": ["libs/haraj-hub/core/ui/layout/src/index.ts"],
+      "@org/page-home": ["libs/haraj-hub/pages/home/src/index.ts"],
+      "@org/page-users": ["libs/haraj-hub/pages/users/src/index.ts"],
+      "@org/users-data-access": [
+        "libs/haraj-hub/feature-users-list/src/lib/data-access/src/index.ts"
+      ],
+      "@org/users-list": ["libs/haraj-hub/feature-users-list/src/index.ts"]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }

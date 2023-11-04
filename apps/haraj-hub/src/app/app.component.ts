@@ -1,11 +1,11 @@
-import { Component } from '@angular/core';
-import { RouterModule } from '@angular/router';
-import { NxWelcomeComponent } from './nx-welcome.component';
-
+import { LayoutComponent } from './../../../../libs/haraj-hub/core/ui/layout/src/lib/layout/layout.component';
+import { Component, inject } from '@angular/core';
+import { RouterModule } from '@angular/router'
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 @Component({
   standalone: true,
-  imports: [NxWelcomeComponent, RouterModule],
-  selector: 'org-root',
+  imports: [RouterModule, LayoutComponent],
+  selector: 'hh-root',
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.scss'],
 })
