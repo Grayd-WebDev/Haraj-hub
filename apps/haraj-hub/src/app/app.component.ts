@@ -1,10 +1,13 @@
-import { LayoutComponent } from './../../../../libs/haraj-hub/core/ui/layout/src/lib/layout/layout.component';
-import { Component, inject } from '@angular/core';
+import { LayoutComponent } from '@org/layout';
+import { Component } from '@angular/core';
 import { RouterModule } from '@angular/router'
-import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { CommonModule } from '@angular/common';
+import { BrowserAnimationsModule, NoopAnimationsModule } from '@angular/platform-browser/animations';
+import { BrowserModule } from '@angular/platform-browser';
+
 @Component({
   standalone: true,
-  imports: [RouterModule, LayoutComponent],
+  imports: [RouterModule, LayoutComponent, CommonModule],
   selector: 'hh-root',
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.scss'],

@@ -1,0 +1,6508 @@
+{
+    "categories": [
+      {
+        "id": 1,
+        "name": "Electronics",
+        "description": "Electronic gadgets and devices",
+        "image": "electronic.jpg",
+        "parentCategoryId": null,
+        "subcategories": [
+          {
+            "id": 2,
+            "name": "Mobile Devices",
+            "description": "Portable communication and computing devices",
+            "image": "mobile_devices_category.jpg",
+            "parentCategoryId": 1,
+            "subcategories": [
+              {
+                "id": 21,
+                "name": "Smartphones",
+                "description": "Mobile phones with advanced features",
+                "image": "smartphones_category.jpg",
+                "parentCategoryId": 2,
+                "subcategories": []
+              },
+              {
+                "id": 22,
+                "name": "Tablets",
+                "description": "Portable touchscreen computing devices",
+                "image": "tablets_category.jpg",
+                "parentCategoryId": 2,
+                "subcategories": []
+              },
+              {
+                "id": 23,
+                "name": "E-readers",
+                "description": "Devices for reading electronic books",
+                "image": "ereaders_category.jpg",
+                "parentCategoryId": 2,
+                "subcategories": []
+              }
+            ]
+          },
+          {
+            "id": 3,
+            "name": "Computers",
+            "description": "Personal and portable computing devices",
+            "image": "computers_category.jpg",
+            "parentCategoryId": 1,
+            "subcategories": [
+              {
+                "id": 24,
+                "name": "Laptops",
+                "description": "Portable computers",
+                "image": "laptops_category.jpg",
+                "parentCategoryId": 3,
+                "subcategories": []
+              },
+              {
+                "id": 25,
+                "name": "Desktops",
+                "description": "Stationary personal computers",
+                "image": "desktops_category.jpg",
+                "parentCategoryId": 3,
+                "subcategories": []
+              },
+              {
+                "id": 26,
+                "name": "Gaming PCs",
+                "description": "High-performance computers for gaming",
+                "image": "gaming_pcs_category.jpg",
+                "parentCategoryId": 3,
+                "subcategories": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "name": "Home & Living",
+        "description": "Products for a comfortable home",
+        "image": "home_living.png",
+        "parentCategoryId": null,
+        "subcategories": [
+          {
+            "id": 27,
+            "name": "Furniture",
+            "description": "Items for interior spaces",
+            "image": "furniture_category.jpg",
+            "parentCategoryId": 4,
+            "subcategories": [
+              {
+                "id": 28,
+                "name": "Living Room",
+                "description": "Furniture for the living area",
+                "image": "living_room_category.jpg",
+                "parentCategoryId": 27,
+                "subcategories": []
+              },
+              {
+                "id": 29,
+                "name": "Bedroom",
+                "description": "Furniture for the bedroom",
+                "image": "bedroom_category.jpg",
+                "parentCategoryId": 27,
+                "subcategories": []
+              },
+              {
+                "id": 30,
+                "name": "Office",
+                "description": "Furniture for a home office",
+                "image": "office_furniture_category.jpg",
+                "parentCategoryId": 27,
+                "subcategories": []
+              }
+            ]
+          },
+          {
+            "id": 31,
+            "name": "Home Decor",
+            "description": "Decorative items for the home",
+            "image": "home_decor_category.jpg",
+            "parentCategoryId": 4,
+            "subcategories": [
+              {
+                "id": 32,
+                "name": "Wall Art",
+                "description": "Artistic pieces for walls",
+                "image": "wall_art_category.jpg",
+                "parentCategoryId": 31,
+                "subcategories": []
+              },
+              {
+                "id": 33,
+                "name": "Candles & Holders",
+                "description": "Items for creating ambiance",
+                "image": "candles_holders_category.jpg",
+                "parentCategoryId": 31,
+                "subcategories": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "name": "Clothing & Accessories",
+        "description": "Fashion items for all occasions",
+        "image": "cloth.png",
+        "parentCategoryId": null,
+        "subcategories": [
+          {
+            "id": 34,
+            "name": "Men's Clothing",
+            "description": "Clothing for men",
+            "image": "mens_clothing_category.jpg",
+            "parentCategoryId": 5,
+            "subcategories": []
+          },
+          {
+            "id": 35,
+            "name": "Women's Clothing",
+            "description": "Clothing for women",
+            "image": "womens_clothing_category.jpg",
+            "parentCategoryId": 5,
+            "subcategories": []
+          },
+          {
+            "id": 36,
+            "name": "Accessories",
+            "description": "Items to complement attire",
+            "image": "accessories_category.jpg",
+            "parentCategoryId": 5,
+            "subcategories": [
+              {
+                "id": 37,
+                "name": "Handbags",
+                "description": "Bags for personal items",
+                "image": "handbags_category.jpg",
+                "parentCategoryId": 36,
+                "subcategories": []
+              },
+              {
+                "id": 38,
+                "name": "Jewelry",
+                "description": "Adornments for personal ornamentation",
+                "image": "jewelry_category.jpg",
+                "parentCategoryId": 36,
+                "subcategories": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 6,
+        "name": "Kitchen & Dining",
+        "description": "Products for cooking and dining",
+        "image": "kitchen_dining_category.jpg",
+        "parentCategoryId": null,
+        "subcategories": [
+          {
+            "id": 39,
+            "name": "Cookware",
+            "description": "Utensils for cooking",
+            "image": "cookware_category.jpg",
+            "parentCategoryId": 6,
+            "subcategories": [
+              {
+                "id": 40,
+                "name": "Pots & Pans",
+                "description": "Containers for cooking food",
+                "image": "pots_pans_category.jpg",
+                "parentCategoryId": 39,
+                "subcategories": []
+              },
+              {
+                "id": 41,
+                "name": "Utensil Sets",
+                "description": "Collections of kitchen tools",
+                "image": "utensil_sets_category.jpg",
+                "parentCategoryId": 39,
+                "subcategories": []
+              }
+            ]
+          },
+          {
+            "id": 42,
+            "name": "Tableware",
+            "description": "Items for serving and eating",
+            "image": "tableware_category.jpg",
+            "parentCategoryId": 6,
+            "subcategories": [
+              {
+                "id": 43,
+                "name": "Dinnerware Sets",
+                "description": "Collections of dishes and plates",
+                "image": "dinnerware_sets_category.jpg",
+                "parentCategoryId": 42,
+                "subcategories": []
+              },
+              {
+                "id": 44,
+                "name": "Flatware",
+                "description": "Eating and serving utensils",
+                "image": "flatware_category.jpg",
+                "parentCategoryId": 42,
+                "subcategories": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 7,
+        "name": "Health & Wellness",
+        "description": "Products for a healthy lifestyle",
+        "image": "beauty_health.png",
+        "parentCategoryId": null,
+        "subcategories": [
+          {
+            "id": 45,
+            "name": "Fitness Equipment",
+            "description": "Gear for physical exercise",
+            "image": "fitness_equipment_category.jpg",
+            "parentCategoryId": 7,
+            "subcategories": [
+              {
+                "id": 46,
+                "name": "Home Gyms",
+                "description": "Compact workout spaces",
+                "image": "home_gyms_category.jpg",
+                "parentCategoryId": 45,
+                "subcategories": []
+              },
+              {
+                "id": 47,
+                "name": "Yoga & Pilates",
+                "description": "Exercise methods for flexibility and strength",
+                "image": "yoga_pilates_category.jpg",
+                "parentCategoryId": 45,
+                "subcategories": []
+              }
+            ]
+          },
+          {
+            "id": 48,
+            "name": "Nutrition",
+            "description": "Products for a balanced diet",
+            "image": "nutrition_category.jpg",
+            "parentCategoryId": 7,
+            "subcategories": [
+              {
+                "id": 49,
+                "name": "Supplements",
+                "description": "Nutritional additives",
+                "image": "supplements_category.jpg",
+                "parentCategoryId": 48,
+                "subcategories": []
+              },
+              {
+                "id": 50,
+                "name": "Healthy Snacks",
+                "description": "Nourishing and flavorful snacks",
+                "image": "healthy_snacks_category.jpg",
+                "parentCategoryId": 48,
+                "subcategories": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 8,
+        "name": "Travel & Adventure",
+        "description": "Products for exploration and journeys",
+        "image": "hobby.png",
+        "parentCategoryId": null,
+        "subcategories": [
+          {
+            "id": 51,
+            "name": "Luggage",
+            "description": "Containers for transporting belongings",
+            "image": "luggage_category.jpg",
+            "parentCategoryId": 8,
+            "subcategories": [
+              {
+                "id": 52,
+                "name": "Suitcases",
+                "description": "Large portable containers",
+                "image": "suitcases_category.jpg",
+                "parentCategoryId": 51,
+                "subcategories": []
+              },
+              {
+                "id": 53,
+                "name": "Backpacks",
+                "description": "Bags carried on the back",
+                "image": "backpacks_category.jpg",
+                "parentCategoryId": 51,
+                "subcategories": []
+              }
+            ]
+          },
+          {
+            "id": 54,
+            "name": "Outdoor Gear",
+            "description": "Equipment for outdoor activities",
+            "image": "outdoor_gear_category.jpg",
+            "parentCategoryId": 8,
+            "subcategories": [
+              {
+                "id": 55,
+                "name": "Tents",
+                "description": "Shelters for camping",
+                "image": "tents_category.jpg",
+                "parentCategoryId": 54,
+                "subcategories": []
+              },
+              {
+                "id": 56,
+                "name": "Hiking Boots",
+                "description": "Footwear for hiking",
+                "image": "hiking_boots_category.jpg",
+                "parentCategoryId": 54,
+                "subcategories": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 9,
+        "name": "Pet Supplies",
+        "description": "Products for the well-being of pets",
+        "image": "animals.png",
+        "parentCategoryId": null,
+        "subcategories": [
+          {
+            "id": 57,
+            "name": "Dog Accessories",
+            "description": "Items for canine companions",
+            "image": "dog_accessories_category.jpg",
+            "parentCategoryId": 9,
+            "subcategories": [
+              {
+                "id": 58,
+                "name": "Dog Beds",
+                "description": "Sleeping spaces for dogs",
+                "image": "dog_beds_category.jpg",
+                "parentCategoryId": 57,
+                "subcategories": []
+              },
+              {
+                "id": 59,
+                "name": "Dog Toys",
+                "description": "Entertaining items for dogs",
+                "image": "dog_toys_category.jpg",
+                "parentCategoryId": 57,
+                "subcategories": []
+              }
+            ]
+          },
+          {
+            "id": 60,
+            "name": "Cat Supplies",
+            "description": "Products for feline friends",
+            "image": "cat_supplies_category.jpg",
+            "parentCategoryId": 9,
+            "subcategories": [
+              {
+                "id": 61,
+                "name": "Cat Food",
+                "description": "Nourishment for cats",
+                "image": "cat_food_category.jpg",
+                "parentCategoryId": 60,
+                "subcategories": []
+              },
+              {
+                "id": 62,
+                "name": "Cat Litter",
+                "description": "Absorbent material for cat waste",
+                "image": "cat_litter_category.jpg",
+                "parentCategoryId": 60,
+                "subcategories": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 10,
+        "name": "Gardening & Plants",
+        "description": "Products for cultivating green spaces",
+        "image": "gardening_plants_category.jpg",
+        "parentCategoryId": null,
+        "subcategories": [
+          {
+            "id": 63,
+            "name": "Gardening Tools",
+            "description": "Instruments for tending to plants",
+            "image": "gardening_tools_category.jpg",
+            "parentCategoryId": 10,
+            "subcategories": [
+              {
+                "id": 64,
+                "name": "Pruning Shears",
+                "description": "Tools for trimming plants",
+                "image": "pruning_shears_category.jpg",
+                "parentCategoryId": 63,
+                "subcategories": []
+              },
+              {
+                "id": 65,
+                "name": "Watering Cans",
+                "description": "Containers for irrigating plants",
+                "image": "watering_cans_category.jpg",
+                "parentCategoryId": 63,
+                "subcategories": []
+              }
+            ]
+          },
+          {
+            "id": 66,
+            "name": "Plants",
+            "description": "Living organisms for home gardens",
+            "image": "plants_category.jpg",
+            "parentCategoryId": 10,
+            "subcategories": [
+              {
+                "id": 67,
+                "name": "Flowering Plants",
+                "description": "Plants that produce flowers",
+                "image": "flowering_plants_category.jpg",
+                "parentCategoryId": 66,
+                "subcategories": []
+              },
+              {
+                "id": 68,
+                "name": "Succulents",
+                "description": "Plants that store water",
+                "image": "succulents_category.jpg",
+                "parentCategoryId": 66,
+                "subcategories": []
+              }
+            ]
+          }
+        ]
+      }
+    ],
+
+    "products": [
+      {
+        "id": 4,
+        "userId": 4,
+        "name": "Smartphone 3",
+        "brand": "MobileTech",
+        "price": 799.99,
+        "color": "Blue",
+        "weight": "170g",
+        "screenSize": "6.0 inches",
+        "availability": true,
+        "likes": 180,
+        "dislikes": 20,
+        "views": 700,
+        "child": false,
+        "specifications": {
+          "camera": "20 MP",
+          "storage": "512GB",
+          "RAM": "12GB",
+          "processor": "Hexa-core"
+        },
+        "ratingScore": 4.9,
+        "location": {
+          "latitude": 37.7749,
+          "longitude": -122.4194
+        },
+        "messages": [
+          {
+            "fromUserId": 5,
+            "message": "I'm interested. Does it support 5G?"
+          }
+        ],
+        "images": ["phone_front_3.jpg", "phone_back_3.jpg", "phone_side_3.jpg"],
+        "categoryId": 2
+      },
+      {
+        "id": 5,
+        "userId": 5,
+        "name": "Smartwatch 1",
+        "brand": "WristTech",
+        "price": 199.99,
+        "color": "Black",
+        "weight": "50g",
+        "screenSize": "1.3 inches",
+        "availability": true,
+        "likes": 80,
+        "dislikes": 5,
+        "views": 300,
+        "child": false,
+        "specifications": {
+          "features": ["Fitness Tracking", "Heart Rate Monitor", "Notifications"],
+          "waterResistance": "IP68"
+        },
+        "ratingScore": 4.0,
+        "location": {
+          "latitude": 37.7749,
+          "longitude": -122.4194
+        },
+        "messages": [
+          {
+            "fromUserId": 1,
+            "message": "Can I receive calls on this smartwatch?"
+          }
+        ],
+        "images": ["smartwatch_front.jpg", "smartwatch_back.jpg", "smartwatch_side.jpg"],
+        "categoryId": 2
+      },
+      {
+        "id": 6,
+        "userId": 6,
+        "name": "Tablet 2",
+        "brand": "TabCo",
+        "price": 499.99,
+        "color": "Silver",
+        "weight": "320g",
+        "screenSize": "12 inches",
+        "availability": true,
+        "likes": 120,
+        "dislikes": 10,
+        "views": 450,
+        "child": false,
+        "specifications": {
+          "camera": "10 MP",
+          "storage": "256GB",
+          "RAM": "8GB",
+          "processor": "Octa-core"
+        },
+        "ratingScore": 4.5,
+        "location": {
+          "latitude": 37.7749,
+          "longitude": -122.4194
+        },
+        "messages": [
+          {
+            "fromUserId": 3,
+            "message": "How long does the battery last?"
+          }
+        ],
+        "images": ["tablet_front_2.jpg", "tablet_back_2.jpg", "tablet_side_2.jpg"],
+        "categoryId": 2
+      },
+      {
+        "id": 7,
+        "userId": 7,
+        "name": "Smartphone 4",
+        "brand": "ConnectX",
+        "price": 899.99,
+        "color": "Rose Gold",
+        "weight": "160g",
+        "screenSize": "6.3 inches",
+        "availability": true,
+        "likes": 200,
+        "dislikes": 15,
+        "views": 800,
+        "child": false,
+        "specifications": {
+          "camera": "24 MP",
+          "storage": "512GB",
+          "RAM": "16GB",
+          "processor": "Octa-core"
+        },
+        "ratingScore": 4.7,
+        "location": {
+          "latitude": 37.7749,
+          "longitude": -122.4194
+        },
+        "messages": [
+          {
+            "fromUserId": 2,
+            "message": "What's the warranty period for this smartphone?"
+          }
+        ],
+        "images": ["phone_front_4.jpg", "phone_back_4.jpg", "phone_side_4.jpg"],
+        "categoryId": 2
+      },
+      {
+        "id": 8,
+        "userId": 8,
+        "name": "Bluetooth Earbuds",
+        "brand": "SoundSync",
+        "price": 79.99,
+        "color": "White",
+        "weight": "10g",
+        "features": ["Wireless", "Noise Cancelling", "Touch Controls"],
+        "availability": true,
+        "likes": 50,
+        "dislikes": 5,
+        "views": 200,
+        "child": true,
+        "parentProductId": 7,
+        "ratingScore": 4.5,
+        "location": {
+          "latitude": 37.7749,
+          "longitude": -122.4194
+        },
+        "messages": [
+          {
+            "fromUserId": 6,
+            "message": "Are these compatible with all smartphones?"
+          }
+        ],
+        "images": ["earbuds_front.jpg", "earbuds_back.jpg", "earbuds_side.jpg"],
+        "categoryId": 2
+      },
+      {
+        "id": 9,
+        "userId": 9,
+        "name": "Laptop 1",
+        "brand": "TechBook",
+        "price": 1099.99,
+        "color": "Silver",
+        "weight": "1.5kg",
+        "screenSize": "15.6 inches",
+        "availability": true,
+        "likes": 150,
+        "dislikes": 12,
+        "views": 600,
+        "child": false,
+        "specifications": {
+          "processor": "Intel Core i7",
+          "RAM": "16GB",
+          "storage": "1TB SSD",
+          "graphicsCard": "NVIDIA GeForce GTX 1660 Ti"
+        },
+        "ratingScore": 4.9,
+        "location": {
+          "latitude": 37.7749,
+          "longitude": -122.4194
+        },
+        "messages": [
+          {
+            "fromUserId": 10,
+            "message": "Does it come with a carrying case?"
+          }
+        ],
+        "images": ["laptop_front_1.jpg", "laptop_back_1.jpg", "laptop_side_1.jpg"],
+        "categoryId": 24
+      },
+      {
+        "id": 10,
+        "userId": 10,
+        "name": "Desktop PC",
+        "brand": "PowerStation",
+        "price": 1599.99,
+        "color": "Black",
+        "weight": "8kg",
+        "availability": true,
+        "likes": 180,
+        "dislikes": 15,
+        "views": 700,
+        "child": false,
+        "specifications": {
+          "processor": "AMD Ryzen 9",
+          "RAM": "32GB",
+          "storage": "2TB HDD + 512GB SSD",
+          "graphicsCard": "NVIDIA GeForce RTX 3080"
+        },
+        "ratingScore": 4.8,
+        "location": {
+          "latitude": 37.7749,
+          "longitude": -122.4194
+        },
+        "messages": [
+          {
+            "fromUserId": 11,
+            "message": "What's the warranty on this desktop PC?"
+          }
+        ],
+        "images": ["desktop_front_1.jpg", "desktop_back_1.jpg", "desktop_side_1.jpg"],
+        "categoryId": 3
+      },
+      {
+        "id": 11,
+        "userId": 11,
+        "name": "Gaming Laptop",
+        "brand": "GameMaster",
+        "price": 1999.99,
+        "color": "Red/Black",
+        "weight": "2.2kg",
+        "screenSize": "17.3 inches",
+        "availability": true,
+        "likes": 220,
+        "dislikes": 20,
+        "views": 800,
+        "child": false,
+        "specifications": {
+          "processor": "Intel Core i9",
+          "RAM": "64GB",
+          "storage": "2TB SSD",
+          "graphicsCard": "NVIDIA GeForce RTX 3090"
+        },
+        "ratingScore": 4.7,
+        "location": {
+          "latitude": 37.7749,
+          "longitude": -122.4194
+        },
+        "messages": [
+          {
+            "fromUserId": 12,
+            "message": "Can it run the latest AAA games smoothly?"
+          }
+        ],
+        "images": ["gaming_laptop_front_1.jpg", "gaming_laptop_back_1.jpg", "gaming_laptop_side_1.jpg"],
+        "categoryId": 3
+      },
+      {
+        "id": 12,
+        "userId": 12,
+        "name": "Sofa Set",
+        "brand": "ComfortHaven",
+        "price": 899.99,
+        "color": "Beige",
+        "material": "Fabric",
+        "availability": true,
+        "likes": 80,
+        "dislikes": 5,
+        "views": 300,
+        "child": false,
+        "specifications": {
+          "seatingCapacity": 5,
+          "dimensions": {
+            "width": "240cm",
+            "height": "90cm",
+            "depth": "120cm"
+          }
+        },
+        "ratingScore": 4.6,
+        "location": {
+          "latitude": 37.7749,
+          "longitude": -122.4194
+        },
+        "messages": [
+          {
+            "fromUserId": 13,
+            "message": "Is there a warranty on this sofa set?"
+          }
+        ],
+        "images": ["sofa_set_front_1.jpg", "sofa_set_back_1.jpg", "sofa_set_side_1.jpg"],
+        "categoryId": 4
+      },
+      {
+        "id": 13,
+        "userId": 13,
+        "name": "King Size Bed",
+        "brand": "DreamComfort",
+        "price": 1299.99,
+        "color": "Dark Brown",
+        "material": "Wood",
+        "availability": true,
+        "likes": 100,
+        "dislikes": 8,
+        "views": 400,
+        "child": false,
+        "specifications": {
+          "bedSize": "King",
+          "dimensions": {
+            "width": "200cm",
+            "length": "220cm",
+            "height": "120cm"
+          }
+        },
+        "ratingScore": 4.9,
+        "location": {
+          "latitude": 37.7749,
+          "longitude": -122.4194
+        },
+        "messages": [
+          {
+            "fromUserId": 14,
+            "message": "Does the bed come with a mattress?"
+          }
+        ],
+        "images": ["bed_front_1.jpg", "bed_side_1.jpg", "bed_back_1.jpg"],
+        "categoryId": 4
+      },
+      {
+        "id": 14,
+        "userId": 14,
+        "name": "Office Desk",
+        "brand": "WorkSpaceMaster",
+        "price": 299.99,
+        "color": "Espresso",
+        "material": "MDF",
+        "availability": true,
+        "likes": 60,
+        "dislikes": 3,
+        "views": 250,
+        "child": false,
+        "specifications": {
+          "deskType": "Writing Desk",
+          "dimensions": {
+            "width": "120cm",
+            "depth": "60cm",
+            "height": "75cm"
+          }
+        },
+        "ratingScore": 4.7,
+        "location": {
+          "latitude": 37.7749,
+          "longitude": -122.4194
+        },
+        "messages": [
+          {
+            "fromUserId": 15,
+            "message": "Is this desk suitable for a home office?"
+          }
+        ],
+        "images": ["desk_front_1.jpg", "desk_side_1.jpg", "desk_back_1.jpg"],
+        "categoryId": 4
+      },
+      {
+        "id": 15,
+        "userId": 15,
+        "name": "Wall Clock",
+        "brand": "TimelessDesign",
+        "price": 49.99,
+        "color": "Silver",
+        "material": "Metal",
+        "availability": true,
+        "likes": 40,
+        "dislikes": 2,
+        "views": 200,
+        "child": true,
+        "parentProductId": 14,
+        "ratingScore": 4.5,
+        "location": {
+          "latitude": 37.7749,
+          "longitude": -122.4194
+        },
+        "messages": [
+          {
+            "fromUserId": 16,
+            "message": "What's the diameter of the clock?"
+          }
+        ],
+        "images": ["wall_clock_front_1.jpg", "wall_clock_side_1.jpg", "wall_clock_back_1.jpg"],
+        "categoryId": 4
+      },
+
+      {
+        "id": 16,
+        "userId": 16,
+        "name": "Men's Jacket",
+        "brand": "FashionBlend",
+        "price": 79.99,
+        "color": "Navy Blue",
+        "size": "M",
+        "availability": true,
+        "likes": 120,
+        "dislikes": 5,
+        "views": 500,
+        "child": false,
+        "specifications": {
+          "material": "Polyester",
+          "closureType": "Zipper",
+          "collarType": "Stand Collar"
+        },
+        "ratingScore": 4.8,
+        "location": {
+          "latitude": 37.7749,
+          "longitude": -122.4194
+        },
+        "messages": [
+          {
+            "fromUserId": 17,
+            "message": "Is this jacket suitable for cold weather?"
+          }
+        ],
+        "images": ["mens_jacket_front_1.jpg", "mens_jacket_back_1.jpg", "mens_jacket_side_1.jpg"],
+        "categoryId": 5
+      },
+      {
+        "id": 17,
+        "userId": 17,
+        "name": "Women's Dress",
+        "brand": "EleganceStyle",
+        "price": 129.99,
+        "color": "Burgundy",
+        "size": "S",
+        "availability": true,
+        "likes": 150,
+        "dislikes": 8,
+        "views": 600,
+        "child": false,
+        "specifications": {
+          "material": "Chiffon",
+          "neckline": "V-Neck",
+          "sleeveLength": "Short Sleeves"
+        },
+        "ratingScore": 4.9,
+        "location": {
+          "latitude": 37.7749,
+          "longitude": -122.4194
+        },
+        "messages": [
+          {
+            "fromUserId": 18,
+            "message": "Can I see more pictures of the dress?"
+          }
+        ],
+        "images": ["womens_dress_front_1.jpg", "womens_dress_back_1.jpg", "womens_dress_side_1.jpg"],
+        "categoryId": 5
+      },
+      {
+        "id": 18,
+        "userId": 18,
+        "name": "Leather Handbag",
+        "brand": "ChicTrends",
+        "price": 89.99,
+        "color": "Cognac",
+        "availability": true,
+        "likes": 80,
+        "dislikes": 3,
+        "views": 300,
+        "child": false,
+        "specifications": {
+          "closureType": "Zipper",
+          "strapType": "Detachable"
+        },
+        "ratingScore": 4.7,
+        "location": {
+          "latitude": 37.7749,
+          "longitude": -122.4194
+        },
+        "messages": [
+          {
+            "fromUserId": 19,
+            "message": "Is the strap adjustable on this handbag?"
+          }
+        ],
+        "images": ["leather_handbag_front_1.jpg", "leather_handbag_side_1.jpg", "leather_handbag_back_1.jpg"],
+        "categoryId": 5
+      },
+      {
+        "id": 19,
+        "userId": 19,
+        "name": "Gold Necklace",
+        "brand": "LuxuryAccessories",
+        "price": 149.99,
+        "color": "Gold",
+        "availability": true,
+        "likes": 60,
+        "dislikes": 2,
+        "views": 250,
+        "child": false,
+        "specifications": {
+          "material": "18k Gold",
+          "length": "18 inches"
+        },
+        "ratingScore": 4.5,
+        "location": {
+          "latitude": 37.7749,
+          "longitude": -122.4194
+        },
+        "messages": [
+          {
+            "fromUserId": 20,
+            "message": "What's the purity of the gold used?"
+          }
+        ],
+        "images": ["gold_necklace_front_1.jpg", "gold_necklace_side_1.jpg", "gold_necklace_back_1.jpg"],
+        "categoryId": 5
+      },
+      {
+        "id": 20,
+        "userId": 20,
+        "name": "Cookware Set",
+        "brand": "MasterChef",
+        "price": 149.99,
+        "color": "Stainless Steel",
+        "availability": true,
+        "likes": 100,
+        "dislikes": 4,
+        "views": 400,
+        "child": false,
+        "specifications": {
+          "pieces": 10,
+          "material": "Stainless Steel",
+          "coating": "Non-Stick"
+        },
+        "ratingScore": 4.7,
+        "location": {
+          "latitude": 37.7749,
+          "longitude": -122.4194
+        },
+        "messages": [
+          {
+            "fromUserId": 21,
+            "message": "Is this cookware suitable for induction cooktops?"
+          }
+        ],
+        "images": ["cookware_set_front_1.jpg", "cookware_set_side_1.jpg", "cookware_set_top_1.jpg"],
+        "categoryId": 6
+      },
+      {
+        "id": 21,
+        "userId": 21,
+        "name": "Dinnerware Set",
+        "brand": "TableElegance",
+        "price": 79.99,
+        "color": "White",
+        "availability": true,
+        "likes": 120,
+        "dislikes": 6,
+        "views": 450,
+        "child": false,
+        "specifications": {
+          "pieces": 16,
+          "material": "Porcelain",
+          "microwaveSafe": true
+        },
+        "ratingScore": 4.8,
+        "location": {
+          "latitude": 37.7749,
+          "longitude": -122.4194
+        },
+        "messages": [
+          {
+            "fromUserId": 22,
+            "message": "Are these dishwasher safe?"
+          }
+        ],
+        "images": ["dinnerware_set_front_1.jpg", "dinnerware_set_side_1.jpg", "dinnerware_set_top_1.jpg"],
+        "categoryId": 6
+      },
+      {
+        "id": 22,
+        "userId": 22,
+        "name": "Coffee Maker",
+        "brand": "BrewMasters",
+        "price": 69.99,
+        "color": "Black",
+        "availability": true,
+        "likes": 90,
+        "dislikes": 3,
+        "views": 350,
+        "child": false,
+        "specifications": {
+          "capacity": "10 cups",
+          "features": ["Programmable", "Auto Shut-Off"]
+        },
+        "ratingScore": 4.6,
+        "location": {
+          "latitude": 37.7749,
+          "longitude": -122.4194
+        },
+        "messages": [
+          {
+            "fromUserId": 23,
+            "message": "Does it come with a warranty?"
+          }
+        ],
+        "images": ["coffee_maker_front_1.jpg", "coffee_maker_side_1.jpg", "coffee_maker_top_1.jpg"],
+        "categoryId": 6
+      },
+      {
+        "id": 23,
+        "userId": 23,
+        "name": "Flatware Set",
+        "brand": "SilverCraft",
+        "price": 49.99,
+        "color": "Silver",
+        "availability": true,
+        "likes": 80,
+        "dislikes": 2,
+        "views": 300,
+        "child": false,
+        "specifications": {
+          "pieces": 20,
+          "material": "Stainless Steel"
+        },
+        "ratingScore": 4.5,
+        "location": {
+          "latitude": 37.7749,
+          "longitude": -122.4194
+        },
+        "messages": [
+          {
+            "fromUserId": 24,
+            "message": "Is this flatware dishwasher safe?"
+          }
+        ],
+        "images": ["flatware_set_front_1.jpg", "flatware_set_side_1.jpg", "flatware_set_top_1.jpg"],
+        "categoryId": 6
+      },
+      {
+        "id": 24,
+        "userId": 24,
+        "name": "Pots & Pans Set",
+        "brand": "ChefSelect",
+        "price": 129.99,
+        "color": "Red",
+        "availability": true,
+        "likes": 110,
+        "dislikes": 5,
+        "views": 420,
+        "child": false,
+        "specifications": {
+          "pieces": 12,
+          "material": "Aluminum",
+          "coating": "Non-Stick"
+        },
+        "ratingScore": 4.7,
+        "location": {
+          "latitude": 37.7749,
+          "longitude": -122.4194
+        },
+        "messages": [
+          {
+            "fromUserId": 25,
+            "message": "Can I use these pots and pans on an induction cooktop?"
+          }
+        ],
+        "images": ["pots_pans_set_front_1.jpg", "pots_pans_set_side_1.jpg", "pots_pans_set_top_1.jpg"],
+        "categoryId": 6
+      },
+      {
+        "id": 25,
+        "userId": 25,
+        "name": "Utensil Set",
+        "brand": "KitchenEssentials",
+        "price": 34.99,
+        "color": "Blue",
+        "availability": true,
+        "likes": 85,
+        "dislikes": 3,
+        "views": 380,
+        "child": false,
+        "specifications": {
+          "pieces": 10,
+          "material": "Silicone",
+          "heatResistance": "Up to 450°F"
+        },
+        "ratingScore": 4.6,
+        "location": {
+          "latitude": 37.7749,
+          "longitude": -122.4194
+        },
+        "messages": [
+          {
+            "fromUserId": 26,
+            "message": "Are these utensils dishwasher safe?"
+          }
+        ],
+        "images": ["utensil_set_front_1.jpg", "utensil_set_side_1.jpg", "utensil_set_top_1.jpg"],
+        "categoryId": 6
+      },
+      {
+        "id": 26,
+        "userId": 26,
+        "name": "Dining Table Set",
+        "brand": "HomeElegance",
+        "price": 299.99,
+        "color": "Espresso",
+        "availability": true,
+        "likes": 150,
+        "dislikes": 8,
+        "views": 550,
+        "child": false,
+        "specifications": {
+          "pieces": 5,
+          "material": "Wood",
+          "seatingCapacity": 4
+        },
+        "ratingScore": 4.9,
+        "location": {
+          "latitude": 37.7749,
+          "longitude": -122.4194
+        },
+        "messages": [
+          {
+            "fromUserId": 27,
+            "message": "Is assembly required for this dining table set?"
+          }
+        ],
+        "images": ["dining_table_set_front_1.jpg", "dining_table_set_side_1.jpg", "dining_table_set_top_1.jpg"],
+        "categoryId": 6
+      },
+      {
+        "id": 27,
+        "userId": 27,
+        "name": "Dinnerware Organizer",
+        "brand": "NeatLiving",
+        "price": 19.99,
+        "color": "Clear",
+        "availability": true,
+        "likes": 60,
+        "dislikes": 2,
+        "views": 280,
+        "child": false,
+        "specifications": {
+          "slots": 12,
+          "material": "Plastic"
+        },
+        "ratingScore": 4.4,
+        "location": {
+          "latitude": 37.7749,
+          "longitude": -122.4194
+        },
+        "messages": [
+          {
+            "fromUserId": 28,
+            "message": "Can this organizer fit large dinner plates?"
+          }
+        ],
+        "images": ["dinnerware_organizer_front_1.jpg", "dinnerware_organizer_side_1.jpg", "dinnerware_organizer_top_1.jpg"],
+        "categoryId": 6
+      },
+      {
+        "id": 28,
+        "userId": 28,
+        "name": "Knife Block Set",
+        "brand": "CuttingEdge",
+        "price": 49.99,
+        "color": "Bamboo",
+        "availability": true,
+        "likes": 75,
+        "dislikes": 4,
+        "views": 330,
+        "child": false,
+        "specifications": {
+          "pieces": 8,
+          "material": "Bamboo"
+        },
+        "ratingScore": 4.5,
+        "location": {
+          "latitude": 37.7749,
+          "longitude": -122.4194
+        },
+        "messages": [
+          {
+            "fromUserId": 29,
+            "message": "Are the knives in this set sharp and durable?"
+          }
+        ],
+        "images": ["knife_block_set_front_1.jpg", "knife_block_set_side_1.jpg", "knife_block_set_top_1.jpg"],
+        "categoryId": 6
+      },
+      {
+        "id": 29,
+        "userId": 29,
+        "name": "Dish Rack",
+        "brand": "SimpleLiving",
+        "price": 24.99,
+        "color": "Silver",
+        "availability": true,
+        "likes": 45,
+        "dislikes": 2,
+        "views": 230,
+        "child": false,
+        "specifications": {
+          "material": "Stainless Steel",
+          "capacity": "Holds up to 20 dishes"
+        },
+        "ratingScore": 4.3,
+        "location": {
+          "latitude": 37.7749,
+          "longitude": -122.4194
+        },
+        "messages": [
+          {
+            "fromUserId": 30,
+            "message": "Is this dish rack easy to clean?"
+          }
+        ],
+        "images": ["dish_rack_front_1.jpg", "dish_rack_side_1.jpg", "dish_rack_top_1.jpg"],
+        "categoryId": 6
+      },
+      {
+        "id": 30,
+        "userId": 30,
+        "name": "Coffee Mug Set",
+        "brand": "MorningJoy",
+        "price": 14.99,
+        "color": "Assorted",
+        "availability": true,
+        "likes": 55,
+        "dislikes": 3,
+        "views": 280,
+        "child": false,
+        "specifications": {
+          "pieces": 6,
+          "material": "Ceramic"
+        },
+        "ratingScore": 4.6,
+        "location": {
+          "latitude": 37.7749,
+          "longitude": -122.4194
+        },
+        "messages": [
+          {
+            "fromUserId": 31,
+            "message": "Are these coffee mugs microwave-safe?"
+          }
+        ],
+        "images": ["coffee_mug_set_front_1.jpg", "coffee_mug_set_side_1.jpg", "coffee_mug_set_top_1.jpg"],
+        "categoryId": 6
+      },
+      {
+        "id": 31,
+        "userId": 31,
+        "name": "Bakeware Set",
+        "brand": "BakeMaster",
+        "price": 39.99,
+        "color": "Gray",
+        "availability": true,
+        "likes": 70,
+        "dislikes": 4,
+        "views": 340,
+        "child": false,
+        "specifications": {
+          "pieces": 8,
+          "material": "Carbon Steel",
+          "ovenSafe": "Up to 450°F"
+        },
+        "ratingScore": 4.7,
+        "location": {
+          "latitude": 37.7749,
+          "longitude": -122.4194
+        },
+        "messages": [
+          {
+            "fromUserId": 32,
+            "message": "Can I use these bakeware items for baking desserts?"
+          }
+        ],
+        "images": ["bakeware_set_front_1.jpg", "bakeware_set_side_1.jpg", "bakeware_set_top_1.jpg"],
+        "categoryId": 6
+      },
+      {
+        "id": 32,
+        "userId": 32,
+        "name": "Tea Kettle",
+        "brand": "TeaDelight",
+        "price": 29.99,
+        "color": "Stainless Steel",
+        "availability": true,
+        "likes": 60,
+        "dislikes": 3,
+        "views": 310,
+        "child": false,
+        "specifications": {
+          "capacity": "1.5 liters",
+          "material": "Stainless Steel"
+        },
+        "ratingScore": 4.5,
+        "location": {
+          "latitude": 37.7749,
+          "longitude": -122.4194
+        },
+        "messages": [
+          {
+            "fromUserId": 33,
+            "message": "Does this tea kettle whistle when the water is boiling?"
+          }
+        ],
+        "images": ["tea_kettle_front_1.jpg", "tea_kettle_side_1.jpg", "tea_kettle_top_1.jpg"],
+        "categoryId": 6
+      },
+      {
+        "id": 33,
+        "userId": 33,
+        "name": "Kitchen Timer",
+        "brand": "TimeMaster",
+        "price": 9.99,
+        "color": "White",
+        "availability": true,
+        "likes": 35,
+        "dislikes": 1,
+        "views": 180,
+        "child": false,
+        "specifications": {
+          "timerDuration": "60 minutes",
+          "material": "Plastic"
+        },
+        "ratingScore": 4.2,
+        "location": {
+          "latitude": 37.7749,
+          "longitude": -122.4194
+        },
+        "messages": [
+          {
+            "fromUserId": 34,
+            "message": "Is the ticking sound loud or quiet?"
+          }
+        ],
+        "images": ["kitchen_timer_front_1.jpg", "kitchen_timer_side_1.jpg", "kitchen_timer_top_1.jpg"],
+        "categoryId": 6
+      },
+      {
+        "id": 34,
+        "userId": 34,
+        "name": "Yoga Mat",
+        "brand": "ZenLife",
+        "price": 29.99,
+        "color": "Blue",
+        "weight": "2.5 lbs",
+        "availability": true,
+        "likes": 50,
+        "dislikes": 3,
+        "views": 280,
+        "child": false,
+        "specifications": {
+          "material": "TPE",
+          "dimensions": "72 x 24 inches",
+          "thickness": "6mm"
+        },
+        "ratingScore": 4.6,
+        "location": {
+          "latitude": 37.7749,
+          "longitude": -122.4194
+        },
+        "messages": [
+          {
+            "fromUserId": 35,
+            "message": "Is this yoga mat suitable for hot yoga?"
+          }
+        ],
+        "images": ["yoga_mat_front_1.jpg", "yoga_mat_side_1.jpg", "yoga_mat_top_1.jpg"],
+        "categoryId": 7
+      },
+      {
+        "id": 35,
+        "userId": 35,
+        "name": "Protein Powder",
+        "brand": "FitFuel",
+        "price": 19.99,
+        "flavor": "Chocolate",
+        "availability": true,
+        "likes": 65,
+        "dislikes": 4,
+        "views": 320,
+        "child": false,
+        "specifications": {
+          "proteinContent": "25g per serving",
+          "servings": "30 servings per container"
+        },
+        "ratingScore": 4.8,
+        "location": {
+          "latitude": 37.7749,
+          "longitude": -122.4194
+        },
+        "messages": [
+          {
+            "fromUserId": 36,
+            "message": "Does this protein powder mix well with water or milk?"
+          }
+        ],
+        "images": ["protein_powder_front_1.jpg", "protein_powder_side_1.jpg", "protein_powder_top_1.jpg"],
+        "categoryId": 7
+      },
+      {
+        "id": 36,
+        "userId": 36,
+        "name": "Resistance Bands Set",
+        "brand": "FitFlex",
+        "price": 39.99,
+        "color": "Assorted",
+        "availability": true,
+        "likes": 80,
+        "dislikes": 5,
+        "views": 380,
+        "child": false,
+        "specifications": {
+          "resistanceLevels": "Light, Medium, Heavy",
+          "material": "Latex"
+        },
+        "ratingScore": 4.9,
+        "location": {
+          "latitude": 37.7749,
+          "longitude": -122.4194
+        },
+        "messages": [
+          {
+            "fromUserId": 37,
+            "message": "Are these resistance bands suitable for beginners?"
+          }
+        ],
+        "images": ["resistance_bands_set_front_1.jpg", "resistance_bands_set_side_1.jpg", "resistance_bands_set_top_1.jpg"],
+        "categoryId": 7
+      },
+      {
+        "id": 37,
+        "userId": 37,
+        "name": "Nutrition Tracker",
+        "brand": "WellnessSync",
+        "price": 49.99,
+        "color": "White",
+        "availability": true,
+        "likes": 60,
+        "dislikes": 3,
+        "views": 310,
+        "child": false,
+        "specifications": {
+          "features": "Calorie tracking, Meal planning, Water intake",
+          "material": "Plastic"
+        },
+        "ratingScore": 4.7,
+        "location": {
+          "latitude": 37.7749,
+          "longitude": -122.4194
+        },
+        "messages": [
+          {
+            "fromUserId": 38,
+            "message": "Is this nutrition tracker easy to use for beginners?"
+          }
+        ],
+        "images": ["nutrition_tracker_front_1.jpg", "nutrition_tracker_side_1.jpg", "nutrition_tracker_top_1.jpg"],
+        "categoryId": 7
+      },
+      {
+        "id": 38,
+        "userId": 38,
+        "name": "Essential Oil Diffuser",
+        "brand": "AromaZen",
+        "price": 34.99,
+        "color": "Wood Grain",
+        "availability": true,
+        "likes": 45,
+        "dislikes": 2,
+        "views": 240,
+        "child": false,
+        "specifications": {
+          "capacity": "300ml",
+          "runtime": "Up to 8 hours",
+          "material": "BPA-free plastic"
+        },
+        "ratingScore": 4.4,
+        "location": {
+          "latitude": 37.7749,
+          "longitude": -122.4194
+        },
+        "messages": [
+          {
+            "fromUserId": 39,
+            "message": "Does this essential oil diffuser come with a timer?"
+          }
+        ],
+        "images": ["essential_oil_diffuser_front_1.jpg", "essential_oil_diffuser_side_1.jpg", "essential_oil_diffuser_top_1.jpg"],
+        "categoryId": 7
+      },
+      {
+        "id": 39,
+        "userId": 39,
+        "name": "Fitness Tracker",
+        "brand": "ActiveLife",
+        "price": 79.99,
+        "color": "Black",
+        "weight": "25g",
+        "availability": true,
+        "likes": 90,
+        "dislikes": 8,
+        "views": 450,
+        "child": false,
+        "specifications": {
+          "features": "Heart rate monitoring, Step tracking, Sleep analysis",
+          "display": "Color touchscreen"
+        },
+        "ratingScore": 4.9,
+        "location": {
+          "latitude": 37.7749,
+          "longitude": -122.4194
+        },
+        "messages": [
+          {
+            "fromUserId": 40,
+            "message": "How long does the battery last on this fitness tracker?"
+          }
+        ],
+        "images": ["fitness_tracker_front_1.jpg", "fitness_tracker_side_1.jpg", "fitness_tracker_top_1.jpg"],
+        "categoryId": 7
+      },
+      {
+        "id": 40,
+        "userId": 40,
+        "name": "Healthy Cookbook",
+        "brand": "NourishMe",
+        "price": 24.99,
+        "availability": true,
+        "likes": 55,
+        "dislikes": 4,
+        "views": 320,
+        "child": false,
+        "specifications": {
+          "recipes": "100+ healthy recipes",
+          "dietaryRestrictions": "Vegetarian, Gluten-free, Low-carb"
+        },
+        "ratingScore": 4.7,
+        "location": {
+          "latitude": 37.7749,
+          "longitude": -122.4194
+        },
+        "messages": [
+          {
+            "fromUserId": 41,
+            "message": "Are the recipes in this cookbook easy to follow?"
+          }
+        ],
+        "images": ["healthy_cookbook_front_1.jpg", "healthy_cookbook_side_1.jpg", "healthy_cookbook_top_1.jpg"],
+        "categoryId": 7
+      },
+      {
+        "id": 41,
+        "userId": 41,
+        "name": "Foam Roller",
+        "brand": "FlexFit",
+        "price": 19.99,
+        "color": "Purple",
+        "availability": true,
+        "likes": 70,
+        "dislikes": 6,
+        "views": 380,
+        "child": false,
+        "specifications": {
+          "material": "High-density EVA foam",
+          "size": "13 x 5.5 inches"
+        },
+        "ratingScore": 4.8,
+        "location": {
+          "latitude": 37.7749,
+          "longitude": -122.4194
+        },
+        "messages": [
+          {
+            "fromUserId": 42,
+            "message": "Is this foam roller suitable for muscle recovery after workouts?"
+          }
+        ],
+        "images": ["foam_roller_front_1.jpg", "foam_roller_side_1.jpg", "foam_roller_top_1.jpg"],
+        "categoryId": 7
+      },
+      {
+        "id": 42,
+        "userId": 42,
+        "name": "Aromatherapy Candle Set",
+        "brand": "SerenityScents",
+        "price": 29.99,
+        "color": "Assorted",
+        "availability": true,
+        "likes": 40,
+        "dislikes": 3,
+        "views": 260,
+        "child": false,
+        "specifications": {
+          "scents": "Lavender, Eucalyptus, Citrus",
+          "burnTime": "Up to 30 hours each"
+        },
+        "ratingScore": 4.5,
+        "location": {
+          "latitude": 37.7749,
+          "longitude": -122.4194
+        },
+        "messages": [
+          {
+            "fromUserId": 43,
+            "message": "Do these candles come in a gift box?"
+          }
+        ],
+        "images": ["aromatherapy_candle_set_front_1.jpg", "aromatherapy_candle_set_side_1.jpg", "aromatherapy_candle_set_top_1.jpg"],
+        "categoryId": 7
+      },
+      {
+        "id": 43,
+        "userId": 43,
+        "name": "Stress Relief Tea",
+        "brand": "TranquilTeas",
+        "price": 9.99,
+        "flavor": "Chamomile",
+        "availability": true,
+        "likes": 30,
+        "dislikes": 2,
+        "views": 210,
+        "child": false,
+        "specifications": {
+          "ingredients": "Chamomile, Lavender, Peppermint",
+          "teaType": "Loose leaf"
+        },
+        "ratingScore": 4.6,
+        "location": {
+          "latitude": 37.7749,
+          "longitude": -122.4194
+        },
+        "messages": [
+          {
+            "fromUserId": 44,
+            "message": "Does this stress relief tea have caffeine?"
+          }
+        ],
+        "images": ["stress_relief_tea_front_1.jpg", "stress_relief_tea_side_1.jpg", "stress_relief_tea_top_1.jpg"],
+        "categoryId": 7
+      },
+      {
+        "id": 44,
+        "userId": 44,
+        "name": "Hardshell Suitcase",
+        "brand": "ExploreMore",
+        "price": 119.99,
+        "color": "Navy Blue",
+        "weight": "6.8 lbs",
+        "availability": true,
+        "likes": 85,
+        "dislikes": 7,
+        "views": 430,
+        "child": false,
+        "specifications": {
+          "material": "Polycarbonate",
+          "size": "24 inches"
+        },
+        "ratingScore": 4.9,
+        "location": {
+          "latitude": 37.7749,
+          "longitude": -122.4194
+        },
+        "messages": [
+          {
+            "fromUserId": 45,
+            "message": "Does this suitcase have a TSA-approved lock?"
+          }
+        ],
+        "images": ["hardshell_suitcase_front_1.jpg", "hardshell_suitcase_side_1.jpg", "hardshell_suitcase_top_1.jpg"],
+        "categoryId": 8
+      },
+      {
+        "id": 45,
+        "userId": 45,
+        "name": "Compact Travel Backpack",
+        "brand": "AdventureReady",
+        "price": 39.99,
+        "color": "Forest Green",
+        "availability": true,
+        "likes": 62,
+        "dislikes": 5,
+        "views": 360,
+        "child": false,
+        "specifications": {
+          "capacity": "25 liters",
+          "features": "Water-resistant, Adjustable straps"
+        },
+        "ratingScore": 4.7,
+        "location": {
+          "latitude": 37.7749,
+          "longitude": -122.4194
+        },
+        "messages": [
+          {
+            "fromUserId": 46,
+            "message": "Can this backpack fit a 15-inch laptop?"
+          }
+        ],
+        "images": ["compact_travel_backpack_front_1.jpg", "compact_travel_backpack_side_1.jpg", "compact_travel_backpack_top_1.jpg"],
+        "categoryId": 8
+      },
+      {
+        "id": 46,
+        "userId": 46,
+        "name": "Camping Tent",
+        "brand": "NatureEscape",
+        "price": 89.99,
+        "color": "Orange",
+        "availability": true,
+        "likes": 75,
+        "dislikes": 6,
+        "views": 400,
+        "child": false,
+        "specifications": {
+          "capacity": "4 persons",
+          "setupTime": "10 minutes"
+        },
+        "ratingScore": 4.8,
+        "location": {
+          "latitude": 37.7749,
+          "longitude": -122.4194
+        },
+        "messages": [
+          {
+            "fromUserId": 47,
+            "message": "Is this tent suitable for all seasons?"
+          }
+        ],
+        "images": ["camping_tent_front_1.jpg", "camping_tent_side_1.jpg", "camping_tent_top_1.jpg"],
+        "categoryId": 8
+      },
+      {
+        "id": 47,
+        "userId": 47,
+        "name": "Hiking Boots",
+        "brand": "TrailBlazer",
+        "price": 79.99,
+        "color": "Brown",
+        "availability": true,
+        "likes": 50,
+        "dislikes": 4,
+        "views": 300,
+        "child": false,
+        "specifications": {
+          "material": "Waterproof leather",
+          "size": "US Men's 10"
+        },
+        "ratingScore": 4.6,
+        "location": {
+          "latitude": 37.7749,
+          "longitude": -122.4194
+        },
+        "messages": [
+          {
+            "fromUserId": 48,
+            "message": "Are these hiking boots suitable for rocky terrain?"
+          }
+        ],
+        "images": ["hiking_boots_front_1.jpg", "hiking_boots_side_1.jpg", "hiking_boots_top_1.jpg"],
+        "categoryId": 8
+      },
+      {
+        "id": 48,
+        "userId": 48,
+        "name": "Travel Neck Pillow",
+        "brand": "ComfortZone",
+        "price": 19.99,
+        "color": "Gray",
+        "availability": true,
+        "likes": 35,
+        "dislikes": 3,
+        "views": 250,
+        "child": false,
+        "specifications": {
+          "material": "Memory foam",
+          "cover": "Soft velour"
+        },
+        "ratingScore": 4.5,
+        "location": {
+          "latitude": 37.7749,
+          "longitude": -122.4194
+        },
+        "messages": [
+          {
+            "fromUserId": 49,
+            "message": "Can this travel neck pillow be machine-washed?"
+          }
+        ],
+        "images": ["travel_neck_pillow_front_1.jpg", "travel_neck_pillow_side_1.jpg", "travel_neck_pillow_top_1.jpg"],
+        "categoryId": 8
+      },
+      {
+        "id": 49,
+        "userId": 49,
+        "name": "Outdoor Camping Stove",
+        "brand": "WildCook",
+        "price": 49.99,
+        "color": "Silver",
+        "weight": "2.5 lbs",
+        "availability": true,
+        "likes": 42,
+        "dislikes": 4,
+        "views": 280,
+        "child": false,
+        "specifications": {
+          "fuelType": "Propane",
+          "power": "10,000 BTU"
+        },
+        "ratingScore": 4.6,
+        "location": {
+          "latitude": 37.7749,
+          "longitude": -122.4194
+        },
+        "messages": [
+          {
+            "fromUserId": 50,
+            "message": "Is this camping stove suitable for high-altitude camping?"
+          }
+        ],
+        "images": ["outdoor_camping_stove_front_1.jpg", "outdoor_camping_stove_side_1.jpg", "outdoor_camping_stove_top_1.jpg"],
+        "categoryId": 8
+      },
+      {
+        "id": 50,
+        "userId": 50,
+        "name": "Travel Guidebook",
+        "brand": "ExploreGuides",
+        "price": 14.99,
+        "color": "Paperback",
+        "availability": true,
+        "likes": 28,
+        "dislikes": 2,
+        "views": 200,
+        "child": false,
+        "specifications": {
+          "pages": 250,
+          "destination": "Europe"
+        },
+        "ratingScore": 4.4,
+        "location": {
+          "latitude": 37.7749,
+          "longitude": -122.4194
+        },
+        "messages": [
+          {
+            "fromUserId": 51,
+            "message": "Does this travel guidebook include off-the-beaten-path recommendations?"
+          }
+        ],
+        "images": ["travel_guidebook_cover_1.jpg", "travel_guidebook_page_1.jpg", "travel_guidebook_map_1.jpg"],
+        "categoryId": 8
+      },
+      {
+        "id": 51,
+        "userId": 51,
+        "name": "Portable Water Purifier",
+        "brand": "AquaPure",
+        "price": 34.99,
+        "color": "Blue",
+        "weight": "0.8 lbs",
+        "availability": true,
+        "likes": 35,
+        "dislikes": 3,
+        "views": 220,
+        "child": false,
+        "specifications": {
+          "filtration": "Activated carbon, Hollow fiber membrane",
+          "capacity": "500 ml"
+        },
+        "ratingScore": 4.5,
+        "location": {
+        "latitude": 37.7749,
+        "longitude": -122.4194
+        },
+        "messages": [
+          {
+            "fromUserId": 52,
+            "message": "How often should the filters be replaced in this water purifier?"
+          }
+        ],
+        "images": ["portable_water_purifier_front_1.jpg", "portable_water_purifier_side_1.jpg", "portable_water_purifier_top_1.jpg"],
+        "categoryId": 8
+      },
+      {
+        "id": 52,
+        "userId": 52,
+        "name": "Compact Binoculars",
+        "brand": "ClearView",
+        "price": 59.99,
+        "color": "Black",
+        "weight": "1.2 lbs",
+        "availability": true,
+        "likes": 25,
+        "dislikes": 2,
+        "views": 180,
+        "child": false,
+        "specifications": {
+          "magnification": "8x",
+          "objectiveLensDiameter": "32mm"
+        },
+        "ratingScore": 4.3,
+        "location": {
+          "latitude": 37.7749,
+          "longitude": -122.4194
+        },
+        "messages": [
+          {
+            "fromUserId": 53,
+            "message": "Are these binoculars suitable for bird watching?"
+          }
+        ],
+        "images": ["compact_binoculars_front_1.jpg", "compact_binoculars_side_1.jpg", "compact_binoculars_top_1.jpg"],
+        "categoryId": 8
+      },
+      {
+        "id": 53,
+        "userId": 53,
+        "name": "Portable Solar Charger",
+        "brand": "SunCharge",
+        "price": 79.99,
+        "color": "Green",
+        "availability": true,
+        "likes": 30,
+        "dislikes": 2,
+        "views": 190,
+        "child": false,
+        "specifications": {
+          "powerOutput": "10W",
+          "batteryCapacity": "5000mAh"
+        },
+        "ratingScore": 4.4,
+        "location": {
+          "latitude": 37.7749,
+          "longitude": -122.4194
+        },
+        "messages": [
+          {
+            "fromUserId": 54,
+            "message": "Can this solar charger charge multiple devices simultaneously?"
+          }
+        ],
+        "images": ["portable_solar_charger_front_1.jpg", "portable_solar_charger_side_1.jpg", "portable_solar_charger_top_1.jpg"],
+        "categoryId": 8
+      },
+      {
+        "id": 54,
+        "userId": 54,
+        "name": "Orthopedic Dog Bed",
+        "brand": "ComfyPaws",
+        "price": 39.99,
+        "color": "Gray",
+        "availability": true,
+        "likes": 45,
+        "dislikes": 5,
+        "views": 300,
+        "child": false,
+        "specifications": {
+          "size": "Large",
+          "material": "Memory foam"
+        },
+        "ratingScore": 4.7,
+        "location": {
+          "latitude": 37.7749,
+          "longitude": -122.4194
+        },
+        "messages": [
+          {
+            "fromUserId": 55,
+            "message": "Is this dog bed suitable for senior dogs with arthritis?"
+          }
+        ],
+        "images": ["orthopedic_dog_bed_front_1.jpg", "orthopedic_dog_bed_side_1.jpg", "orthopedic_dog_bed_top_1.jpg"],
+        "categoryId": 9
+      },
+      {
+        "id": 55,
+        "userId": 55,
+        "name": "Interactive Cat Toy",
+        "brand": "PlayfulPurr",
+        "price": 14.99,
+        "color": "Multi-color",
+        "availability": true,
+        "likes": 35,
+        "dislikes": 3,
+        "views": 250,
+        "child": false,
+        "specifications": {
+          "features": ["Feather wand", "Bell", "Sisal ball"]
+        },
+        "ratingScore": 4.5,
+        "location": {
+          "latitude": 37.7749,
+          "longitude": -122.4194
+        },
+        "messages": [
+          {
+            "fromUserId": 56,
+            "message": "Is this cat toy suitable for kittens?"
+          }
+        ],
+        "images": ["interactive_cat_toy_front_1.jpg", "interactive_cat_toy_side_1.jpg", "interactive_cat_toy_top_1.jpg"],
+        "categoryId": 9
+      },
+      {
+        "id": 56,
+        "userId": 56,
+        "name": "Dog Grooming Kit",
+        "brand": "GroomMaster",
+        "price": 29.99,
+        "color": "Blue",
+        "availability": true,
+        "likes": 40,
+        "dislikes": 4,
+        "views": 280,
+        "child": false,
+        "specifications": {
+          "tools": ["Brush", "Nail clippers", "Slicker comb"]
+        },
+        "ratingScore": 4.6,
+        "location": {
+          "latitude": 37.7749,
+          "longitude": -122.4194
+        },
+        "messages": [
+          {
+            "fromUserId": 57,
+            "message": "Is this grooming kit suitable for long-haired dogs?"
+          }
+        ],
+        "images": ["dog_grooming_kit_front_1.jpg", "dog_grooming_kit_side_1.jpg", "dog_grooming_kit_top_1.jpg"],
+        "categoryId": 9
+      },
+      {
+        "id": 57,
+        "userId": 57,
+        "name": "Cat Food Variety Pack",
+        "brand": "WhiskerDelight",
+        "price": 19.99,
+        "color": "Assorted",
+        "availability": true,
+        "likes": 38,
+        "dislikes": 3,
+        "views": 270,
+        "child": false,
+        "specifications": {
+          "flavors": ["Chicken", "Salmon", "Tuna"]
+        },
+        "ratingScore": 4.6,
+        "location": {
+          "latitude": 37.7749,
+          "longitude": -122.4194
+        },
+        "messages": [
+          {
+            "fromUserId": 58,
+            "message": "Are these cat food flavors suitable for picky eaters?"
+          }
+        ],
+        "images": ["cat_food_variety_pack_front_1.jpg", "cat_food_variety_pack_side_1.jpg", "cat_food_variety_pack_top_1.jpg"],
+        "categoryId": 9
+      },
+      {
+        "id": 58,
+        "userId": 58,
+        "name": "Dog Collar and Leash Set",
+        "brand": "StylishPaws",
+        "price": 22.99,
+        "color": "Red",
+        "availability": true,
+        "likes": 32,
+        "dislikes": 2,
+        "views": 240,
+        "child": false,
+        "specifications": {
+          "size": "Medium",
+          "material": "Nylon"
+        },
+        "ratingScore": 4.4,
+        "location": {
+          "latitude": 37.7749,
+          "longitude": -122.4194
+        },
+        "messages": [
+          {
+            "fromUserId": 59,
+            "message": "Is this dog collar and leash set suitable for daily walks?"
+          }
+        ],
+        "images": ["dog_collar_leash_set_front_1.jpg", "dog_collar_leash_set_side_1.jpg", "dog_collar_leash_set_top_1.jpg"],
+        "categoryId": 9
+      },
+      {
+        "id": 59,
+        "userId": 59,
+        "name": "Cat Tree Condo",
+        "brand": "ClimbNap",
+        "price": 59.99,
+        "color": "Beige",
+        "availability": true,
+        "likes": 50,
+        "dislikes": 8,
+        "views": 380,
+        "child": false,
+        "specifications": {
+          "height": "5 feet",
+          "platforms": 3,
+          "scratching posts": 4
+        },
+        "ratingScore": 4.9,
+        "location": {
+          "latitude": 37.7749,
+          "longitude": -122.4194
+        },
+        "messages": [
+          {
+            "fromUserId": 60,
+            "message": "Is this cat tree condo suitable for multiple cats?"
+          }
+        ],
+        "images": ["cat_tree_condo_front_1.jpg", "cat_tree_condo_side_1.jpg", "cat_tree_condo_top_1.jpg"],
+        "categoryId": 9
+      },
+      {
+        "id": 60,
+        "userId": 60,
+        "name": "Dog Training Pads",
+        "brand": "PottyPerfect",
+        "price": 19.99,
+        "color": "White",
+        "availability": true,
+        "likes": 42,
+        "dislikes": 5,
+        "views": 320,
+        "child": false,
+        "specifications": {
+          "size": "Large",
+          "absorbency": "Super-absorbent polymer"
+        },
+        "ratingScore": 4.7,
+        "location": {
+          "latitude": 37.7749,
+          "longitude": -122.4194
+        },
+        "messages": [
+          {
+            "fromUserId": 61,
+            "message": "Are these dog training pads suitable for indoor use?"
+          }
+        ],
+        "images": ["dog_training_pads_front_1.jpg", "dog_training_pads_side_1.jpg", "dog_training_pads_top_1.jpg"],
+        "categoryId": 9
+      },
+      {
+        "id": 61,
+        "userId": 61,
+        "name": "Cat Grooming Brush",
+        "brand": "GentleGroom",
+        "price": 12.99,
+        "color": "Pink",
+        "availability": true,
+        "likes": 38,
+        "dislikes": 4,
+        "views": 290,
+        "child": false,
+        "specifications": {
+          "bristle type": "Soft nylon",
+          "handle": "Ergonomic design"
+        },
+        "ratingScore": 4.6,
+        "location": {
+          "latitude": 37.7749,
+          "longitude": -122.4194
+        },
+        "messages": [
+          {
+            "fromUserId": 62,
+            "message": "Is this cat grooming brush suitable for long-haired cats?"
+          }
+        ],
+        "images": ["cat_grooming_brush_front_1.jpg", "cat_grooming_brush_side_1.jpg", "cat_grooming_brush_top_1.jpg"],
+        "categoryId": 9
+      },
+      {
+        "id": 62,
+        "userId": 62,
+        "name": "Dog Dental Chews",
+        "brand": "FreshBite",
+        "price": 16.99,
+        "color": "Brown",
+        "availability": true,
+        "likes": 36,
+        "dislikes": 3,
+        "views": 260,
+        "child": false,
+        "specifications": {
+          "size": "Medium",
+          "flavor": "Chicken"
+        },
+        "ratingScore": 4.5,
+        "location": {
+          "latitude": 37.7749,
+          "longitude": -122.4194
+        },
+        "messages": [
+          {
+            "fromUserId": 63,
+            "message": "Are these dog dental chews suitable for puppies?"
+          }
+        ],
+        "images": ["dog_dental_chews_front_1.jpg", "dog_dental_chews_side_1.jpg", "dog_dental_chews_top_1.jpg"],
+        "categoryId": 9
+      },
+      {
+        "id": 63,
+        "userId": 63,
+        "name": "Bird Cage",
+        "brand": "AviaryHaven",
+        "price": 49.99,
+        "color": "Black",
+        "availability": true,
+        "likes": 48,
+        "dislikes": 6,
+        "views": 360,
+        "child": false,
+        "specifications": {
+          "size": "Large",
+          "material": "Powder-coated steel"
+        },
+        "ratingScore": 4.8,
+        "location": {
+          "latitude": 37.7749,
+          "longitude": -122.4194
+        },
+        "messages": [
+          {
+            "fromUserId": 64,
+            "message": "Is this bird cage suitable for parakeets?"
+          }
+        ],
+        "images": ["bird_cage_front_1.jpg", "bird_cage_side_1.jpg", "bird_cage_top_1.jpg"],
+        "categoryId": 9
+      },
+      {
+        "id": 64,
+        "userId": 64,
+        "name": "Pruning Shears Set",
+        "brand": "GreenGrip",
+        "price": 29.99,
+        "color": "Green",
+        "availability": true,
+        "likes": 55,
+        "dislikes": 7,
+        "views": 420,
+        "child": false,
+        "specifications": {
+          "material": "Stainless steel",
+          "handle": "Ergonomic grip"
+        },
+        "ratingScore": 4.9,
+        "location": {
+          "latitude": 37.7749,
+          "longitude": -122.4194
+        },
+        "messages": [
+          {
+            "fromUserId": 65,
+            "message": "Are these pruning shears suitable for cutting thick branches?"
+          }
+        ],
+        "images": ["pruning_shears_set_front_1.jpg", "pruning_shears_set_side_1.jpg", "pruning_shears_set_top_1.jpg"],
+        "categoryId": 10
+      },
+      {
+        "id": 65,
+        "userId": 65,
+        "name": "Succulent Variety Pack",
+        "brand": "DesertBloom",
+        "price": 19.99,
+        "color": "Assorted",
+        "availability": true,
+        "likes": 48,
+        "dislikes": 6,
+        "views": 380,
+        "child": false,
+        "specifications": {
+          "types": ["Echeveria", "Aloe", "Haworthia"],
+          "size": "2-inch pots"
+        },
+        "ratingScore": 4.8,
+        "location": {
+          "latitude": 37.7749,
+          "longitude": -122.4194
+        },
+        "messages": [
+          {
+            "fromUserId": 66,
+            "message": "Can these succulents survive indoors?"
+          }
+        ],
+        "images": ["succulent_variety_pack_front_1.jpg", "succulent_variety_pack_side_1.jpg", "succulent_variety_pack_top_1.jpg"],
+        "categoryId": 10
+      },
+      {
+        "id": 66,
+        "userId": 66,
+        "name": "Watering Can",
+        "brand": "HydroHarmony",
+        "price": 14.99,
+        "color": "Blue",
+        "availability": true,
+        "likes": 40,
+        "dislikes": 4,
+        "views": 300,
+        "child": false,
+        "specifications": {
+          "capacity": "1.5 liters",
+          "material": "Durable plastic"
+        },
+        "ratingScore": 4.7,
+        "location": {
+          "latitude": 37.7749,
+          "longitude": -122.4194
+        },
+        "messages": [
+          {
+            "fromUserId": 67,
+            "message": "Is this watering can suitable for delicate plants?"
+          }
+        ],
+        "images": ["watering_can_front_1.jpg", "watering_can_side_1.jpg", "watering_can_top_1.jpg"],
+        "categoryId": 10
+      },
+      {
+        "id": 67,
+        "userId": 67,
+        "name": "Flowering Plants Assortment",
+        "brand": "BlossomBlend",
+        "price": 34.99,
+        "color": "Mixed",
+        "availability": true,
+        "likes": 36,
+        "dislikes": 3,
+        "views": 260,
+        "child": false,
+        "specifications": {
+          "types": ["Rose", "Lily", "Tulip"],
+          "size": "4-inch pots"
+        },
+        "ratingScore": 4.6,
+        "location": {
+          "latitude": 37.7749,
+          "longitude": -122.4194
+        },
+        "messages": [
+          {
+            "fromUserId": 68,
+            "message": "Can these flowering plants be grown in containers?"
+          }
+        ],
+        "images": ["flowering_plants_assortment_front_1.jpg", "flowering_plants_assortment_side_1.jpg", "flowering_plants_assortment_top_1.jpg"],
+        "categoryId": 10
+      },
+      {
+        "id": 68,
+        "userId": 68,
+        "name": "Gardening Gloves Set",
+        "brand": "GardenGuard",
+        "price": 17.99,
+        "color": "Brown",
+        "availability": true,
+        "likes": 34,
+        "dislikes": 3,
+        "views": 240,
+        "child": false,
+        "specifications": {
+          "material": "Latex",
+          "size": "One size fits most"
+        },
+        "ratingScore": 4.5,
+        "location": {
+          "latitude": 37.7749,
+          "longitude": -122.4194
+        },
+        "messages": [
+          {
+            "fromUserId": 69,
+            "message": "Are these gardening gloves suitable for heavy-duty tasks?"
+          }
+        ],
+        "images": ["gardening_gloves_set_front_1.jpg", "gardening_gloves_set_side_1.jpg", "gardening_gloves_set_top_1.jpg"],
+        "categoryId": 10
+      },
+      {
+        "id": 69,
+        "userId": 69,
+        "name": "Outdoor Succulent Garden",
+        "brand": "NatureNook",
+        "price": 49.99,
+        "color": "Assorted",
+        "availability": true,
+        "likes": 32,
+        "dislikes": 2,
+        "views": 220,
+        "child": false,
+        "specifications": {
+          "types": ["Echeveria", "Sedum", "Crassula"],
+          "size": "8-inch planter"
+        },
+        "ratingScore": 4.9,
+        "location": {
+          "latitude": 37.7749,
+          "longitude": -122.4194
+        },
+        "messages": [
+          {
+            "fromUserId": 70,
+            "message": "Can this outdoor succulent garden withstand full sun?"
+          }
+        ],
+        "images": ["outdoor_succulent_garden_front_1.jpg", "outdoor_succulent_garden_side_1.jpg", "outdoor_succulent_garden_top_1.jpg"],
+        "categoryId": 10
+      },
+      {
+        "id": 70,
+        "userId": 70,
+        "name": "Indoor Plant Stand",
+        "brand": "UrbanGreens",
+        "price": 29.99,
+        "color": "Black",
+        "availability": true,
+        "likes": 28,
+        "dislikes": 2,
+        "views": 200,
+        "child": false,
+        "specifications": {
+          "material": "Metal",
+          "size": "3-tier stand"
+        },
+        "ratingScore": 4.8,
+        "location": {
+          "latitude": 37.7749,
+          "longitude": -122.4194
+        },
+        "messages": [
+          {
+            "fromUserId": 71,
+            "message": "Is this indoor plant stand suitable for small apartments?"
+          }
+        ],
+        "images": ["indoor_plant_stand_front_1.jpg", "indoor_plant_stand_side_1.jpg", "indoor_plant_stand_top_1.jpg"],
+        "categoryId": 10
+      },
+      {
+        "id": 71,
+        "userId": 71,
+        "name": "Bonsai Starter Kit",
+        "brand": "ZenCraft",
+        "price": 39.99,
+        "color": "Natural",
+        "availability": true,
+        "likes": 25,
+        "dislikes": 1,
+        "views": 180,
+        "child": false,
+        "specifications": {
+          "tree species": ["Juniper", "Ficus", "Pine"],
+          "size": "Complete kit with seeds and pots"
+        },
+        "ratingScore": 4.7,
+        "location": {
+          "latitude": 37.7749,
+          "longitude": -122.4194
+        },
+        "messages": [
+          {
+            "fromUserId": 72,
+            "message": "Can this bonsai starter kit be a good gift for beginners?"
+          }
+        ],
+        "images": ["bonsai_starter_kit_front_1.jpg", "bonsai_starter_kit_side_1.jpg", "bonsai_starter_kit_top_1.jpg"],
+        "categoryId": 10
+      },
+      {
+        "id": 72,
+        "userId": 72,
+        "name": "Herb Garden Seeds Collection",
+        "brand": "CulinaryCrafts",
+        "price": 19.99,
+        "color": "Assorted",
+        "availability": true,
+        "likes": 22,
+        "dislikes": 1,
+        "views": 160,
+        "child": false,
+        "specifications": {
+          "herbs": ["Basil", "Rosemary", "Thyme"],
+          "packaging": "Individual seed packets"
+        },
+        "ratingScore": 4.6,
+        "location": {
+          "latitude": 37.7749,
+          "longitude": -122.4194
+        },
+        "messages": [
+          {
+            "fromUserId": 73,
+            "message": "Are these herb garden seeds suitable for indoor planting?"
+          }
+        ],
+        "images": ["herb_garden_seeds_collection_front_1.jpg", "herb_garden_seeds_collection_side_1.jpg", "herb_garden_seeds_collection_top_1.jpg"],
+        "categoryId": 10
+      },
+      {
+        "id": 73,
+        "userId": 73,
+        "name": "Cactus Pot Set",
+        "brand": "DesertDreams",
+        "price": 24.99,
+        "color": "Terracotta",
+        "availability": true,
+        "likes": 20,
+        "dislikes": 1,
+        "views": 140,
+        "child": false,
+        "specifications": {
+          "pot material": "Clay",
+          "size": "Set of 3 different sizes"
+        },
+        "ratingScore": 4.5,
+        "location": {
+          "latitude": 37.7749,
+          "longitude": -122.4194
+        },
+        "messages": [
+          {
+            "fromUserId": 74,
+            "message": "Do these cactus pots come with drainage holes?"
+          }
+        ],
+        "images": ["cactus_pot_set_front_1.jpg", "cactus_pot_set_side_1.jpg", "cactus_pot_set_top_1.jpg"],
+        "categoryId": 10
+      },
+      {
+        "id": 74,
+        "userId": 74,
+        "name": "Rose Garden Collection",
+        "brand": "BlossomBoutique",
+        "price": 34.99,
+        "color": "Assorted",
+        "availability": true,
+        "likes": 18,
+        "dislikes": 1,
+        "views": 120,
+        "child": false,
+        "specifications": {
+          "rose varieties": ["Hybrid Tea", "Floribunda", "Climbing Roses"],
+          "packaging": "Boxed set of bare-root roses"
+        },
+        "ratingScore": 4.4,
+        "location": {
+          "latitude": 37.7749,
+          "longitude": -122.4194
+        },
+        "messages": [
+          {
+            "fromUserId": 75,
+            "message": "Are these rose plants suitable for beginners?"
+          }
+        ],
+        "images": ["rose_garden_collection_front_1.jpg", "rose_garden_collection_side_1.jpg", "rose_garden_collection_top_1.jpg"],
+        "categoryId": 10
+      },
+      {
+        "id": 75,
+        "userId": 75,
+        "name": "Indoor Hanging Planters",
+        "brand": "UrbanVibes",
+        "price": 19.99,
+        "color": "White",
+        "availability": true,
+        "likes": 16,
+        "dislikes": 1,
+        "views": 100,
+        "child": false,
+        "specifications": {
+          "material": "Ceramic",
+          "size": "Set of 2"
+        },
+        "ratingScore": 4.3,
+        "location": {
+          "latitude": 37.7749,
+          "longitude": -122.4194
+        },
+        "messages": [
+          {
+            "fromUserId": 76,
+            "message": "Can these indoor hanging planters hold large plants?"
+          }
+        ],
+        "images": ["indoor_hanging_planters_front_1.jpg", "indoor_hanging_planters_side_1.jpg", "indoor_hanging_planters_top_1.jpg"],
+        "categoryId": 10
+      },
+      {
+        "id": 76,
+        "userId": 76,
+        "name": "Terrarium Kit",
+        "brand": "EcoSphere",
+        "price": 29.99,
+        "color": "Clear",
+        "availability": true,
+        "likes": 14,
+        "dislikes": 1,
+        "views": 80,
+        "child": false,
+        "specifications": {
+          "container": "Glass",
+          "plants": "Assorted succulents",
+          "size": "Complete DIY kit"
+        },
+        "ratingScore": 4.2,
+        "location": {
+          "latitude": 37.7749,
+          "longitude": -122.4194
+        },
+        "messages": [
+          {
+            "fromUserId": 77,
+            "message": "Is this terrarium kit suitable for kids?"
+          }
+        ],
+        "images": ["terrarium_kit_front_1.jpg", "terrarium_kit_side_1.jpg", "terrarium_kit_top_1.jpg"],
+        "categoryId": 10
+      },
+      {
+        "id": 77,
+        "userId": 77,
+        "name": "Gardening Gloves Set",
+        "brand": "GreenThumb",
+        "price": 14.99,
+        "color": "Green",
+        "availability": true,
+        "likes": 12,
+        "dislikes": 1,
+        "views": 60,
+        "child": false,
+        "specifications": {
+          "material": "Breathable fabric",
+          "size": "Set of 3 pairs"
+        },
+        "ratingScore": 4.1,
+        "location": {
+          "latitude": 37.7749,
+          "longitude": -122.4194
+        },
+        "messages": [
+          {
+            "fromUserId": 78,
+            "message": "Do these gardening gloves protect against thorns?"
+          }
+        ],
+        "images": ["gardening_gloves_set_front_1.jpg", "gardening_gloves_set_side_1.jpg", "gardening_gloves_set_top_1.jpg"],
+        "categoryId": 10
+      },
+      {
+        "id": 78,
+        "userId": 78,
+        "name": "Succulent Plant Variety Pack",
+        "brand": "SunnySucculents",
+        "price": 24.99,
+        "color": "Assorted",
+        "availability": true,
+        "likes": 10,
+        "dislikes": 1,
+        "views": 40,
+        "child": false,
+        "specifications": {
+          "varieties": ["Aloe Vera", "Echeveria", "Haworthia"],
+          "size": "Set of 5 potted succulents"
+        },
+        "ratingScore": 4.0,
+        "location": {
+          "latitude": 37.7749,
+          "longitude": -122.4194
+        },
+        "messages": [
+          {
+            "fromUserId": 79,
+            "message": "Are these succulents suitable for a sunny windowsill?"
+          }
+        ],
+        "images": ["succulent_plant_variety_pack_front_1.jpg", "succulent_plant_variety_pack_side_1.jpg", "succulent_plant_variety_pack_top_1.jpg"],
+        "categoryId": 10
+      },
+      {
+        "id": 79,
+        "userId": 79,
+        "name": "Pruning Shears Set",
+        "brand": "GardenCraft",
+        "price": 17.99,
+        "color": "Red",
+        "availability": true,
+        "likes": 8,
+        "dislikes": 1,
+        "views": 30,
+        "child": false,
+        "specifications": {
+          "material": "Stainless steel",
+          "size": "Set of 2"
+        },
+        "ratingScore": 3.9,
+        "location": {
+          "latitude": 37.7749,
+          "longitude": -122.4194
+        },
+        "messages": [
+          {
+            "fromUserId": 80,
+            "message": "Are these pruning shears suitable for trimming small branches?"
+          }
+        ],
+        "images": ["pruning_shears_set_front_1.jpg", "pruning_shears_set_side_1.jpg", "pruning_shears_set_top_1.jpg"],
+        "categoryId": 10
+      },
+      {
+        "id": 80,
+        "userId": 80,
+        "name": "Decorative Plant Stand",
+        "brand": "HomeHarmony",
+        "price": 23.99,
+        "color": "Black",
+        "availability": true,
+        "likes": 6,
+        "dislikes": 1,
+        "views": 20,
+        "child": false,
+        "specifications": {
+          "material": "Metal",
+          "size": "3-tier stand"
+        },
+        "ratingScore": 3.8,
+        "location": {
+          "latitude": 37.7749,
+          "longitude": -122.4194
+        },
+        "messages": [
+          {
+            "fromUserId": 81,
+            "message": "Can this plant stand hold heavy potted plants?"
+          }
+        ],
+        "images": ["decorative_plant_stand_front_1.jpg", "decorative_plant_stand_side_1.jpg", "decorative_plant_stand_top_1.jpg"],
+        "categoryId": 10
+      },
+      {
+        "id": 81,
+        "userId": 81,
+        "name": "Watering Can Set",
+        "brand": "AquaQuench",
+        "price": 14.99,
+        "color": "Blue",
+        "availability": true,
+        "likes": 5,
+        "dislikes": 1,
+        "views": 15,
+        "child": false,
+        "specifications": {
+          "material": "Plastic",
+          "size": "Set of 2"
+        },
+        "ratingScore": 3.7,
+        "location": {
+          "latitude": 37.7749,
+          "longitude": -122.4194
+        },
+        "messages": [
+          {
+            "fromUserId": 82,
+            "message": "Are these watering cans suitable for delicate plants?"
+          }
+        ],
+        "images": ["watering_can_set_front_1.jpg", "watering_can_set_side_1.jpg", "watering_can_set_top_1.jpg"],
+        "categoryId": 10
+      },
+      {
+        "id": 82,
+        "userId": 82,
+        "name": "Floral Patterned Plant Pots",
+        "brand": "NatureNest",
+        "price": 19.99,
+        "color": "Assorted",
+        "availability": true,
+        "likes": 4,
+        "dislikes": 1,
+        "views": 10,
+        "child": false,
+        "specifications": {
+          "material": "Ceramic",
+          "size": "Set of 4"
+        },
+        "ratingScore": 3.6,
+        "location": {
+          "latitude": 37.7749,
+          "longitude": -122.4194
+        },
+        "messages": [
+          {
+            "fromUserId": 83,
+            "message": "Do these plant pots have drainage holes?"
+          }
+        ],
+        "images": ["floral_patterned_plant_pots_front_1.jpg", "floral_patterned_plant_pots_side_1.jpg", "floral_patterned_plant_pots_top_1.jpg"],
+        "categoryId": 10
+      },
+      {
+        "id": 83,
+        "userId": 83,
+        "name": "Bamboo Plant Trellis",
+        "brand": "EcoGrowth",
+        "price": 12.99,
+        "color": "Natural",
+        "availability": true,
+        "likes": 3,
+        "dislikes": 1,
+        "views": 5,
+        "child": false,
+        "specifications": {
+          "material": "Bamboo",
+          "size": "Set of 3"
+        },
+        "ratingScore": 3.5,
+        "location": {
+          "latitude": 37.7749,
+          "longitude": -122.4194
+        },
+        "messages": [
+          {
+            "fromUserId": 84,
+            "message": "Can these bamboo trellises be used for climbing plants?"
+          }
+        ],
+        "images": ["bamboo_plant_trellis_front_1.jpg", "bamboo_plant_trellis_side_1.jpg", "bamboo_plant_trellis_top_1.jpg"],
+        "categoryId": 10
+      },
+      {
+        "id": 84,
+        "userId": 84,
+        "name": "Succulent Assortment",
+        "brand": "GreenThumb",
+        "price": 29.99,
+        "color": "Assorted",
+        "availability": true,
+        "likes": 15,
+        "dislikes": 2,
+        "views": 50,
+        "child": false,
+        "specifications": {
+          "type": "Assorted succulents",
+          "size": "Set of 5"
+        },
+        "ratingScore": 4.2,
+        "location": {
+          "latitude": 37.7749,
+          "longitude": -122.4194
+        },
+        "messages": [
+          {
+            "fromUserId": 85,
+            "message": "Do these succulents come with care instructions?"
+          }
+        ],
+        "images": ["succulent_assortment_front_1.jpg", "succulent_assortment_side_1.jpg", "succulent_assortment_top_1.jpg"],
+        "categoryId": 10
+      },
+      {
+        "id": 85,
+        "userId": 85,
+        "name": "Garden Tool Set",
+        "brand": "DigDeep",
+        "price": 39.99,
+        "color": "Green",
+        "availability": true,
+        "likes": 12,
+        "dislikes": 2,
+        "views": 40,
+        "child": false,
+        "specifications": {
+          "tools": ["Shovel", "Rake", "Pruner", "Gloves"]
+        },
+        "ratingScore": 4.1,
+        "location": {
+          "latitude": 37.7749,
+          "longitude": -122.4194
+        },
+        "messages": [
+          {
+            "fromUserId": 86,
+            "message": "Are these gardening tools suitable for beginners?"
+          }
+        ],
+        "images": ["garden_tool_set_front_1.jpg", "garden_tool_set_side_1.jpg", "garden_tool_set_top_1.jpg"],
+        "categoryId": 10
+      },
+      {
+        "id": 86,
+        "userId": 86,
+        "name": "Flowering Plant Collection",
+        "brand": "BlossomBloom",
+        "price": 19.99,
+        "color": "Assorted",
+        "availability": true,
+        "likes": 10,
+        "dislikes": 2,
+        "views": 30,
+        "child": false,
+        "specifications": {
+          "type": "Assorted flowering plants",
+          "size": "Set of 3"
+        },
+        "ratingScore": 4.0,
+        "location": {
+          "latitude": 37.7749,
+          "longitude": -122.4194
+        },
+        "messages": [
+          {
+            "fromUserId": 87,
+            "message": "Do these flowering plants require special care?"
+          }
+        ],
+        "images": ["flowering_plant_collection_front_1.jpg", "flowering_plant_collection_side_1.jpg", "flowering_plant_collection_top_1.jpg"],
+        "categoryId": 10
+      },
+      {
+        "id": 87,
+        "userId": 87,
+        "name": "Outdoor Plant Stand",
+        "brand": "PatioPerch",
+        "price": 24.99,
+        "color": "Brown",
+        "availability": true,
+        "likes": 8,
+        "dislikes": 2,
+        "views": 20,
+        "child": false,
+        "specifications": {
+          "material": "Wood",
+          "size": "Single-tier stand"
+        },
+        "ratingScore": 3.9,
+        "location": {
+          "latitude": 37.7749,
+          "longitude": -122.4194
+        },
+        "messages": [
+          {
+            "fromUserId": 88,
+            "message": "Can this plant stand withstand outdoor weather?"
+          }
+        ],
+        "images": ["outdoor_plant_stand_front_1.jpg", "outdoor_plant_stand_side_1.jpg", "outdoor_plant_stand_top_1.jpg"],
+        "categoryId": 10
+      },
+      {
+        "id": 88,
+        "userId": 88,
+        "name": "Herb Garden Starter Kit",
+        "brand": "HerbHarbor",
+        "price": 29.99,
+        "color": "Terracotta",
+        "availability": true,
+        "likes": 6,
+        "dislikes": 2,
+        "views": 10,
+        "child": false,
+        "specifications": {
+          "seeds": ["Basil", "Parsley", "Cilantro", "Thyme"]
+        },
+        "ratingScore": 3.8,
+        "location": {
+          "latitude": 37.7749,
+          "longitude": -122.4194
+        },
+        "messages": [
+          {
+            "fromUserId": 89,
+            "message": "Are these herb seeds suitable for indoor planting?"
+          }
+        ],
+        "images": ["herb_garden_starter_kit_front_1.jpg", "herb_garden_starter_kit_side_1.jpg", "herb_garden_starter_kit_top_1.jpg"],
+        "categoryId": 10
+      },
+      {
+        "id": 89,
+        "userId": 89,
+        "name": "Android Tablet Pro",
+        "brand": "TechGizmo",
+        "price": 349.99,
+        "color": "Silver",
+        "weight": "450g",
+        "screenSize": "10.1 inches",
+        "availability": true,
+        "likes": 25,
+        "dislikes": 5,
+        "views": 80,
+        "child": false,
+        "specifications": {
+          "storage": "64GB",
+          "RAM": "4GB",
+          "processor": "Octa-core"
+        },
+        "ratingScore": 4.5,
+        "location": {
+          "latitude": 37.7749,
+          "longitude": -122.4194
+        },
+        "messages": [
+          {
+            "fromUserId": 90,
+            "message": "Does this tablet support external storage?"
+          }
+        ],
+        "images": ["android_tablet_pro_front_1.jpg", "android_tablet_pro_back_1.jpg", "android_tablet_pro_side_1.jpg"],
+        "categoryId": 11
+      },
+      {
+        "id": 90,
+        "userId": 90,
+        "name": "iPad Air",
+        "brand": "Apple",
+        "price": 499.99,
+        "color": "Space Gray",
+        "weight": "456g",
+        "screenSize": "10.9 inches",
+        "availability": true,
+        "likes": 30,
+        "dislikes": 3,
+        "views": 100,
+        "child": false,
+        "specifications": {
+          "storage": "256GB",
+          "RAM": "4GB",
+          "processor": "Hexa-core"
+        },
+        "ratingScore": 4.7,
+        "location": {
+          "latitude": 37.7749,
+          "longitude": -122.4194
+        },
+        "messages": [
+          {
+            "fromUserId": 91,
+            "message": "Is this the latest model of iPad Air?"
+          }
+        ],
+        "images": ["ipad_air_front_1.jpg", "ipad_air_back_1.jpg", "ipad_air_side_1.jpg"],
+        "categoryId": 11
+      },
+      {
+        "id": 91,
+        "userId": 91,
+        "name": "Samsung Galaxy Tab S7",
+        "brand": "Samsung",
+        "price": 599.99,
+        "color": "Mystic Black",
+        "weight": "498g",
+        "screenSize": "11 inches",
+        "availability": true,
+        "likes": 20,
+        "dislikes": 2,
+        "views": 70,
+        "child": false,
+        "specifications": {
+          "storage": "128GB",
+          "RAM": "6GB",
+          "processor": "Octa-core"
+        },
+        "ratingScore": 4.6,
+        "location": {
+          "latitude": 37.7749,
+          "longitude": -122.4194
+        },
+        "messages": [
+          {
+            "fromUserId": 92,
+            "message": "Does this tablet support S Pen?"
+          }
+        ],
+        "images": ["samsung_galaxy_tab_s7_front_1.jpg", "samsung_galaxy_tab_s7_back_1.jpg", "samsung_galaxy_tab_s7_side_1.jpg"],
+        "categoryId": 11
+      },
+      {
+        "id": 92,
+        "userId": 92,
+        "name": "Microsoft Surface Pro 7",
+        "brand": "Microsoft",
+        "price": 899.99,
+        "color": "Platinum",
+        "weight": "775g",
+        "screenSize": "12.3 inches",
+        "availability": true,
+        "likes": 15,
+        "dislikes": 2,
+        "views": 60,
+        "child": false,
+        "specifications": {
+          "storage": "256GB",
+          "RAM": "8GB",
+          "processor": "Quad-core"
+        },
+        "ratingScore": 4.4,
+        "location": {
+          "latitude": 37.7749,
+          "longitude": -122.4194
+        },
+        "messages": [
+          {
+            "fromUserId": 93,
+            "message": "Can this tablet run demanding software smoothly?"
+          }
+        ],
+        "images": ["microsoft_surface_pro_7_front_1.jpg", "microsoft_surface_pro_7_back_1.jpg", "microsoft_surface_pro_7_side_1.jpg"],
+        "categoryId": 11
+      },
+      {
+        "id": 93,
+        "userId": 93,
+        "name": "Lenovo Tab P11",
+        "brand": "Lenovo",
+        "price": 299.99,
+        "color": "Slate Grey",
+        "weight": "490g",
+        "screenSize": "11 inches",
+        "availability": true,
+        "likes": 18,
+        "dislikes": 3,
+        "views": 50,
+        "child": false,
+        "specifications": {
+          "storage": "64GB",
+          "RAM": "4GB",
+          "processor": "Octa-core"
+        },
+        "ratingScore": 4.3,
+        "location": {
+          "latitude": 37.7749,
+          "longitude": -122.4194
+        },
+        "messages": [
+          {
+            "fromUserId": 94,
+            "message": "How is the battery life of this tablet?"
+          }
+        ],
+        "images": ["lenovo_tab_p11_front_1.jpg", "lenovo_tab_p11_back_1.jpg", "lenovo_tab_p11_side_1.jpg"],
+        "categoryId": 11
+      },
+      {
+        "id": 94,
+        "userId": 94,
+        "name": "Kindle Paperwhite",
+        "brand": "Amazon",
+        "price": 129.99,
+        "color": "Black",
+        "weight": "182g",
+        "screenSize": "6 inches",
+        "availability": true,
+        "likes": 22,
+        "dislikes": 1,
+        "views": 90,
+        "child": false,
+        "specifications": {
+          "storage": "8GB",
+          "resolution": "300 ppi",
+          "waterproof": true
+        },
+        "ratingScore": 4.7,
+        "location": {
+          "latitude": 37.7749,
+          "longitude": -122.4194
+        },
+        "messages": [
+          {
+            "fromUserId": 95,
+            "message": "Can I read PDFs on this Kindle?"
+          }
+        ],
+        "images": ["kindle_paperwhite_front_1.jpg", "kindle_paperwhite_back_1.jpg", "kindle_paperwhite_side_1.jpg"],
+        "categoryId": 12
+      },
+      {
+        "id": 95,
+        "userId": 95,
+        "name": "Kobo Clara HD",
+        "brand": "Kobo",
+        "price": 109.99,
+        "color": "White",
+        "weight": "166g",
+        "screenSize": "6 inches",
+        "availability": true,
+        "likes": 18,
+        "dislikes": 2,
+        "views": 80,
+        "child": false,
+        "specifications": {
+          "storage": "8GB",
+          "resolution": "300 ppi",
+          "waterproof": true
+        },
+        "ratingScore": 4.6,
+        "location": {
+          "latitude": 37.7749,
+          "longitude": -122.4194
+        },
+        "messages": [
+          {
+            "fromUserId": 96,
+            "message": "Does the Kobo Clara HD have a built-in light?"
+          }
+        ],
+        "images": ["kobo_clara_hd_front_1.jpg", "kobo_clara_hd_back_1.jpg", "kobo_clara_hd_side_1.jpg"],
+        "categoryId": 12
+      },
+      {
+        "id": 96,
+        "userId": 96,
+        "name": "Barnes & Noble Nook GlowLight 3",
+        "brand": "Barnes & Noble",
+        "price": 119.99,
+        "color": "Warm Light",
+        "weight": "175g",
+        "screenSize": "6 inches",
+        "availability": true,
+        "likes": 15,
+        "dislikes": 3,
+        "views": 70,
+        "child": false,
+        "specifications": {
+          "storage": "8GB",
+          "resolution": "300 ppi",
+          "waterproof": false
+        },
+        "ratingScore": 4.5,
+        "location": {
+          "latitude": 37.7749,
+          "longitude": -122.4194
+        },
+        "messages": [
+          {
+            "fromUserId": 97,
+            "message": "What formats does the Nook GlowLight 3 support?"
+          }
+        ],
+        "images": ["nook_glowlight_3_front_1.jpg", "nook_glowlight_3_back_1.jpg", "nook_glowlight_3_side_1.jpg"],
+        "categoryId": 12
+      },
+      {
+        "id": 97,
+        "userId": 97,
+        "name": "Sony Digital Paper",
+        "brand": "Sony",
+        "price": 599.99,
+        "color": "Graphite",
+        "weight": "358g",
+        "screenSize": "13.3 inches",
+        "availability": true,
+        "likes": 12,
+        "dislikes": 2,
+        "views": 60,
+        "child": false,
+        "specifications": {
+          "storage": "16GB",
+          "resolution": "1650 x 2200",
+          "waterproof": false
+        },
+        "ratingScore": 4.4,
+        "location": {
+          "latitude": 37.7749,
+          "longitude": -122.4194
+        },
+        "messages": [
+          {
+            "fromUserId": 98,
+            "message": "Can the Sony Digital Paper handle large PDF files?"
+          }
+        ],
+        "images": ["sony_digital_paper_front_1.jpg", "sony_digital_paper_back_1.jpg", "sony_digital_paper_side_1.jpg"],
+        "categoryId": 12
+      },
+      {
+        "id": 98,
+        "userId": 98,
+        "name": "PocketBook InkPad Color",
+        "brand": "PocketBook",
+        "price": 249.99,
+        "color": "Ruby",
+        "weight": "300g",
+        "screenSize": "7.8 inches",
+        "availability": true,
+        "likes": 20,
+        "dislikes": 1,
+        "views": 50,
+        "child": false,
+        "specifications": {
+          "storage": "16GB",
+          "resolution": "1404 x 1872",
+          "waterproof": false
+        },
+        "ratingScore": 4.3,
+        "location": {
+          "latitude": 37.7749,
+          "longitude": -122.4194
+        },
+        "messages": [
+          {
+            "fromUserId": 99,
+            "message": "Is the PocketBook InkPad Color suitable for reading comics?"
+          }
+        ],
+        "images": ["pocketbook_inkpad_color_front_1.jpg", "pocketbook_inkpad_color_back_1.jpg", "pocketbook_inkpad_color_side_1.jpg"],
+        "categoryId": 12
+      },
+      {
+        "id": 99,
+        "userId": 99,
+        "name": "Tolino Shine 3",
+        "brand": "Tolino",
+        "price": 109.99,
+        "color": "Indigo",
+        "weight": "166g",
+        "screenSize": "6 inches",
+        "availability": true,
+        "likes": 25,
+        "dislikes": 2,
+        "views": 80,
+        "child": false,
+        "specifications": {
+          "storage": "8GB",
+          "resolution": "300 ppi",
+          "waterproof": true
+        },
+        "ratingScore": 4.6,
+        "location": {
+          "latitude": 37.7749,
+          "longitude": -122.4194
+        },
+        "messages": [
+          {
+            "fromUserId": 100,
+            "message": "How long does the Tolino Shine 3 battery last?"
+          }
+        ],
+        "images": ["tolino_shine_3_front_1.jpg", "tolino_shine_3_back_1.jpg", "tolino_shine_3_side_1.jpg"],
+        "categoryId": 12
+      },
+      {
+        "id": 100,
+        "userId": 100,
+        "name": "Boox Nova 3",
+        "brand": "Boox",
+        "price": 279.99,
+        "color": "Champagne",
+        "weight": "265g",
+        "screenSize": "7.8 inches",
+        "availability": true,
+        "likes": 30,
+        "dislikes": 1,
+        "views": 100,
+        "child": false,
+        "specifications": {
+          "storage": "32GB",
+          "resolution": "1872 x 1404",
+          "waterproof": true
+        },
+        "ratingScore": 4.7,
+        "location": {
+          "latitude": 37.7749,
+          "longitude": -122.4194
+        },
+        "messages": [
+          {
+            "fromUserId": 101,
+            "message": "Can I install third-party apps on the Boox Nova 3?"
+          }
+        ],
+        "images": ["boox_nova_3_front_1.jpg", "boox_nova_3_back_1.jpg", "boox_nova_3_side_1.jpg"],
+        "categoryId": 12
+      },
+      {
+        "id": 101,
+        "userId": 101,
+        "name": "Onyx Boox Note Air",
+        "brand": "Onyx",
+        "price": 479.99,
+        "color": "Silver",
+        "weight": "420g",
+        "screenSize": "10.3 inches",
+        "availability": true,
+        "likes": 28,
+        "dislikes": 3,
+        "views": 90,
+        "child": false,
+        "specifications": {
+          "storage": "64GB",
+          "resolution": "1872 x 1404",
+          "waterproof": true
+        },
+        "ratingScore": 4.8,
+        "location": {
+          "latitude": 37.7749,
+          "longitude": -122.4194
+        },
+        "messages": [
+          {
+            "fromUserId": 102,
+            "message": "Is the Onyx Boox Note Air suitable for note-taking?"
+          }
+        ],
+        "images": ["onyx_boox_note_air_front_1.jpg", "onyx_boox_note_air_back_1.jpg", "onyx_boox_note_air_side_1.jpg"],
+        "categoryId": 12
+      },
+      {
+        "id": 102,
+        "userId": 102,
+        "name": "Rakuten Kobo Forma",
+        "brand": "Kobo",
+        "price": 249.99,
+        "color": "Black",
+        "weight": "197g",
+        "screenSize": "8 inches",
+        "availability": true,
+        "likes": 24,
+        "dislikes": 2,
+        "views": 70,
+        "child": false,
+        "specifications": {
+          "storage": "8GB",
+          "resolution": "1440 x 1920",
+          "waterproof": true
+        },
+        "ratingScore": 4.5,
+        "location": {
+          "latitude": 37.7749,
+          "longitude": -122.4194
+        },
+        "messages": [
+          {
+            "fromUserId": 103,
+            "message": "How long is the warranty for the Rakuten Kobo Forma?"
+          }
+        ],
+        "images": ["rakuten_kobo_forma_front_1.jpg", "rakuten_kobo_forma_back_1.jpg", "rakuten_kobo_forma_side_1.jpg"],
+        "categoryId": 12
+      },
+      {
+        "id": 103,
+        "userId": 103,
+        "name": "PocketBook InkPad Color",
+        "brand": "PocketBook",
+        "price": 329.99,
+        "color": "White",
+        "weight": "225g",
+        "screenSize": "7.8 inches",
+        "availability": true,
+        "likes": 22,
+        "dislikes": 1,
+        "views": 60,
+        "child": false,
+        "specifications": {
+          "storage": "16GB",
+          "resolution": "1404 x 1872",
+          "waterproof": false
+        },
+        "ratingScore": 4.3,
+        "location": {
+          "latitude": 37.7749,
+          "longitude": -122.4194
+        },
+        "messages": [
+          {
+            "fromUserId": 104,
+            "message": "Is the PocketBook InkPad Color suitable for reading comics?"
+          }
+        ],
+        "images": ["pocketbook_inkpad_color_front_1.jpg", "pocketbook_inkpad_color_back_1.jpg", "pocketbook_inkpad_color_side_1.jpg"],
+        "categoryId": 12
+      },
+      {
+        "id": 104,
+        "userId": 104,
+        "name": "Elegant Sofa Set",
+        "brand": "HomeStyle",
+        "price": 1299.99,
+        "color": "Beige",
+        "weight": "85kg",
+        "dimensions": {
+          "width": "210cm",
+          "height": "80cm",
+          "depth": "90cm"
+        },
+        "availability": true,
+        "likes": 35,
+        "dislikes": 3,
+        "views": 120,
+        "child": false,
+        "material": "Fabric",
+        "ratingScore": 4.9,
+        "location": {
+          "latitude": 37.7749,
+          "longitude": -122.4194
+        },
+        "messages": [
+          {
+            "fromUserId": 105,
+            "message": "Is the Elegant Sofa Set available in other colors?"
+          }
+        ],
+        "images": ["elegant_sofa_set_1.jpg", "elegant_sofa_set_2.jpg", "elegant_sofa_set_3.jpg"],
+        "categoryId": 27
+      },
+      {
+        "id": 105,
+        "userId": 105,
+        "name": "Modern Coffee Table",
+        "brand": "LivingTrends",
+        "price": 299.99,
+        "color": "Walnut",
+        "weight": "15kg",
+        "dimensions": {
+          "width": "120cm",
+          "height": "40cm",
+          "depth": "60cm"
+        },
+        "availability": true,
+        "likes": 30,
+        "dislikes": 2,
+        "views": 90,
+        "child": false,
+        "material": "Wood",
+        "ratingScore": 4.8,
+        "location": {
+          "latitude": 37.7749,
+          "longitude": -122.4194
+        },
+        "messages": [
+          {
+            "fromUserId": 106,
+            "message": "What is the delivery time for the Modern Coffee Table?"
+          }
+        ],
+        "images": ["modern_coffee_table_1.jpg", "modern_coffee_table_2.jpg", "modern_coffee_table_3.jpg"],
+        "categoryId": 27
+      },
+      {
+        "id": 106,
+        "userId": 106,
+        "name": "Classic Wardrobe",
+        "brand": "HeritageHome",
+        "price": 799.99,
+        "color": "Mahogany",
+        "weight": "120kg",
+        "dimensions": {
+          "width": "180cm",
+          "height": "220cm",
+          "depth": "60cm"
+        },
+        "availability": true,
+        "likes": 25,
+        "dislikes": 1,
+        "views": 80,
+        "child": false,
+        "material": "Wood",
+        "ratingScore": 4.7,
+        "location": {
+          "latitude": 37.7749,
+          "longitude": -122.4194
+        },
+        "messages": [
+          {
+            "fromUserId": 107,
+            "message": "Can the Classic Wardrobe be disassembled for transport?"
+          }
+        ],
+        "images": ["classic_wardrobe_1.jpg", "classic_wardrobe_2.jpg", "classic_wardrobe_3.jpg"],
+        "categoryId": 27
+      },
+      {
+        "id": 107,
+        "userId": 107,
+        "name": "Cozy Bed Frame",
+        "brand": "DreamCrafter",
+        "price": 599.99,
+        "color": "Gray",
+        "weight": "50kg",
+        "dimensions": {
+          "width": "160cm",
+          "height": "120cm",
+          "depth": "200cm"
+        },
+        "availability": true,
+        "likes": 20,
+        "dislikes": 1,
+        "views": 70,
+        "child": false,
+        "material": "Fabric",
+        "ratingScore": 4.6,
+        "location": {
+          "latitude": 37.7749,
+          "longitude": -122.4194
+        },
+        "messages": [
+          {
+            "fromUserId": 108,
+            "message": "Is the Cozy Bed Frame suitable for a memory foam mattress?"
+          }
+        ],
+        "images": ["cozy_bed_frame_1.jpg", "cozy_bed_frame_2.jpg", "cozy_bed_frame_3.jpg"],
+        "categoryId": 27
+      },
+      {
+        "id": 108,
+        "userId": 108,
+        "name": "Compact Desk",
+        "brand": "OfficeEssentials",
+        "price": 149.99,
+        "color": "White",
+        "weight": "25kg",
+        "dimensions": {
+          "width": "100cm",
+          "height": "75cm",
+          "depth": "50cm"
+        },
+        "availability": true,
+        "likes": 18,
+        "dislikes": 1,
+        "views": 60,
+        "child": false,
+        "material": "Wood",
+        "ratingScore": 4.5,
+        "location": {
+          "latitude": 37.7749,
+          "longitude": -122.4194
+        },
+        "messages": [
+          {
+            "fromUserId": 109,
+            "message": "Does the Compact Desk come with assembly instructions?"
+          }
+        ],
+        "images": ["compact_desk_1.jpg", "compact_desk_2.jpg", "compact_desk_3.jpg"],
+        "categoryId": 27
+      },
+      {
+        "id": 109,
+        "userId": 109,
+        "name": "Artistic Wall Shelf",
+        "brand": "HomeAccents",
+        "price": 79.99,
+        "color": "Black",
+        "weight": "10kg",
+        "dimensions": {
+          "width": "80cm",
+          "height": "120cm",
+          "depth": "20cm"
+        },
+        "availability": true,
+        "likes": 15,
+        "dislikes": 1,
+        "views": 50,
+        "child": false,
+        "material": "Metal",
+        "ratingScore": 4.4,
+        "location": {
+          "latitude": 37.7749,
+          "longitude": -122.4194
+        },
+        "messages": [
+          {
+            "fromUserId": 110,
+            "message": "Can the Artistic Wall Shelf hold heavy items?"
+          }
+        ],
+        "images": ["artistic_wall_shelf_1.jpg", "artistic_wall_shelf_2.jpg", "artistic_wall_shelf_3.jpg"],
+        "categoryId": 27
+      },
+      {
+        "id": 110,
+        "userId": 110,
+        "name": "Abstract Canvas Art",
+        "brand": "ArtExpressions",
+        "price": 149.99,
+        "color": "Multicolor",
+        "weight": "5kg",
+        "dimensions": {
+          "width": "100cm",
+          "height": "80cm",
+          "depth": "4cm"
+        },
+        "availability": true,
+        "likes": 20,
+        "dislikes": 2,
+        "views": 80,
+        "child": false,
+        "material": "Canvas",
+        "ratingScore": 4.7,
+        "location": {
+          "latitude": 37.7749,
+          "longitude": -122.4194
+        },
+        "messages": [
+          {
+            "fromUserId": 111,
+            "message": "What inspired the creation of the Abstract Canvas Art?"
+          }
+        ],
+        "images": ["abstract_canvas_art_1.jpg", "abstract_canvas_art_2.jpg", "abstract_canvas_art_3.jpg"],
+        "categoryId": 31
+      },
+      {
+        "id": 111,
+        "userId": 111,
+        "name": "Scented Candles Set",
+        "brand": "Aromatica",
+        "price": 29.99,
+        "color": "Assorted",
+        "weight": "1kg",
+        "dimensions": {
+          "width": "5cm",
+          "height": "10cm",
+          "depth": "5cm"
+        },
+        "availability": true,
+        "likes": 15,
+        "dislikes": 1,
+        "views": 70,
+        "child": false,
+        "fragrance": "Lavender, Vanilla, Rose",
+        "ratingScore": 4.5,
+        "location": {
+          "latitude": 37.7749,
+          "longitude": -122.4194
+        },
+        "messages": [
+          {
+            "fromUserId": 112,
+            "message": "Do the Scented Candles have a long burning time?"
+          }
+        ],
+        "images": ["scented_candles_set_1.jpg", "scented_candles_set_2.jpg", "scented_candles_set_3.jpg"],
+        "categoryId": 31
+      },
+      {
+        "id": 112,
+        "userId": 112,
+        "name": "Geometric Wall Clock",
+        "brand": "TimeCrafters",
+        "price": 39.99,
+        "color": "Wooden",
+        "weight": "2kg",
+        "dimensions": {
+          "diameter": "30cm",
+          "depth": "5cm"
+        },
+        "availability": true,
+        "likes": 18,
+        "dislikes": 1,
+        "views": 60,
+        "child": false,
+        "material": "Wood",
+        "ratingScore": 4.6,
+        "location": {
+          "latitude": 37.7749,
+          "longitude": -122.4194
+        },
+        "messages": [
+          {
+            "fromUserId": 113,
+            "message": "Is the Geometric Wall Clock silent or does it tick loudly?"
+          }
+        ],
+        "images": ["geometric_wall_clock_1.jpg", "geometric_wall_clock_2.jpg", "geometric_wall_clock_3.jpg"],
+        "categoryId": 31
+      },
+      {
+        "id": 113,
+        "userId": 113,
+        "name": "Floral Throw Pillows",
+        "brand": "CozyNest",
+        "price": 19.99,
+        "color": "Pastel",
+        "weight": "0.5kg",
+        "dimensions": {
+          "width": "45cm",
+          "height": "45cm",
+          "depth": "10cm"
+        },
+        "availability": true,
+        "likes": 15,
+        "dislikes": 1,
+        "views": 50,
+        "child": false,
+        "material": "Cotton",
+        "ratingScore": 4.4,
+        "location": {
+          "latitude": 37.7749,
+          "longitude": -122.4194
+        },
+        "messages": [
+          {
+            "fromUserId": 114,
+            "message": "Do the Floral Throw Pillows come in a set or individually?"
+          }
+        ],
+        "images": ["floral_throw_pillows_1.jpg", "floral_throw_pillows_2.jpg", "floral_throw_pillows_3.jpg"],
+        "categoryId": 31
+      },
+      {
+        "id": 114,
+        "userId": 114,
+        "name": "Vintage Wall Mirror",
+        "brand": "Reflectique",
+        "price": 89.99,
+        "color": "Antique Gold",
+        "weight": "3kg",
+        "dimensions": {
+          "width": "60cm",
+          "height": "80cm",
+          "depth": "5cm"
+        },
+        "availability": true,
+        "likes": 22,
+        "dislikes": 2,
+        "views": 90,
+        "child": false,
+        "material": "Metal",
+        "ratingScore": 4.8,
+        "location": {
+          "latitude": 37.7749,
+          "longitude": -122.4194
+        },
+        "messages": [
+          {
+            "fromUserId": 115,
+            "message": "Can the Vintage Wall Mirror be hung horizontally and vertically?"
+          }
+        ],
+        "images": ["vintage_wall_mirror_1.jpg", "vintage_wall_mirror_2.jpg", "vintage_wall_mirror_3.jpg"],
+        "categoryId": 31
+      },
+      {
+        "id": 115,
+        "userId": 115,
+        "name": "Minimalist Wall Shelves",
+        "brand": "Simplicity",
+        "price": 34.99,
+        "color": "White",
+        "weight": "1.5kg",
+        "dimensions": {
+          "width": "60cm",
+          "height": "30cm",
+          "depth": "15cm"
+        },
+        "availability": true,
+        "likes": 15,
+        "dislikes": 1,
+        "views": 55,
+        "child": false,
+        "material": "MDF",
+        "ratingScore": 4.5,
+        "location": {
+          "latitude": 37.7749,
+          "longitude": -122.4194
+        },
+        "messages": [
+          {
+            "fromUserId": 116,
+            "message": "Are the Minimalist Wall Shelves easy to assemble?"
+          }
+        ],
+        "images": ["minimalist_wall_shelves_1.jpg", "minimalist_wall_shelves_2.jpg", "minimalist_wall_shelves_3.jpg"],
+        "categoryId": 31
+      },
+      {
+        "id": 116,
+        "userId": 116,
+        "name": "Ceramic Vase Set",
+        "brand": "Elegance",
+        "price": 27.99,
+        "color": "Blue and White",
+        "weight": "1kg",
+        "dimensions": {
+          "width": "10cm",
+          "height": "20cm",
+          "depth": "10cm"
+        },
+        "availability": true,
+        "likes": 12,
+        "dislikes": 0,
+        "views": 40,
+        "child": false,
+        "material": "Ceramic",
+        "ratingScore": 4.3,
+        "location": {
+          "latitude": 37.7749,
+          "longitude": -122.4194
+        },
+        "messages": [
+          {
+            "fromUserId": 117,
+            "message": "Can the Ceramic Vase Set hold water without leaking?"
+          }
+        ],
+        "images": ["ceramic_vase_set_1.jpg", "ceramic_vase_set_2.jpg", "ceramic_vase_set_3.jpg"],
+        "categoryId": 31
+      },
+      {
+        "id": 117,
+        "userId": 117,
+        "name": "LED String Lights",
+        "brand": "Illuminate",
+        "price": 18.99,
+        "color": "Warm White",
+        "weight": "0.5kg",
+        "dimensions": {
+          "length": "5m"
+        },
+        "availability": true,
+        "likes": 14,
+        "dislikes": 1,
+        "views": 60,
+        "child": false,
+        "material": "Copper Wire",
+        "ratingScore": 4.4,
+        "location": {
+          "latitude": 37.7749,
+          "longitude": -122.4194
+        },
+        "messages": [
+          {
+            "fromUserId": 118,
+            "message": "Are the LED String Lights suitable for outdoor use?"
+          }
+        ],
+        "images": ["led_string_lights_1.jpg", "led_string_lights_2.jpg", "led_string_lights_3.jpg"],
+        "categoryId": 31
+      },
+      {
+        "id": 118,
+        "userId": 118,
+        "name": "Modern Area Rug",
+        "brand": "ContempoStyle",
+        "price": 69.99,
+        "color": "Gray",
+        "weight": "2kg",
+        "dimensions": {
+          "width": "120cm",
+          "length": "180cm"
+        },
+        "availability": true,
+        "likes": 20,
+        "dislikes": 2,
+        "views": 75,
+        "child": false,
+        "material": "Polypropylene",
+        "ratingScore": 4.7,
+        "location": {
+          "latitude": 37.7749,
+          "longitude": -122.4194
+        },
+        "messages": [
+          {
+            "fromUserId": 119,
+            "message": "Can the Modern Area Rug be cleaned easily?"
+          }
+        ],
+        "images": ["modern_area_rug_1.jpg", "modern_area_rug_2.jpg", "modern_area_rug_3.jpg"],
+        "categoryId": 31
+      },
+      {
+        "id": 119,
+        "userId": 119,
+        "name": "Decorative Plant Stand",
+        "brand": "GreenThumb",
+        "price": 24.99,
+        "color": "Black",
+        "weight": "1kg",
+        "dimensions": {
+          "height": "60cm",
+          "diameter": "25cm"
+        },
+        "availability": true,
+        "likes": 18,
+        "dislikes": 1,
+        "views": 50,
+        "child": false,
+        "material": "Metal",
+        "ratingScore": 4.6,
+        "location": {
+          "latitude": 37.7749,
+          "longitude": -122.4194
+        },
+        "messages": [
+          {
+            "fromUserId": 120,
+            "message": "Is the Decorative Plant Stand suitable for outdoor use?"
+          }
+        ],
+        "images": ["decorative_plant_stand_1.jpg", "decorative_plant_stand_2.jpg", "decorative_plant_stand_3.jpg"],
+        "categoryId": 31
+      },
+      {
+        "id": 120,
+        "userId": 120,
+        "name": "Classic Denim Jacket",
+        "brand": "UrbanStyle",
+        "price": 79.99,
+        "color": "Blue",
+        "weight": "1.2kg",
+        "size": "Medium",
+        "availability": true,
+        "likes": 22,
+        "dislikes": 3,
+        "views": 80,
+        "child": false,
+        "material": "Denim",
+        "ratingScore": 4.8,
+        "location": {
+          "latitude": 37.7749,
+          "longitude": -122.4194
+        },
+        "messages": [
+          {
+            "fromUserId": 121,
+            "message": "Is the Classic Denim Jacket suitable for cold weather?"
+          }
+        ],
+        "images": ["classic_denim_jacket_1.jpg", "classic_denim_jacket_2.jpg", "classic_denim_jacket_3.jpg"],
+        "categoryId": 34
+      },
+      {
+        "id": 121,
+        "userId": 121,
+        "name": "Slim Fit Dress Shirt",
+        "brand": "SharpDress",
+        "price": 39.99,
+        "color": "White",
+        "weight": "0.8kg",
+        "size": "Large",
+        "availability": true,
+        "likes": 16,
+        "dislikes": 2,
+        "views": 65,
+        "child": false,
+        "material": "Cotton",
+        "ratingScore": 4.5,
+        "location": {
+          "latitude": 37.7749,
+          "longitude": -122.4194
+        },
+        "messages": [
+          {
+            "fromUserId": 122,
+            "message": "Can the Slim Fit Dress Shirt be ironed without damaging the fabric?"
+          }
+        ],
+        "images": ["slim_fit_dress_shirt_1.jpg", "slim_fit_dress_shirt_2.jpg", "slim_fit_dress_shirt_3.jpg"],
+        "categoryId": 34
+      },
+      {
+        "id": 122,
+        "userId": 122,
+        "name": "Leather Biker Jacket",
+        "brand": "RiderGear",
+        "price": 129.99,
+        "color": "Black",
+        "weight": "2.5kg",
+        "size": "X-Large",
+        "availability": true,
+        "likes": 28,
+        "dislikes": 4,
+        "views": 95,
+        "child": false,
+        "material": "Genuine Leather",
+        "ratingScore": 4.9,
+        "location": {
+          "latitude": 37.7749,
+          "longitude": -122.4194
+        },
+        "messages": [
+          {
+            "fromUserId": 123,
+            "message": "Is the Leather Biker Jacket suitable for daily wear?"
+          }
+        ],
+        "images": ["leather_biker_jacket_1.jpg", "leather_biker_jacket_2.jpg", "leather_biker_jacket_3.jpg"],
+        "categoryId": 34
+      },
+      {
+        "id": 123,
+        "userId": 123,
+        "name": "Casual Cotton T-Shirt",
+        "brand": "ComfortWear",
+        "price": 19.99,
+        "color": "Gray",
+        "weight": "0.5kg",
+        "size": "Small",
+        "availability": true,
+        "likes": 18,
+        "dislikes": 1,
+        "views": 70,
+        "child": false,
+        "material": "Cotton",
+        "ratingScore": 4.7,
+        "location": {
+          "latitude": 37.7749,
+          "longitude": -122.4194
+        },
+        "messages": [
+          {
+            "fromUserId": 124,
+            "message": "How should I care for the Casual Cotton T-Shirt to maintain its quality?"
+          }
+        ],
+        "images": ["casual_cotton_tshirt_1.jpg", "casual_cotton_tshirt_2.jpg", "casual_cotton_tshirt_3.jpg"],
+        "categoryId": 34
+      },
+      {
+        "id": 124,
+        "userId": 124,
+        "name": "Formal Business Suit",
+        "brand": "ExecutiveStyle",
+        "price": 199.99,
+        "color": "Charcoal Gray",
+        "weight": "3kg",
+        "size": "XX-Large",
+        "availability": true,
+        "likes": 32,
+        "dislikes": 5,
+        "views": 110,
+        "child": false,
+        "material": "Wool Blend",
+        "ratingScore": 4.9,
+        "location": {
+          "latitude": 37.7749,
+          "longitude": -122.4194
+        },
+        "messages": [
+          {
+            "fromUserId": 125,
+            "message": "Is the Formal Business Suit suitable for professional events?"
+          }
+        ],
+        "images": ["formal_business_suit_1.jpg", "formal_business_suit_2.jpg", "formal_business_suit_3.jpg"],
+        "categoryId": 34
+      },
+      {
+        "id": 125,
+        "userId": 125,
+        "name": "Summer Floral Dress",
+        "brand": "FashionFlora",
+        "price": 49.99,
+        "color": "Pastel Pink",
+        "weight": "0.7kg",
+        "size": "Medium",
+        "availability": true,
+        "likes": 25,
+        "dislikes": 3,
+        "views": 90,
+        "child": false,
+        "material": "Cotton Blend",
+        "ratingScore": 4.7,
+        "location": {
+          "latitude": 37.7749,
+          "longitude": -122.4194
+        },
+        "messages": [
+          {
+            "fromUserId": 126,
+            "message": "Can the Summer Floral Dress be worn casually?"
+          }
+        ],
+        "images": ["summer_floral_dress_1.jpg", "summer_floral_dress_2.jpg", "summer_floral_dress_3.jpg"],
+        "categoryId": 35
+      },
+      {
+        "id": 126,
+        "userId": 126,
+        "name": "Elegant Evening Gown",
+        "brand": "LuxuryElegance",
+        "price": 149.99,
+        "color": "Royal Blue",
+        "weight": "1.5kg",
+        "size": "Large",
+        "availability": true,
+        "likes": 40,
+        "dislikes": 6,
+        "views": 120,
+        "child": false,
+        "material": "Silk",
+        "ratingScore": 4.9,
+        "location": {
+          "latitude": 37.7749,
+          "longitude": -122.4194
+        },
+        "messages": [
+          {
+            "fromUserId": 127,
+            "message": "Is the Elegant Evening Gown suitable for formal events?"
+          }
+        ],
+        "images": ["elegant_evening_gown_1.jpg", "elegant_evening_gown_2.jpg", "elegant_evening_gown_3.jpg"],
+        "categoryId": 35
+      },
+      {
+        "id": 127,
+        "userId": 127,
+        "name": "Casual Summer Jumpsuit",
+        "brand": "ChicCasuals",
+        "price": 59.99,
+        "color": "Olive Green",
+        "weight": "0.9kg",
+        "size": "Small",
+        "availability": true,
+        "likes": 32,
+        "dislikes": 4,
+        "views": 100,
+        "child": false,
+        "material": "Linen",
+        "ratingScore": 4.8,
+        "location": {
+          "latitude": 37.7749,
+          "longitude": -122.4194
+        },
+        "messages": [
+          {
+            "fromUserId": 128,
+            "message": "How do I care for the Casual Summer Jumpsuit to prevent wrinkles?"
+          }
+        ],
+        "images": ["casual_summer_jumpsuit_1.jpg", "casual_summer_jumpsuit_2.jpg", "casual_summer_jumpsuit_3.jpg"],
+        "categoryId": 35
+      },
+      {
+        "id": 128,
+        "userId": 128,
+        "name": "Boho-Chic Maxi Skirt",
+        "brand": "BohoTrends",
+        "price": 34.99,
+        "color": "Earth Tones",
+        "weight": "0.6kg",
+        "size": "Extra Small",
+        "availability": true,
+        "likes": 20,
+        "dislikes": 2,
+        "views": 75,
+        "child": false,
+        "material": "Chiffon",
+        "ratingScore": 4.6,
+        "location": {
+          "latitude": 37.7749,
+          "longitude": -122.4194
+        },
+        "messages": [
+          {
+            "fromUserId": 129,
+            "message": "Can the Boho-Chic Maxi Skirt be paired with casual tops?"
+          }
+        ],
+        "images": ["boho_chic_maxi_skirt_1.jpg", "boho_chic_maxi_skirt_2.jpg", "boho_chic_maxi_skirt_3.jpg"],
+        "categoryId": 35
+      },
+      {
+        "id": 129,
+        "userId": 129,
+        "name": "Trendy Crop Top",
+        "brand": "StreetStyle",
+        "price": 24.99,
+        "color": "Black",
+        "weight": "0.4kg",
+        "size": "Extra Small",
+        "availability": true,
+        "likes": 18,
+        "dislikes": 1,
+        "views": 60,
+        "child": false,
+        "material": "Cotton",
+        "ratingScore": 4.7,
+        "location": {
+          "latitude": 37.7749,
+          "longitude": -122.4194
+        },
+        "messages": [
+          {
+            "fromUserId": 130,
+            "message": "Is the Trendy Crop Top suitable for casual outings?"
+          }
+        ],
+        "images": ["trendy_crop_top_1.jpg", "trendy_crop_top_2.jpg", "trendy_crop_top_3.jpg"],
+        "categoryId": 35
+      },
+      {
+        "id": 130,
+        "userId": 130,
+        "name": "Classic Leather Handbag",
+        "brand": "FashionFinesse",
+        "price": 79.99,
+        "color": "Chestnut Brown",
+        "weight": "1.2kg",
+        "size": "Medium",
+        "availability": true,
+        "likes": 35,
+        "dislikes": 4,
+        "views": 110,
+        "child": false,
+        "material": "Genuine Leather",
+        "ratingScore": 4.8,
+        "location": {
+          "latitude": 37.7749,
+          "longitude": -122.4194
+        },
+        "messages": [
+          {
+            "fromUserId": 131,
+            "message": "Does the Classic Leather Handbag have compartments for organization?"
+          }
+        ],
+        "images": ["classic_leather_handbag_1.jpg", "classic_leather_handbag_2.jpg", "classic_leather_handbag_3.jpg"],
+        "categoryId": 36
+      },
+      {
+        "id": 131,
+        "userId": 131,
+        "name": "Elegant Pearl Necklace",
+        "brand": "TimelessElegance",
+        "price": 129.99,
+        "color": "White",
+        "weight": "0.2kg",
+        "size": "N/A",
+        "availability": true,
+        "likes": 25,
+        "dislikes": 2,
+        "views": 90,
+        "child": false,
+        "material": "Cultured Pearls",
+        "ratingScore": 4.9,
+        "location": {
+          "latitude": 37.7749,
+          "longitude": -122.4194
+        },
+        "messages": [
+          {
+            "fromUserId": 132,
+            "message": "Is the Elegant Pearl Necklace suitable for special occasions?"
+          }
+        ],
+        "images": ["elegant_pearl_necklace_1.jpg", "elegant_pearl_necklace_2.jpg", "elegant_pearl_necklace_3.jpg"],
+        "categoryId": 36
+      },
+      {
+        "id": 132,
+        "userId": 132,
+        "name": "Stylish Aviator Sunglasses",
+        "brand": "UrbanChic",
+        "price": 39.99,
+        "color": "Black",
+        "weight": "0.1kg",
+        "size": "One Size",
+        "availability": true,
+        "likes": 18,
+        "dislikes": 1,
+        "views": 70,
+        "child": false,
+        "material": "Metal Frame, UV-Protected Lens",
+        "ratingScore": 4.7,
+        "location": {
+          "latitude": 37.7749,
+          "longitude": -122.4194
+        },
+        "messages": [
+          {
+            "fromUserId": 133,
+            "message": "Are the Stylish Aviator Sunglasses unisex?"
+          }
+        ],
+        "images": ["stylish_aviator_sunglasses_1.jpg", "stylish_aviator_sunglasses_2.jpg", "stylish_aviator_sunglasses_3.jpg"],
+        "categoryId": 36
+      },
+      {
+        "id": 133,
+        "userId": 133,
+        "name": "Leather Strap Wristwatch",
+        "brand": "ModernClassic",
+        "price": 69.99,
+        "color": "Brown",
+        "weight": "0.15kg",
+        "size": "One Size",
+        "availability": true,
+        "likes": 22,
+        "dislikes": 3,
+        "views": 80,
+        "child": false,
+        "material": "Genuine Leather Strap, Stainless Steel Case",
+        "ratingScore": 4.8,
+        "location": {
+          "latitude": 37.7749,
+          "longitude": -122.4194
+        },
+        "messages": [
+          {
+            "fromUserId": 134,
+            "message": "Does the Leather Strap Wristwatch come with a warranty?"
+          }
+        ],
+        "images": ["leather_strap_wristwatch_1.jpg", "leather_strap_wristwatch_2.jpg", "leather_strap_wristwatch_3.jpg"],
+        "categoryId": 36
+      },
+      {
+        "id": 134,
+        "userId": 134,
+        "name": "Chic Fedora Hat",
+        "brand": "CityStyle",
+        "price": 29.99,
+        "color": "Charcoal Gray",
+        "weight": "0.3kg",
+        "size": "One Size",
+        "availability": true,
+        "likes": 15,
+        "dislikes": 2,
+        "views": 60,
+        "child": false,
+        "material": "Wool Felt",
+        "ratingScore": 4.6,
+        "location": {
+          "latitude": 37.7749,
+          "longitude": -122.4194
+        },
+        "messages": [
+          {
+            "fromUserId": 135,
+            "message": "Is the Chic Fedora Hat suitable for all seasons?"
+          }
+        ],
+        "images": ["chic_fedora_hat_1.jpg", "chic_fedora_hat_2.jpg", "chic_fedora_hat_3.jpg"],
+        "categoryId": 36
+      },
+      {
+        "id": 135,
+        "userId": 135,
+        "name": "Trendy Clutch Purse",
+        "brand": "FashionFusion",
+        "price": 49.99,
+        "color": "Gold",
+        "weight": "0.5kg",
+        "size": "Small",
+        "availability": true,
+        "likes": 28,
+        "dislikes": 2,
+        "views": 90,
+        "child": false,
+        "material": "Metallic Leather",
+        "ratingScore": 4.7,
+        "location": {
+          "latitude": 37.7749,
+          "longitude": -122.4194
+        },
+        "messages": [
+          {
+            "fromUserId": 136,
+            "message": "Can the Trendy Clutch Purse fit a smartphone?"
+          }
+        ],
+        "images": ["trendy_clutch_purse_1.jpg", "trendy_clutch_purse_2.jpg", "trendy_clutch_purse_3.jpg"],
+        "categoryId": 37
+      },
+      {
+        "id": 136,
+        "userId": 136,
+        "name": "Leather Tote Bag",
+        "brand": "UrbanLeather",
+        "price": 89.99,
+        "color": "Cognac Brown",
+        "weight": "1.0kg",
+        "size": "Large",
+        "availability": true,
+        "likes": 38,
+        "dislikes": 3,
+        "views": 110,
+        "child": false,
+        "material": "Full-Grain Leather",
+        "ratingScore": 4.9,
+        "location": {
+          "latitude": 37.7749,
+          "longitude": -122.4194
+        },
+        "messages": [
+          {
+            "fromUserId": 137,
+            "message": "What are the dimensions of the Leather Tote Bag?"
+          }
+        ],
+        "images": ["leather_tote_bag_1.jpg", "leather_tote_bag_2.jpg", "leather_tote_bag_3.jpg"],
+        "categoryId": 37
+      },
+      {
+        "id": 137,
+        "userId": 137,
+        "name": "Chic Crossbody Bag",
+        "brand": "CityChic",
+        "price": 59.99,
+        "color": "Rose Pink",
+        "weight": "0.8kg",
+        "size": "Medium",
+        "availability": true,
+        "likes": 32,
+        "dislikes": 1,
+        "views": 100,
+        "child": false,
+        "material": "Faux Leather",
+        "ratingScore": 4.8,
+        "location": {
+          "latitude": 37.7749,
+          "longitude": -122.4194
+        },
+        "messages": [
+          {
+            "fromUserId": 138,
+            "message": "Does the Chic Crossbody Bag have an adjustable strap?"
+          }
+        ],
+        "images": ["chic_crossbody_bag_1.jpg", "chic_crossbody_bag_2.jpg", "chic_crossbody_bag_3.jpg"],
+        "categoryId": 37
+      },
+      {
+        "id": 138,
+        "userId": 138,
+        "name": "Casual Canvas Backpack",
+        "brand": "OutdoorEssentials",
+        "price": 69.99,
+        "color": "Navy Blue",
+        "weight": "0.9kg",
+        "size": "Medium",
+        "availability": true,
+        "likes": 24,
+        "dislikes": 2,
+        "views": 80,
+        "child": false,
+        "material": "Canvas",
+        "ratingScore": 4.6,
+        "location": {
+          "latitude": 37.7749,
+          "longitude": -122.4194
+        },
+        "messages": [
+          {
+            "fromUserId": 139,
+            "message": "Is the Casual Canvas Backpack suitable for daily use?"
+          }
+        ],
+        "images": ["casual_canvas_backpack_1.jpg", "casual_canvas_backpack_2.jpg", "casual_canvas_backpack_3.jpg"],
+        "categoryId": 37
+      },
+      {
+        "id": 139,
+        "userId": 139,
+        "name": "Fashionable Belt Bag",
+        "brand": "TrendyStyles",
+        "price": 44.99,
+        "color": "Black",
+        "weight": "0.4kg",
+        "size": "Small",
+        "availability": true,
+        "likes": 20,
+        "dislikes": 1,
+        "views": 70,
+        "child": false,
+        "material": "Synthetic Leather",
+        "ratingScore": 4.5,
+        "location": {
+          "latitude": 37.7749,
+          "longitude": -122.4194
+        },
+        "messages": [
+          {
+            "fromUserId": 140,
+            "message": "Can the Fashionable Belt Bag fit a wallet and keys?"
+          }
+        ],
+        "images": ["fashionable_belt_bag_1.jpg", "fashionable_belt_bag_2.jpg", "fashionable_belt_bag_3.jpg"],
+        "categoryId": 37
+      },
+      {
+        "id": 140,
+        "userId": 140,
+        "name": "Elegant Diamond Necklace",
+        "brand": "LuxuryGems",
+        "price": 799.99,
+        "material": "White Gold",
+        "color": "Silver",
+        "weight": "5g",
+        "length": "18 inches",
+        "availability": true,
+        "likes": 45,
+        "dislikes": 4,
+        "views": 120,
+        "child": false,
+        "gemstone": "Diamond",
+        "ratingScore": 4.9,
+        "location": {
+          "latitude": 37.7749,
+          "longitude": -122.4194
+        },
+        "messages": [
+          {
+            "fromUserId": 141,
+            "message": "What is the carat weight of the Elegant Diamond Necklace?"
+          }
+        ],
+        "images": ["elegant_diamond_necklace_1.jpg", "elegant_diamond_necklace_2.jpg", "elegant_diamond_necklace_3.jpg"],
+        "categoryId": 38
+      },
+      {
+        "id": 141,
+        "userId": 141,
+        "name": "Classic Pearl Earrings",
+        "brand": "TimelessJewels",
+        "price": 129.99,
+        "material": "Sterling Silver",
+        "color": "White",
+        "weight": "2g",
+        "size": "Small",
+        "availability": true,
+        "likes": 38,
+        "dislikes": 2,
+        "views": 100,
+        "child": false,
+        "gemstone": "Pearl",
+        "ratingScore": 4.8,
+        "location": {
+          "latitude": 37.7749,
+          "longitude": -122.4194
+        },
+        "messages": [
+          {
+            "fromUserId": 142,
+            "message": "Are the Classic Pearl Earrings suitable for sensitive ears?"
+          }
+        ],
+        "images": ["classic_pearl_earrings_1.jpg", "classic_pearl_earrings_2.jpg", "classic_pearl_earrings_3.jpg"],
+        "categoryId": 38
+      },
+      {
+        "id": 142,
+        "userId": 142,
+        "name": "Stylish Gemstone Bracelet",
+        "brand": "ChicCraft",
+        "price": 159.99,
+        "material": "Gold-Plated Brass",
+        "color": "Multicolor",
+        "weight": "3.5g",
+        "size": "Adjustable",
+        "availability": true,
+        "likes": 42,
+        "dislikes": 3,
+        "views": 110,
+        "child": false,
+        "gemstone": "Amethyst, Citrine, Peridot",
+        "ratingScore": 4.7,
+        "location": {
+          "latitude": 37.7749,
+          "longitude": -122.4194
+        },
+        "messages": [
+          {
+            "fromUserId": 143,
+            "message": "What are the dimensions of the Stylish Gemstone Bracelet?"
+          }
+        ],
+        "images": ["stylish_gemstone_bracelet_1.jpg", "stylish_gemstone_bracelet_2.jpg", "stylish_gemstone_bracelet_3.jpg"],
+        "categoryId": 38
+      },
+      {
+        "id": 143,
+        "userId": 143,
+        "name": "Modern Silver Ring",
+        "brand": "SilverStyle",
+        "price": 69.99,
+        "material": "Sterling Silver",
+        "color": "Silver",
+        "weight": "4g",
+        "size": "7",
+        "availability": true,
+        "likes": 32,
+        "dislikes": 1,
+        "views": 90,
+        "child": false,
+        "gemstone": "None",
+        "ratingScore": 4.6,
+        "location": {
+          "latitude": 37.7749,
+          "longitude": -122.4194
+        },
+        "messages": [
+          {
+            "fromUserId": 144,
+            "message": "Is the Modern Silver Ring tarnish-resistant?"
+          }
+        ],
+        "images": ["modern_silver_ring_1.jpg", "modern_silver_ring_2.jpg", "modern_silver_ring_3.jpg"],
+        "categoryId": 38
+      },
+      {
+        "id": 144,
+        "userId": 144,
+        "name": "Charm Pendant Necklace",
+        "brand": "ChicCharms",
+        "price": 49.99,
+        "material": "Gold-Plated Alloy",
+        "color": "Rose Gold",
+        "weight": "3.2g",
+        "length": "20 inches",
+        "availability": true,
+        "likes": 28,
+        "dislikes": 2,
+        "views": 80,
+        "child": false,
+        "gemstone": "None",
+        "ratingScore": 4.5,
+        "location": {
+          "latitude": 37.7749,
+          "longitude": -122.4194
+        },
+        "messages": [
+          {
+            "fromUserId": 145,
+            "message": "Can I customize the Charm Pendant Necklace with initials?"
+          }
+        ],
+        "images": ["charm_pendant_necklace_1.jpg", "charm_pendant_necklace_2.jpg", "charm_pendant_necklace_3.jpg"],
+        "categoryId": 38
+      },
+      {
+        "id": 145,
+        "userId": 145,
+        "name": "Elegant Porcelain Dinner Set",
+        "brand": "FineDine",
+        "price": 149.99,
+        "material": "Porcelain",
+        "color": "White",
+        "weight": "10.5kg",
+        "pieces": 16,
+        "availability": true,
+        "likes": 35,
+        "dislikes": 2,
+        "views": 110,
+        "child": false,
+        "ratingScore": 4.9,
+        "location": {
+          "latitude": 37.7749,
+          "longitude": -122.4194
+        },
+        "messages": [
+          {
+            "fromUserId": 146,
+            "message": "Is the Elegant Porcelain Dinner Set dishwasher-safe?"
+          }
+        ],
+        "images": ["elegant_porcelain_dinner_set_1.jpg", "elegant_porcelain_dinner_set_2.jpg", "elegant_porcelain_dinner_set_3.jpg"],
+        "categoryId": 43
+      },
+      {
+        "id": 146,
+        "userId": 146,
+        "name": "Classic Stoneware Plates",
+        "brand": "SturdyWare",
+        "price": 79.99,
+        "material": "Stoneware",
+        "color": "Beige",
+        "weight": "7.2kg",
+        "pieces": 12,
+        "availability": true,
+        "likes": 28,
+        "dislikes": 1,
+        "views": 90,
+        "child": false,
+        "ratingScore": 4.8,
+        "location": {
+          "latitude": 37.7749,
+          "longitude": -122.4194
+        },
+        "messages": [
+          {
+            "fromUserId": 147,
+            "message": "How durable are the Classic Stoneware Plates?"
+          }
+        ],
+        "images": ["classic_stoneware_plates_1.jpg", "classic_stoneware_plates_2.jpg", "classic_stoneware_plates_3.jpg"],
+        "categoryId": 43
+      },
+      {
+        "id": 147,
+        "userId": 147,
+        "name": "Modern Square Bowl Set",
+        "brand": "SquareElegance",
+        "price": 99.99,
+        "material": "Porcelain",
+        "color": "Black",
+        "weight": "8.5kg",
+        "pieces": 8,
+        "availability": true,
+        "likes": 32,
+        "dislikes": 2,
+        "views": 100,
+        "child": false,
+        "ratingScore": 4.7,
+        "location": {
+          "latitude": 37.7749,
+          "longitude": -122.4194
+        },
+        "messages": [
+          {
+            "fromUserId": 148,
+            "message": "Can the Modern Square Bowl Set be used in the microwave?"
+          }
+        ],
+        "images": ["modern_square_bowl_set_1.jpg", "modern_square_bowl_set_2.jpg", "modern_square_bowl_set_3.jpg"],
+        "categoryId": 43
+      },
+      {
+        "id": 148,
+        "userId": 148,
+        "name": "Colorful Melamine Dinnerware",
+        "brand": "BrightWare",
+        "price": 119.99,
+        "material": "Melamine",
+        "color": "Assorted Colors",
+        "weight": "9.8kg",
+        "pieces": 12,
+        "availability": true,
+        "likes": 25,
+        "dislikes": 1,
+        "views": 80,
+        "child": false,
+        "ratingScore": 4.6,
+        "location": {
+          "latitude": 37.7749,
+          "longitude": -122.4194
+        },
+        "messages": [
+          {
+            "fromUserId": 149,
+            "message": "Is the Colorful Melamine Dinnerware suitable for outdoor use?"
+          }
+        ],
+        "images": ["colorful_melamine_dinnerware_1.jpg", "colorful_melamine_dinnerware_2.jpg", "colorful_melamine_dinnerware_3.jpg"],
+        "categoryId": 43
+      },
+      {
+        "id": 149,
+        "userId": 149,
+        "name": "Rustic Ceramic Mug Set",
+        "brand": "CozyCeramics",
+        "price": 49.99,
+        "material": "Ceramic",
+        "color": "Earth Tones",
+        "weight": "3.5kg",
+        "pieces": 4,
+        "availability": true,
+        "likes": 22,
+        "dislikes": 1,
+        "views": 70,
+        "child": false,
+        "ratingScore": 4.5,
+        "location": {
+          "latitude": 37.7749,
+          "longitude": -122.4194
+        },
+        "messages": [
+          {
+            "fromUserId": 150,
+            "message": "Are the Rustic Ceramic Mugs dishwasher-safe?"
+          }
+        ],
+        "images": ["rustic_ceramic_mug_set_1.jpg", "rustic_ceramic_mug_set_2.jpg", "rustic_ceramic_mug_set_3.jpg"],
+        "categoryId": 43
+      },
+      {
+        "id": 150,
+        "userId": 150,
+        "name": "Premium Stainless Steel Cutlery Set",
+        "brand": "SteelCraft",
+        "price": 129.99,
+        "material": "Stainless Steel",
+        "color": "Silver",
+        "weight": "6.5kg",
+        "pieces": 24,
+        "availability": true,
+        "likes": 38,
+        "dislikes": 3,
+        "views": 120,
+        "child": false,
+        "ratingScore": 4.9,
+        "location": {
+          "latitude": 37.7749,
+          "longitude": -122.4194
+        },
+        "messages": [
+          {
+            "fromUserId": 151,
+            "message": "How durable is the Premium Stainless Steel Cutlery Set?"
+          }
+        ],
+        "images": ["premium_stainless_steel_cutlery_set_1.jpg", "premium_stainless_steel_cutlery_set_2.jpg", "premium_stainless_steel_cutlery_set_3.jpg"],
+        "categoryId": 44
+      },
+      {
+        "id": 151,
+        "userId": 151,
+        "name": "Elegant Gold-plated Flatware",
+        "brand": "GoldenTouch",
+        "price": 179.99,
+        "material": "Gold-plated Stainless Steel",
+        "color": "Gold",
+        "weight": "7.8kg",
+        "pieces": 20,
+        "availability": true,
+        "likes": 42,
+        "dislikes": 2,
+        "views": 130,
+        "child": false,
+        "ratingScore": 4.8,
+        "location": {
+          "latitude": 37.7749,
+          "longitude": -122.4194
+        },
+        "messages": [
+          {
+            "fromUserId": 152,
+            "message": "Is the Elegant Gold-plated Flatware dishwasher-safe?"
+          }
+        ],
+        "images": ["elegant_gold_plated_flatware_1.jpg", "elegant_gold_plated_flatware_2.jpg", "elegant_gold_plated_flatware_3.jpg"],
+        "categoryId": 44
+      },
+      {
+        "id": 152,
+        "userId": 152,
+        "name": "Classic Silver Spoon Set",
+        "brand": "SilverElegance",
+        "price": 99.99,
+        "material": "Silver-plated Stainless Steel",
+        "color": "Silver",
+        "weight": "5.5kg",
+        "pieces": 12,
+        "availability": true,
+        "likes": 36,
+        "dislikes": 2,
+        "views": 110,
+        "child": false,
+        "ratingScore": 4.7,
+        "location": {
+          "latitude": 37.7749,
+          "longitude": -122.4194
+        },
+        "messages": [
+          {
+            "fromUserId": 153,
+            "message": "Can the Classic Silver Spoon Set be used for everyday meals?"
+          }
+        ],
+        "images": ["classic_silver_spoon_set_1.jpg", "classic_silver_spoon_set_2.jpg", "classic_silver_spoon_set_3.jpg"],
+        "categoryId": 44
+      },
+      {
+        "id": 153,
+        "userId": 153,
+        "name": "Modern Black Flatware Set",
+        "brand": "SleekDesigns",
+        "price": 119.99,
+        "material": "Black-coated Stainless Steel",
+        "color": "Black",
+        "weight": "6.2kg",
+        "pieces": 16,
+        "availability": true,
+        "likes": 40,
+        "dislikes": 3,
+        "views": 125,
+        "child": false,
+        "ratingScore": 4.6,
+        "location": {
+          "latitude": 37.7749,
+          "longitude": -122.4194
+        },
+        "messages": [
+          {
+            "fromUserId": 154,
+            "message": "Is the Modern Black Flatware Set scratch-resistant?"
+          }
+        ],
+        "images": ["modern_black_flatware_set_1.jpg", "modern_black_flatware_set_2.jpg", "modern_black_flatware_set_3.jpg"],
+        "categoryId": 44
+      },
+      {
+        "id": 154,
+        "userId": 154,
+        "name": "Vintage Brass Cutlery",
+        "brand": "RetroCraft",
+        "price": 149.99,
+        "material": "Brass",
+        "color": "Antique Brass",
+        "weight": "7.0kg",
+        "pieces": 18,
+        "availability": true,
+        "likes": 34,
+        "dislikes": 2,
+        "views": 105,
+        "child": false,
+        "ratingScore": 4.5,
+        "location": {
+          "latitude": 37.7749,
+          "longitude": -122.4194
+        },
+        "messages": [
+          {
+            "fromUserId": 155,
+            "message": "Does the Vintage Brass Cutlery tarnish over time?"
+          }
+        ],
+        "images": ["vintage_brass_cutlery_1.jpg", "vintage_brass_cutlery_2.jpg", "vintage_brass_cutlery_3.jpg"],
+        "categoryId": 44
+      },
+      {
+        "id": 155,
+        "userId": 155,
+        "name": "Rustic Wooden Handle Flatware",
+        "brand": "NatureCraft",
+        "price": 109.99,
+        "material": "Stainless Steel with Wooden Handles",
+        "color": "Silver and Brown",
+        "weight": "6.8kg",
+        "pieces": 14,
+        "availability": true,
+        "likes": 32,
+        "dislikes": 1,
+        "views": 100,
+        "child": false,
+        "ratingScore": 4.9,
+        "location": {
+          "latitude": 37.7749,
+          "longitude": -122.4194
+        },
+        "messages": [
+          {
+            "fromUserId": 156,
+            "message": "Are the handles of the Rustic Wooden Handle Flatware durable?"
+          }
+        ],
+        "images": ["rustic_wooden_handle_flatware_1.jpg", "rustic_wooden_handle_flatware_2.jpg", "rustic_wooden_handle_flatware_3.jpg"],
+        "categoryId": 44
+      },
+      {
+        "id": 156,
+        "userId": 156,
+        "name": "Contemporary Matte Black Cutlery Set",
+        "brand": "UrbanEdge",
+        "price": 139.99,
+        "material": "Stainless Steel",
+        "color": "Matte Black",
+        "weight": "7.5kg",
+        "pieces": 22,
+        "availability": true,
+        "likes": 35,
+        "dislikes": 2,
+        "views": 115,
+        "child": false,
+        "ratingScore": 4.8,
+        "location": {
+          "latitude": 37.7749,
+          "longitude": -122.4194
+        },
+        "messages": [
+          {
+            "fromUserId": 157,
+            "message": "Does the Contemporary Matte Black Cutlery Set come with a storage case?"
+          }
+        ],
+        "images": ["contemporary_matte_black_cutlery_set_1.jpg", "contemporary_matte_black_cutlery_set_2.jpg", "contemporary_matte_black_cutlery_set_3.jpg"],
+        "categoryId": 44
+      },
+      {
+        "id": 157,
+        "userId": 157,
+        "name": "Eco-Friendly Bamboo Flatware",
+        "brand": "GreenLiving",
+        "price": 89.99,
+        "material": "Bamboo",
+        "color": "Natural Wood",
+        "weight": "5.0kg",
+        "pieces": 12,
+        "availability": true,
+        "likes": 28,
+        "dislikes": 1,
+        "views": 95,
+        "child": false,
+        "ratingScore": 4.7,
+        "location": {
+          "latitude": 37.7749,
+          "longitude": -122.4194
+        },
+        "messages": [
+          {
+            "fromUserId": 158,
+            "message": "Is the Eco-Friendly Bamboo Flatware dishwasher-safe?"
+          }
+        ],
+        "images": ["eco_friendly_bamboo_flatware_1.jpg", "eco_friendly_bamboo_flatware_2.jpg", "eco_friendly_bamboo_flatware_3.jpg"],
+        "categoryId": 44
+      },
+      {
+        "id": 158,
+        "userId": 158,
+        "name": "Glamorous Rose Gold Cutlery",
+        "brand": "ChicCuisine",
+        "price": 169.99,
+        "material": "Stainless Steel with Rose Gold Plating",
+        "color": "Rose Gold",
+        "weight": "7.2kg",
+        "pieces": 18,
+        "availability": true,
+        "likes": 40,
+        "dislikes": 3,
+        "views": 110,
+        "child": false,
+        "ratingScore": 4.6,
+        "location": {
+          "latitude": 37.7749,
+          "longitude": -122.4194
+        },
+        "messages": [
+          {
+            "fromUserId": 159,
+            "message": "Can the Glamorous Rose Gold Cutlery be used for special occasions?"
+          }
+        ],
+        "images": ["glamorous_rose_gold_cutlery_1.jpg", "glamorous_rose_gold_cutlery_2.jpg", "glamorous_rose_gold_cutlery_3.jpg"],
+        "categoryId": 44
+      },
+      {
+        "id": 159,
+        "userId": 159,
+        "name": "Retro Polka Dot Flatware Set",
+        "brand": "VintageVibes",
+        "price": 99.99,
+        "material": "Stainless Steel",
+        "color": "Polka Dot Design",
+        "weight": "6.5kg",
+        "pieces": 16,
+        "availability": true,
+        "likes": 30,
+        "dislikes": 2,
+        "views": 105,
+        "child": false,
+        "ratingScore": 4.7,
+        "location": {
+          "latitude": 37.7749,
+          "longitude": -122.4194
+        },
+        "messages": [
+          {
+            "fromUserId": 160,
+            "message": "How durable is the Retro Polka Dot Flatware Set?"
+          }
+        ],
+        "images": ["retro_polka_dot_flatware_set_1.jpg", "retro_polka_dot_flatware_set_2.jpg", "retro_polka_dot_flatware_set_3.jpg"],
+        "categoryId": 44
+      },
+      {
+        "id": 160,
+        "userId": 160,
+        "name": "Compact Elliptical Trainer",
+        "brand": "FitZone",
+        "price": 349.99,
+        "color": "Black",
+        "weight": "45kg",
+        "dimensions": "120x60x150cm",
+        "availability": true,
+        "likes": 60,
+        "dislikes": 5,
+        "views": 200,
+        "child": false,
+        "ratingScore": 4.9,
+        "location": {
+          "latitude": 37.7749,
+          "longitude": -122.4194
+        },
+        "messages": [
+          {
+            "fromUserId": 161,
+            "message": "Is the Compact Elliptical Trainer suitable for small spaces?"
+          }
+        ],
+        "images": ["compact_elliptical_trainer_1.jpg", "compact_elliptical_trainer_2.jpg", "compact_elliptical_trainer_3.jpg"],
+        "categoryId": 45
+      },
+      {
+        "id": 161,
+        "userId": 161,
+        "name": "Yoga Mat with Carrying Strap",
+        "brand": "ZenMinds",
+        "price": 29.99,
+        "color": "Purple",
+        "dimensions": "183x61cm",
+        "material": "Eco-Friendly TPE",
+        "availability": true,
+        "likes": 45,
+        "dislikes": 3,
+        "views": 150,
+        "child": false,
+        "ratingScore": 4.8,
+        "location": {
+          "latitude": 37.7749,
+          "longitude": -122.4194
+        },
+        "messages": [
+          {
+            "fromUserId": 162,
+            "message": "Does the Yoga Mat with Carrying Strap provide good cushioning?"
+          }
+        ],
+        "images": ["yoga_mat_with_carrying_strap_1.jpg", "yoga_mat_with_carrying_strap_2.jpg", "yoga_mat_with_carrying_strap_3.jpg"],
+        "categoryId": 45
+      },
+      {
+        "id": 162,
+        "userId": 162,
+        "name": "Adjustable Dumbbell Set",
+        "brand": "PowerFlex",
+        "price": 149.99,
+        "color": "Black",
+        "weight": "20kg (10kg each)",
+        "material": "Cast Iron",
+        "availability": true,
+        "likes": 55,
+        "dislikes": 4,
+        "views": 180,
+        "child": false,
+        "ratingScore": 4.7,
+        "location": {
+          "latitude": 37.7749,
+          "longitude": -122.4194
+        },
+        "messages": [
+          {
+            "fromUserId": 163,
+            "message": "How easy is it to change the weight on the Adjustable Dumbbell Set?"
+          }
+        ],
+        "images": ["adjustable_dumbbell_set_1.jpg", "adjustable_dumbbell_set_2.jpg", "adjustable_dumbbell_set_3.jpg"],
+        "categoryId": 45
+      },
+      {
+        "id": 163,
+        "userId": 163,
+        "name": "Fitness Tracker Watch",
+        "brand": "ActiveLife",
+        "price": 79.99,
+        "color": "Blue",
+        "features": ["Heart Rate Monitor", "Step Counter", "Sleep Tracker"],
+        "availability": true,
+        "likes": 50,
+        "dislikes": 3,
+        "views": 170,
+        "child": false,
+        "ratingScore": 4.6,
+        "location": {
+          "latitude": 37.7749,
+          "longitude": -122.4194
+        },
+        "messages": [
+          {
+            "fromUserId": 164,
+            "message": "Is the Fitness Tracker Watch compatible with smartphones?"
+          }
+        ],
+        "images": ["fitness_tracker_watch_1.jpg", "fitness_tracker_watch_2.jpg", "fitness_tracker_watch_3.jpg"],
+        "categoryId": 45
+      },
+      {
+        "id": 164,
+        "userId": 164,
+        "name": "Home Gym Power Rack",
+        "brand": "UltimateFit",
+        "price": 499.99,
+        "color": "Silver",
+        "dimensions": "200x120x220cm",
+        "weightCapacity": "300kg",
+        "availability": true,
+        "likes": 65,
+        "dislikes": 6,
+        "views": 220,
+        "child": false,
+        "ratingScore": 4.9,
+        "location": {
+          "latitude": 37.7749,
+          "longitude": -122.4194
+        },
+        "messages": [
+          {
+            "fromUserId": 165,
+            "message": "What exercises can be done with the Home Gym Power Rack?"
+          }
+        ],
+        "images": ["home_gym_power_rack_1.jpg", "home_gym_power_rack_2.jpg", "home_gym_power_rack_3.jpg"],
+        "categoryId": 45
+      },
+      {
+        "id": 165,
+        "userId": 165,
+        "name": "Whey Protein Powder",
+        "brand": "MuscleFuel",
+        "price": 39.99,
+        "flavor": "Chocolate",
+        "size": "2 lbs",
+        "proteinContent": "24g per serving",
+        "availability": true,
+        "likes": 55,
+        "dislikes": 4,
+        "views": 180,
+        "child": false,
+        "ratingScore": 4.7,
+        "location": {
+          "latitude": 37.7749,
+          "longitude": -122.4194
+        },
+        "messages": [
+          {
+            "fromUserId": 166,
+            "message": "How many servings are in one container of Whey Protein Powder?"
+          }
+        ],
+        "images": ["whey_protein_powder_1.jpg", "whey_protein_powder_2.jpg", "whey_protein_powder_3.jpg"],
+        "categoryId": 48
+      },
+      {
+        "id": 166,
+        "userId": 166,
+        "name": "Healthy Snack Variety Pack",
+        "brand": "NourishWell",
+        "price": 19.99,
+        "contents": ["Nuts", "Dried Fruits", "Granola Bars"],
+        "size": "10-pack",
+        "availability": true,
+        "likes": 40,
+        "dislikes": 3,
+        "views": 150,
+        "child": false,
+        "ratingScore": 4.6,
+        "location": {
+          "latitude": 37.7749,
+          "longitude": -122.4194
+        },
+        "messages": [
+          {
+            "fromUserId": 167,
+            "message": "Are the snacks in the Healthy Snack Variety Pack individually packaged?"
+          }
+        ],
+        "images": ["healthy_snack_variety_pack_1.jpg", "healthy_snack_variety_pack_2.jpg", "healthy_snack_variety_pack_3.jpg"],
+        "categoryId": 48
+      },
+      {
+        "id": 167,
+        "userId": 167,
+        "name": "Organic Multivitamin Capsules",
+        "brand": "PureNature",
+        "price": 29.99,
+        "ingredients": ["Vitamins", "Minerals", "Antioxidants"],
+        "size": "120 capsules",
+        "availability": true,
+        "likes": 50,
+        "dislikes": 4,
+        "views": 170,
+        "child": false,
+        "ratingScore": 4.8,
+        "location": {
+          "latitude": 37.7749,
+          "longitude": -122.4194
+        },
+        "messages": [
+          {
+            "fromUserId": 168,
+            "message": "Are the Organic Multivitamin Capsules suitable for vegetarians?"
+          }
+        ],
+        "images": ["organic_multivitamin_capsules_1.jpg", "organic_multivitamin_capsules_2.jpg", "organic_multivitamin_capsules_3.jpg"],
+        "categoryId": 48
+      },
+      {
+        "id": 168,
+        "userId": 168,
+        "name": "Plant-Based Protein Bars",
+        "brand": "GreenFuel",
+        "price": 24.99,
+        "flavor": "Peanut Butter",
+        "size": "12 bars",
+        "proteinContent": "15g per bar",
+        "availability": true,
+        "likes": 45,
+        "dislikes": 3,
+        "views": 160,
+        "child": false,
+        "ratingScore": 4.7,
+        "location": {
+          "latitude": 37.7749,
+          "longitude": -122.4194
+        },
+        "messages": [
+          {
+            "fromUserId": 169,
+            "message": "Do the Plant-Based Protein Bars contain any artificial sweeteners?"
+          }
+        ],
+        "images": ["plant_based_protein_bars_1.jpg", "plant_based_protein_bars_2.jpg", "plant_based_protein_bars_3.jpg"],
+        "categoryId": 48
+      },
+      {
+        "id": 169,
+        "userId": 169,
+        "name": "Omega-3 Fish Oil Supplements",
+        "brand": "HealthHarbor",
+        "price": 19.99,
+        "size": "90 softgels",
+        "benefits": ["Heart Health", "Joint Support"],
+        "availability": true,
+        "likes": 35,
+        "dislikes": 2,
+        "views": 140,
+        "child": false,
+        "ratingScore": 4.5,
+        "location": {
+          "latitude": 37.7749,
+          "longitude": -122.4194
+        },
+        "messages": [
+          {
+            "fromUserId": 170,
+            "message": "How many Omega-3 Fish Oil Supplements should I take daily?"
+          }
+        ],
+        "images": ["omega_3_fish_oil_supplements_1.jpg", "omega_3_fish_oil_supplements_2.jpg", "omega_3_fish_oil_supplements_3.jpg"],
+        "categoryId": 48
+      },
+      {
+        "id": 170,
+        "userId": 170,
+        "name": "Hardshell Suitcase Set",
+        "brand": "TravelEase",
+        "price": 129.99,
+        "color": "Black",
+        "size": "20\", 24\", 28\"",
+        "material": "ABS",
+        "availability": true,
+        "likes": 45,
+        "dislikes": 3,
+        "views": 160,
+        "child": false,
+        "ratingScore": 4.7,
+        "location": {
+          "latitude": 37.7749,
+          "longitude": -122.4194
+        },
+        "messages": [
+          {
+            "fromUserId": 171,
+            "message": "Can I use the Hardshell Suitcase Set for international travel?"
+          }
+        ],
+        "images": ["hardshell_suitcase_set_1.jpg", "hardshell_suitcase_set_2.jpg", "hardshell_suitcase_set_3.jpg"],
+        "categoryId": 51
+      },
+      {
+        "id": 171,
+        "userId": 171,
+        "name": "Convertible Backpack",
+        "brand": "AdventureGear",
+        "price": 79.99,
+        "color": "Gray",
+        "size": "30L",
+        "features": ["Laptop Compartment", "Water Resistant"],
+        "availability": true,
+        "likes": 40,
+        "dislikes": 2,
+        "views": 140,
+        "child": false,
+        "ratingScore": 4.6,
+        "location": {
+          "latitude": 37.7749,
+          "longitude": -122.4194
+        },
+        "messages": [
+          {
+            "fromUserId": 172,
+            "message": "Is the Convertible Backpack suitable for day hikes?"
+          }
+        ],
+        "images": ["convertible_backpack_1.jpg", "convertible_backpack_2.jpg", "convertible_backpack_3.jpg"],
+        "categoryId": 51
+      },
+      {
+        "id": 172,
+        "userId": 172,
+        "name": "Travel Duffel Bag",
+        "brand": "JetSet",
+        "price": 49.99,
+        "color": "Navy Blue",
+        "size": "50L",
+        "material": "Polyester",
+        "availability": true,
+        "likes": 35,
+        "dislikes": 2,
+        "views": 130,
+        "child": false,
+        "ratingScore": 4.5,
+        "location": {
+          "latitude": 37.7749,
+          "longitude": -122.4194
+        },
+        "messages": [
+          {
+            "fromUserId": 173,
+            "message": "Does the Travel Duffel Bag have wheels for easy transportation?"
+          }
+        ],
+        "images": ["travel_duffel_bag_1.jpg", "travel_duffel_bag_2.jpg", "travel_duffel_bag_3.jpg"],
+        "categoryId": 51
+      },
+      {
+        "id": 173,
+        "userId": 173,
+        "name": "Rolling Carry-On Luggage",
+        "brand": "VoyagePro",
+        "price": 89.99,
+        "color": "Burgundy",
+        "size": "22\"",
+        "features": ["Telescopic Handle", "360° Spinner Wheels"],
+        "availability": true,
+        "likes": 50,
+        "dislikes": 3,
+        "views": 150,
+        "child": false,
+        "ratingScore": 4.8,
+        "location": {
+          "latitude": 37.7749,
+          "longitude": -122.4194
+        },
+        "messages": [
+          {
+            "fromUserId": 174,
+            "message": "What is the warranty period for the Rolling Carry-On Luggage?"
+          }
+        ],
+        "images": ["rolling_carry_on_luggage_1.jpg", "rolling_carry_on_luggage_2.jpg", "rolling_carry_on_luggage_3.jpg"],
+        "categoryId": 51
+      },
+      {
+        "id": 174,
+        "userId": 174,
+        "name": "Compact Travel Pillow",
+        "brand": "RestEasy",
+        "price": 14.99,
+        "color": "Blue",
+        "material": "Memory Foam",
+        "availability": true,
+        "likes": 30,
+        "dislikes": 2,
+        "views": 120,
+        "child": false,
+        "ratingScore": 4.4,
+        "location": {
+          "latitude": 37.7749,
+          "longitude": -122.4194
+        },
+        "messages": [
+          {
+            "fromUserId": 175,
+            "message": "Can the Compact Travel Pillow be used for neck support on flights?"
+          }
+        ],
+        "images": ["compact_travel_pillow_1.jpg", "compact_travel_pillow_2.jpg", "compact_travel_pillow_3.jpg"],
+        "categoryId": 51
+      },
+      {
+        "id": 175,
+        "userId": 175,
+        "name": "4-Person Camping Tent",
+        "brand": "WildernessGear",
+        "price": 159.99,
+        "color": "Green",
+        "size": "4-Person",
+        "features": ["Waterproof", "Easy Setup"],
+        "availability": true,
+        "likes": 60,
+        "dislikes": 5,
+        "views": 180,
+        "child": false,
+        "ratingScore": 4.9,
+        "location": {
+          "latitude": 37.7749,
+          "longitude": -122.4194
+        },
+        "messages": [
+          {
+            "fromUserId": 176,
+            "message": "Is the 4-Person Camping Tent suitable for all seasons?"
+          }
+        ],
+        "images": ["4_person_camping_tent_1.jpg", "4_person_camping_tent_2.jpg", "4_person_camping_tent_3.jpg"],
+        "categoryId": 54
+      },
+      {
+        "id": 176,
+        "userId": 176,
+        "name": "Hiking Backpack",
+        "brand": "SummitExplorer",
+        "price": 79.99,
+        "color": "Red",
+        "size": "40L",
+        "features": ["Hydration System Compatible", "Adjustable Straps"],
+        "availability": true,
+        "likes": 50,
+        "dislikes": 4,
+        "views": 160,
+        "child": false,
+        "ratingScore": 4.7,
+        "location": {
+          "latitude": 37.7749,
+          "longitude": -122.4194
+        },
+        "messages": [
+          {
+            "fromUserId": 177,
+            "message": "How many compartments does the Hiking Backpack have?"
+          }
+        ],
+        "images": ["hiking_backpack_1.jpg", "hiking_backpack_2.jpg", "hiking_backpack_3.jpg"],
+        "categoryId": 54
+      },
+      {
+        "id": 177,
+        "userId": 177,
+        "name": "Portable Camping Stove",
+        "brand": "TrailChef",
+        "price": 29.99,
+        "color": "Silver",
+        "fuelType": "Butane",
+        "availability": true,
+        "likes": 45,
+        "dislikes": 3,
+        "views": 150,
+        "child": false,
+        "ratingScore": 4.6,
+        "location": {
+          "latitude": 37.7749,
+          "longitude": -122.4194
+        },
+        "messages": [
+          {
+            "fromUserId": 178,
+            "message": "Is the Portable Camping Stove suitable for high-altitude camping?"
+          }
+        ],
+        "images": ["portable_camping_stove_1.jpg", "portable_camping_stove_2.jpg", "portable_camping_stove_3.jpg"],
+        "categoryId": 54
+      },
+      {
+        "id": 178,
+        "userId": 178,
+        "name": "Insulated Hiking Boots",
+        "brand": "SummitFootwear",
+        "price": 89.99,
+        "color": "Brown",
+        "size": "Men's 9",
+        "features": ["Waterproof", "Thinsulate Insulation"],
+        "availability": true,
+        "likes": 55,
+        "dislikes": 4,
+        "views": 170,
+        "child": false,
+        "ratingScore": 4.8,
+        "location": {
+          "latitude": 37.7749,
+          "longitude": -122.4194
+        },
+        "messages": [
+          {
+            "fromUserId": 179,
+            "message": "Are the Insulated Hiking Boots suitable for snow hiking?"
+          }
+        ],
+        "images": ["insulated_hiking_boots_1.jpg", "insulated_hiking_boots_2.jpg", "insulated_hiking_boots_3.jpg"],
+        "categoryId": 54
+      },
+      {
+        "id": 179,
+        "userId": 179,
+        "name": "Compact Sleeping Bag",
+        "brand": "TrailDreams",
+        "price": 39.99,
+        "color": "Blue",
+        "temperatureRating": "20°F",
+        "size": "Regular",
+        "availability": true,
+        "likes": 40,
+        "dislikes": 3,
+        "views": 140,
+        "child": false,
+        "ratingScore": 4.5,
+        "location": {
+          "latitude": 37.7749,
+          "longitude": -122.4194
+        },
+        "messages": [
+          {
+            "fromUserId": 180,
+            "message": "How compact is the Compact Sleeping Bag when packed?"
+          }
+        ],
+        "images": ["compact_sleeping_bag_1.jpg", "compact_sleeping_bag_2.jpg", "compact_sleeping_bag_3.jpg"],
+        "categoryId": 54
+      },
+      {
+        "id": 180,
+        "userId": 180,
+        "name": "Modern Coffee Table",
+        "brand": "UrbanLiving",
+        "price": 149.99,
+        "color": "Walnut",
+        "material": "Wood",
+        "availability": true,
+        "likes": 70,
+        "dislikes": 8,
+        "views": 220,
+        "child": false,
+        "ratingScore": 4.9,
+        "location": {
+          "latitude": 37.7749,
+          "longitude": -122.4194
+        },
+        "messages": [
+          {
+            "fromUserId": 181,
+            "message": "What are the dimensions of the Modern Coffee Table?"
+          }
+        ],
+        "images": ["modern_coffee_table_1.jpg", "modern_coffee_table_2.jpg", "modern_coffee_table_3.jpg"],
+        "categoryId": 27
+      },
+      {
+        "id": 181,
+        "userId": 181,
+        "name": "L-shaped Sectional Sofa",
+        "brand": "CozyNook",
+        "price": 699.99,
+        "color": "Gray",
+        "material": "Fabric",
+        "availability": true,
+        "likes": 80,
+        "dislikes": 7,
+        "views": 240,
+        "child": false,
+        "ratingScore": 4.8,
+        "location": {
+          "latitude": 37.7749,
+          "longitude": -122.4194
+        },
+        "messages": [
+          {
+            "fromUserId": 182,
+            "message": "Is the L-shaped Sectional Sofa customizable in terms of color?"
+          }
+        ],
+        "images": ["l_shaped_sectional_sofa_1.jpg", "l_shaped_sectional_sofa_2.jpg", "l_shaped_sectional_sofa_3.jpg"],
+        "categoryId": 27
+      },
+      {
+        "id": 182,
+        "userId": 182,
+        "name": "Queen Size Bed Frame",
+        "brand": "DreamSleep",
+        "price": 299.99,
+        "color": "Black",
+        "material": "Metal",
+        "availability": true,
+        "likes": 65,
+        "dislikes": 6,
+        "views": 200,
+        "child": false,
+        "ratingScore": 4.7,
+        "location": {
+          "latitude": 37.7749,
+          "longitude": -122.4194
+        },
+        "messages": [
+          {
+            "fromUserId": 183,
+            "message": "Does the Queen Size Bed Frame come with a mattress?"
+          }
+        ],
+        "images": ["queen_size_bed_frame_1.jpg", "queen_size_bed_frame_2.jpg", "queen_size_bed_frame_3.jpg"],
+        "categoryId": 27
+      },
+      {
+        "id": 183,
+        "userId": 183,
+        "name": "Office Desk",
+        "brand": "WorkSmart",
+        "price": 129.99,
+        "color": "White",
+        "material": "Particle Board",
+        "availability": true,
+        "likes": 60,
+        "dislikes": 5,
+        "views": 180,
+        "child": false,
+        "ratingScore": 4.6,
+        "location": {
+          "latitude": 37.7749,
+          "longitude": -122.4194
+        },
+        "messages": [
+          {
+            "fromUserId": 184,
+            "message": "Can the Office Desk fit two monitors comfortably?"
+          }
+        ],
+        "images": ["office_desk_1.jpg", "office_desk_2.jpg", "office_desk_3.jpg"],
+        "categoryId": 27
+      },
+      {
+        "id": 184,
+        "userId": 184,
+        "name": "Wall-Mounted Floating Shelves",
+        "brand": "HomeHarmony",
+        "price": 39.99,
+        "color": "Espresso",
+        "material": "Wood",
+        "availability": true,
+        "likes": 55,
+        "dislikes": 4,
+        "views": 160,
+        "child": false,
+        "ratingScore": 4.5,
+        "location": {
+          "latitude": 37.7749,
+          "longitude": -122.4194
+        },
+        "messages": [
+          {
+            "fromUserId": 185,
+            "message": "How many shelves are included in the Wall-Mounted Floating Shelves set?"
+          }
+        ],
+        "images": ["wall_mounted_shelves_1.jpg", "wall_mounted_shelves_2.jpg", "wall_mounted_shelves_3.jpg"],
+        "categoryId": 27
+      },
+      {
+        "id": 185,
+        "userId": 185,
+        "name": "Abstract Canvas Wall Art",
+        "brand": "ArtVibes",
+        "price": 89.99,
+        "color": "Multi-color",
+        "material": "Canvas",
+        "availability": true,
+        "likes": 55,
+        "dislikes": 4,
+        "views": 160,
+        "child": false,
+        "ratingScore": 4.5,
+        "location": {
+          "latitude": 37.7749,
+          "longitude": -122.4194
+        },
+        "messages": [
+          {
+            "fromUserId": 186,
+            "message": "What are the dimensions of the Abstract Canvas Wall Art?"
+          }
+        ],
+        "images": ["abstract_canvas_art_1.jpg", "abstract_canvas_art_2.jpg", "abstract_canvas_art_3.jpg"],
+        "categoryId": 31
+      },
+      {
+        "id": 186,
+        "userId": 186,
+        "name": "Scented Soy Wax Candles",
+        "brand": "AromaBliss",
+        "price": 19.99,
+        "scent": "Lavender",
+        "material": "Soy Wax",
+        "availability": true,
+        "likes": 45,
+        "dislikes": 3,
+        "views": 130,
+        "child": false,
+        "ratingScore": 4.4,
+        "location": {
+          "latitude": 37.7749,
+          "longitude": -122.4194
+        },
+        "messages": [
+          {
+            "fromUserId": 187,
+            "message": "How long does the scent of the Scented Soy Wax Candles last?"
+          }
+        ],
+        "images": ["scented_soy_wax_candles_1.jpg", "scented_soy_wax_candles_2.jpg", "scented_soy_wax_candles_3.jpg"],
+        "categoryId": 31
+      },
+      {
+        "id": 187,
+        "userId": 187,
+        "name": "Metallic Geometric Wall Decor",
+        "brand": "MetalCraft",
+        "price": 49.99,
+        "color": "Gold",
+        "material": "Metal",
+        "availability": true,
+        "likes": 50,
+        "dislikes": 3,
+        "views": 150,
+        "child": false,
+        "ratingScore": 4.3,
+        "location": {
+          "latitude": 37.7749,
+          "longitude": -122.4194
+        },
+        "messages": [
+          {
+            "fromUserId": 188,
+            "message": "Can the Metallic Geometric Wall Decor be easily mounted on any wall?"
+          }
+        ],
+        "images": ["metallic_geometric_wall_decor_1.jpg", "metallic_geometric_wall_decor_2.jpg", "metallic_geometric_wall_decor_3.jpg"],
+        "categoryId": 31
+      },
+      {
+        "id": 188,
+        "userId": 188,
+        "name": "Minimalist Ceramic Vases",
+        "brand": "EleganceInClay",
+        "price": 29.99,
+        "color": "White",
+        "material": "Ceramic",
+        "availability": true,
+        "likes": 40,
+        "dislikes": 2,
+        "views": 120,
+        "child": false,
+        "ratingScore": 4.2,
+        "location": {
+          "latitude": 37.7749,
+          "longitude": -122.4194
+        },
+        "messages": [
+          {
+            "fromUserId": 189,
+            "message": "How many vases are included in the Minimalist Ceramic Vases set?"
+          }
+        ],
+        "images": ["minimalist_ceramic_vases_1.jpg", "minimalist_ceramic_vases_2.jpg", "minimalist_ceramic_vases_3.jpg"],
+        "categoryId": 31
+      },
+      {
+        "id": 189,
+        "userId": 189,
+        "name": "Wooden Floating Shelves",
+        "brand": "RusticCharm",
+        "price": 34.99,
+        "color": "Brown",
+        "material": "Wood",
+        "availability": true,
+        "likes": 35,
+        "dislikes": 2,
+        "views": 110,
+        "child": false,
+        "ratingScore": 4.1,
+        "location": {
+          "latitude": 37.7749,
+          "longitude": -122.4194
+        },
+        "messages": [
+          {
+            "fromUserId": 190,
+            "message": "What is the weight capacity of the Wooden Floating Shelves?"
+          }
+        ],
+        "images": ["wooden_floating_shelves_1.jpg", "wooden_floating_shelves_2.jpg", "wooden_floating_shelves_3.jpg"],
+        "categoryId": 31
+      },
+      {
+        "id": 190,
+        "userId": 190,
+        "name": "Velvet Throw Pillows",
+        "brand": "LuxuryComfort",
+        "price": 24.99,
+        "color": "Burgundy",
+        "material": "Velvet",
+        "availability": true,
+        "likes": 30,
+        "dislikes": 2,
+        "views": 100,
+        "child": false,
+        "ratingScore": 4.0,
+        "location": {
+          "latitude": 37.7749,
+          "longitude": -122.4194
+        },
+        "messages": [
+          {
+            "fromUserId": 191,
+            "message": "Are the Velvet Throw Pillows machine washable?"
+          }
+        ],
+        "images": ["velvet_throw_pillows_1.jpg", "velvet_throw_pillows_2.jpg", "velvet_throw_pillows_3.jpg"],
+        "categoryId": 31
+      },
+      {
+        "id": 191,
+        "userId": 191,
+        "name": "Modern Glass Vase Set",
+        "brand": "CrystalClear",
+        "price": 39.99,
+        "color": "Transparent",
+        "material": "Glass",
+        "availability": true,
+        "likes": 25,
+        "dislikes": 2,
+        "views": 90,
+        "child": false,
+        "ratingScore": 3.9,
+        "location": {
+          "latitude": 37.7749,
+          "longitude": -122.4194
+        },
+        "messages": [
+          {
+            "fromUserId": 192,
+            "message": "How many vases are included in the Modern Glass Vase Set?"
+          }
+        ],
+        "images": ["modern_glass_vase_set_1.jpg", "modern_glass_vase_set_2.jpg", "modern_glass_vase_set_3.jpg"],
+        "categoryId": 31
+      },
+      {
+        "id": 192,
+        "userId": 192,
+        "name": "LED Strip Lights",
+        "brand": "AmbianceGlow",
+        "price": 29.99,
+        "color": "RGB",
+        "material": "Plastic",
+        "availability": true,
+        "likes": 20,
+        "dislikes": 1,
+        "views": 80,
+        "child": false,
+        "ratingScore": 3.8,
+        "location": {
+          "latitude": 37.7749,
+          "longitude": -122.4194
+        },
+        "messages": [
+          {
+            "fromUserId": 193,
+            "message": "Do the LED Strip Lights come with a remote control?"
+          }
+        ],
+        "images": ["led_strip_lights_1.jpg", "led_strip_lights_2.jpg", "led_strip_lights_3.jpg"],
+        "categoryId": 31
+      },
+      {
+        "id": 193,
+        "userId": 193,
+        "name": "Rustic Wooden Clock",
+        "brand": "TimelessCraft",
+        "price": 44.99,
+        "color": "Natural Wood",
+        "material": "Wood",
+        "availability": true,
+        "likes": 15,
+        "dislikes": 1,
+        "views": 70,
+        "child": false,
+        "ratingScore": 3.7,
+        "location": {
+          "latitude": 37.7749,
+          "longitude": -122.4194
+        },
+        "messages": [
+          {
+            "fromUserId": 194,
+            "message": "What type of batteries does the Rustic Wooden Clock require?"
+          }
+        ],
+        "images": ["rustic_wooden_clock_1.jpg", "rustic_wooden_clock_2.jpg", "rustic_wooden_clock_3.jpg"],
+        "categoryId": 31
+      },
+      {
+        "id": 194,
+        "userId": 194,
+        "name": "Ceramic Elephant Figurines",
+        "brand": "ArtisticElegance",
+        "price": 19.99,
+        "color": "White",
+        "material": "Ceramic",
+        "availability": true,
+        "likes": 10,
+        "dislikes": 1,
+        "views": 60,
+        "child": false,
+        "ratingScore": 3.6,
+        "location": {
+          "latitude": 37.7749,
+          "longitude": -122.4194
+        },
+        "messages": [
+          {
+            "fromUserId": 195,
+            "message": "Are the Ceramic Elephant Figurines suitable for outdoor use?"
+          }
+        ],
+        "images": ["ceramic_elephant_figurines_1.jpg", "ceramic_elephant_figurines_2.jpg", "ceramic_elephant_figurines_3.jpg"],
+        "categoryId": 31
+      },
+      {
+        "id": 195,
+        "userId": 195,
+        "name": "Non-Stick Fry Pan",
+        "brand": "KitchenMaster",
+        "price": 34.99,
+        "color": "Black",
+        "material": "Aluminum",
+        "availability": true,
+        "likes": 25,
+        "dislikes": 2,
+        "views": 110,
+        "child": false,
+        "ratingScore": 4.1,
+        "location": {
+          "latitude": 37.7749,
+          "longitude": -122.4194
+        },
+        "messages": [
+          {
+            "fromUserId": 196,
+            "message": "Is the Non-Stick Fry Pan suitable for induction cooktops?"
+          }
+        ],
+        "images": ["non_stick_fry_pan_1.jpg", "non_stick_fry_pan_2.jpg", "non_stick_fry_pan_3.jpg"],
+        "categoryId": 39
+      },
+      {
+        "id": 196,
+        "userId": 196,
+        "name": "Stainless Steel Cooking Utensil Set",
+        "brand": "EliteCuisine",
+        "price": 49.99,
+        "color": "Silver",
+        "material": "Stainless Steel",
+        "availability": true,
+        "likes": 20,
+        "dislikes": 1,
+        "views": 100,
+        "child": false,
+        "ratingScore": 4.0,
+        "location": {
+          "latitude": 37.7749,
+          "longitude": -122.4194
+        },
+        "messages": [
+          {
+            "fromUserId": 197,
+            "message": "How many pieces are included in the Stainless Steel Cooking Utensil Set?"
+          }
+        ],
+        "images": ["stainless_steel_cooking_utensil_set_1.jpg", "stainless_steel_cooking_utensil_set_2.jpg", "stainless_steel_cooking_utensil_set_3.jpg"],
+        "categoryId": 39
+      },
+      {
+        "id": 197,
+        "userId": 197,
+        "name": "Cast Iron Dutch Oven",
+        "brand": "RusticKitchen",
+        "price": 79.99,
+        "color": "Red",
+        "material": "Cast Iron",
+        "availability": true,
+        "likes": 15,
+        "dislikes": 1,
+        "views": 90,
+        "child": false,
+        "ratingScore": 3.8,
+        "location": {
+          "latitude": 37.7749,
+          "longitude": -122.4194
+        },
+        "messages": [
+          {
+            "fromUserId": 198,
+            "message": "Does the Cast Iron Dutch Oven come pre-seasoned?"
+          }
+        ],
+        "images": ["cast_iron_dutch_oven_1.jpg", "cast_iron_dutch_oven_2.jpg", "cast_iron_dutch_oven_3.jpg"],
+        "categoryId": 39
+      },
+      {
+        "id": 198,
+        "userId": 198,
+        "name": "Porcelain Dinnerware Set",
+        "brand": "ClassicTableware",
+        "price": 59.99,
+        "color": "White",
+        "material": "Porcelain",
+        "availability": true,
+        "likes": 10,
+        "dislikes": 1,
+        "views": 80,
+        "child": false,
+        "ratingScore": 3.7,
+        "location": {
+          "latitude": 37.7749,
+          "longitude": -122.4194
+        },
+        "messages": [
+          {
+            "fromUserId": 199,
+            "message": "Are the plates in the Porcelain Dinnerware Set microwave-safe?"
+          }
+        ],
+        "images": ["porcelain_dinnerware_set_1.jpg", "porcelain_dinnerware_set_2.jpg", "porcelain_dinnerware_set_3.jpg"],
+        "categoryId": 39
+      },
+      {
+        "id": 199,
+        "userId": 199,
+        "name": "Silicone Baking Mats",
+        "brand": "BakeMaster",
+        "price": 19.99,
+        "color": "Assorted",
+        "material": "Silicone",
+        "availability": true,
+        "likes": 5,
+        "dislikes": 1,
+        "views": 70,
+        "child": false,
+        "ratingScore": 3.5,
+        "location": {
+          "latitude": 37.7749,
+          "longitude": -122.4194
+        },
+        "messages": [
+          {
+            "fromUserId": 200,
+            "message": "Can the Silicone Baking Mats be used in the oven at high temperatures?"
+          }
+        ],
+        "images": ["silicone_baking_mats_1.jpg", "silicone_baking_mats_2.jpg", "silicone_baking_mats_3.jpg"],
+        "categoryId": 39
+      },
+      {
+        "id": 200,
+        "userId": 200,
+        "name": "Modern Dinnerware Set",
+        "brand": "TrendyTable",
+        "price": 69.99,
+        "color": "Gray",
+        "material": "Stoneware",
+        "availability": true,
+        "likes": 18,
+        "dislikes": 1,
+        "views": 80,
+        "child": false,
+        "ratingScore": 3.9,
+        "location": {
+          "latitude": 37.7749,
+          "longitude": -122.4194
+        },
+        "messages": [
+          {
+            "fromUserId": 201,
+            "message": "Is the Modern Dinnerware Set dishwasher-safe?"
+          }
+        ],
+        "images": ["modern_dinnerware_set_1.jpg", "modern_dinnerware_set_2.jpg", "modern_dinnerware_set_3.jpg"],
+        "categoryId": 42
+      },
+      {
+        "id": 201,
+        "userId": 201,
+        "name": "Elegant Flatware Set",
+        "brand": "LuxuryCutlery",
+        "price": 49.99,
+        "color": "Silver",
+        "material": "Stainless Steel",
+        "availability": true,
+        "likes": 15,
+        "dislikes": 1,
+        "views": 70,
+        "child": false,
+        "ratingScore": 3.8,
+        "location": {
+          "latitude": 37.7749,
+          "longitude": -122.4194
+        },
+        "messages": [
+          {
+            "fromUserId": 202,
+            "message": "How many pieces are included in the Elegant Flatware Set?"
+          }
+        ],
+        "images": ["elegant_flatware_set_1.jpg", "elegant_flatware_set_2.jpg", "elegant_flatware_set_3.jpg"],
+        "categoryId": 42
+      },
+      {
+        "id": 202,
+        "userId": 202,
+        "name": "Glass Drinkware Set",
+        "brand": "CrystalClear",
+        "price": 29.99,
+        "color": "Clear",
+        "material": "Glass",
+        "availability": true,
+        "likes": 12,
+        "dislikes": 1,
+        "views": 60,
+        "child": false,
+        "ratingScore": 3.7,
+        "location": {
+          "latitude": 37.7749,
+          "longitude": -122.4194
+        },
+        "messages": [
+          {
+            "fromUserId": 203,
+            "message": "Are the glasses in the Glass Drinkware Set suitable for hot beverages?"
+          }
+        ],
+        "images": ["glass_drinkware_set_1.jpg", "glass_drinkware_set_2.jpg", "glass_drinkware_set_3.jpg"],
+        "categoryId": 42
+      },
+      {
+        "id": 203,
+        "userId": 203,
+        "name": "Ceramic Salad Bowl Set",
+        "brand": "NatureInspired",
+        "price": 39.99,
+        "color": "White",
+        "material": "Ceramic",
+        "availability": true,
+        "likes": 10,
+        "dislikes": 1,
+        "views": 50,
+        "child": false,
+        "ratingScore": 3.5,
+        "location": {
+          "latitude": 37.7749,
+          "longitude": -122.4194
+        },
+        "messages": [
+          {
+            "fromUserId": 204,
+            "message": "Can the Ceramic Salad Bowl Set be used in the microwave?"
+          }
+        ],
+        "images": ["ceramic_salad_bowl_set_1.jpg", "ceramic_salad_bowl_set_2.jpg", "ceramic_salad_bowl_set_3.jpg"],
+        "categoryId": 42
+      },
+      {
+        "id": 204,
+        "userId": 204,
+        "name": "Bamboo Cutlery Set",
+        "brand": "EcoFriendlyLiving",
+        "price": 24.99,
+        "color": "Natural",
+        "material": "Bamboo",
+        "availability": true,
+        "likes": 8,
+        "dislikes": 1,
+        "views": 40,
+        "child": false,
+        "ratingScore": 3.3,
+        "location": {
+          "latitude": 37.7749,
+          "longitude": -122.4194
+        },
+        "messages": [
+          {
+            "fromUserId": 205,
+            "message": "Is the Bamboo Cutlery Set durable and long-lasting?"
+          }
+        ],
+        "images": ["bamboo_cutlery_set_1.jpg", "bamboo_cutlery_set_2.jpg", "bamboo_cutlery_set_3.jpg"],
+        "categoryId": 42
+      }
+    ]
+  }

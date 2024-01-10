@@ -1,0 +1,44 @@
+.category {
+    position: relative;
+    padding: 10px;
+    border: 1px solid #ccc;
+    background-color: #f9f9f9;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: .2s;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  
+  .category-image {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-size: 80px;
+    background-position: right bottom;
+    background-repeat: no-repeat;
+  }
+
+  .mat-icon{
+    position: absolute;
+    right: 15px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: white;
+    background: #9ed1ffcc;
+    border-radius: 50%;
+  }
+  .active{
+    background-color: #e1daf9;
+  }
+  ::ng-deep.mat-typography h3{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    font-family: Roboto, sans-serif;
+    letter-spacing: .009375em;
+    margin: 0 0 0px;
+ }

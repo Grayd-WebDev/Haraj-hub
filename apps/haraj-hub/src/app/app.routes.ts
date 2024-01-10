@@ -13,5 +13,9 @@ export const appRoutes: Route[] = [
     {
         path: 'users',
         loadComponent: ()=>import('@org/page-users').then((c)=> c.PageUsersComponent),        
+    },
+    {
+        path: 'products',
+        loadComponent: ()=>import('@org/page-products').then((c)=> c.PageProductsComponent),        
     }
 ];

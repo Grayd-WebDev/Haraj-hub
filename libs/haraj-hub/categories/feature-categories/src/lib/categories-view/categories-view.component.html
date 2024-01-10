@@ -1,0 +1,13 @@
+<div class="categories-grid__outer" *ngIf="categoriesLoaded">
+  <div class="categories-grid__tabs">
+    <ng-container *ngFor="let category of categories">
+      <hh-categories-view-parent (categorySelectedEmitter)="handleEmitter($event)" [category]="category"></hh-categories-view-parent>
+    </ng-container>
+  </div>
+  <div class="categories-grid__content">
+    <ng-container *ngrxLet="hoveredCategory$ as hoveredCategory">
+      <hh-categories-view-child  [category]="hoveredCategory"></hh-categories-view-child>
+    </ng-container>
+  </div>
+</div>
+<h1 *ngIf="!categoriesLoaded">Loading...</h1>

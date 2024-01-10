@@ -21,7 +21,9 @@
         "tsConfig": "apps/haraj-hub/tsconfig.app.json",
         "assets": [
           "apps/haraj-hub/src/favicon.ico",
-          "apps/haraj-hub/src/assets"
+          "apps/haraj-hub/src/assets",
+          "apps/haraj-hub/src/assets/images/categories",
+          "apps/haraj-hub/src/assets/mockData.json"
         ],
         "styles": [
           "@angular/material/prebuilt-themes/indigo-pink.css",

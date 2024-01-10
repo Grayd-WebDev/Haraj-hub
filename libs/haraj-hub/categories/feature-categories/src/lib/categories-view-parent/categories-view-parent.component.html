@@ -1,0 +1,7 @@
+<div class="category" (mouseover)="onMouseOver()" (mouseleave)="onMouseLeave()" [class.active]="isActive">
+    <h3>{{ category.name }}</h3>
+    <div class="category-image" [style.backgroundImage]="'url(/assets/images/categories/' + category.image + ')'"></div>
+    <mat-icon>
+       chevron_right
+      </mat-icon>
+</div>

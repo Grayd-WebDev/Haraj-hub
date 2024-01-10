@@ -37,8 +37,12 @@ const reducer = createReducer(
     loaded: false,
     error: null,
   })),
-  on(UsersActions.loadUsersSuccess, (state, { users }) =>
-    usersAdapter.setAll(users, { ...state, loaded: true })
+  on(UsersActions.loadUsersSuccess, (state, { users }) =>{
+    console.log("USERS_REDUCER", users);
+    
+    return usersAdapter.setAll(users, { ...state, loaded: true });
+  }
+    
   ),
   on(UsersActions.loadUsersFailure, (state, { error }) => ({ ...state, error })),
   on(UsersActions.updateSearchFilter, (state,  { searchFilter }) => {

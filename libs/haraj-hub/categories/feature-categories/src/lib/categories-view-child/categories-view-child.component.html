@@ -1,0 +1,11 @@
+<a href="#{{ category.name }}">
+<div class="subcategory" [class.nestedView]="!(category.subcategories.length > 0)">
+    <span>{{ category.name }}<mat-icon>
+      chevron_right
+     </mat-icon></span>
+    <ng-container *ngIf="category.subcategories && category.subcategories.length > 0">
+      <div class="subcategories nestedSubs">
+        <hh-categories-view-child *ngFor="let subcategory of category.subcategories" [category]="subcategory"></hh-categories-view-child>
+      </div>
+    </ng-container>
+</div></a>

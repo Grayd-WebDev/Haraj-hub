@@ -1,13 +1,13 @@
-import { selectSearchFilter, updateSearchFilter } from '@org/users-data-access';
+import {  updateSearchFilter } from '@org/users-data-access';
 import { ChangeDetectionStrategy, Component, OnInit, inject } from '@angular/core';
 import { CommonModule, NgIf } from '@angular/common';
 import { FormControl, FormsModule, ReactiveFormsModule } from '@angular/forms';
-import { select, Store } from '@ngrx/store';
+import {  Store } from '@ngrx/store';
 import { MatButtonModule } from '@angular/material/button';
 import {MatInputModule} from '@angular/material/input';
 import {MatFormFieldModule} from '@angular/material/form-field';
 import {MatIconModule} from '@angular/material/icon';
-
+import {MatTabsModule} from '@angular/material/tabs';
 @Component({
   selector: 'hh-feature-users-search',
   standalone: true,

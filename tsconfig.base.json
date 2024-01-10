@@ -16,14 +16,22 @@
     "baseUrl": ".",
     "paths": {
       "@org/data-access": ["libs/haraj-hub/data-access/src/index.ts"],
+      "@org/feature-categories": [
+        "libs/haraj-hub/categories/feature-categories/src/index.ts"
+      ],
+      "@org/feature-timer": ["libs/haraj-hub/core/src/index.ts"],
       "@org/feature-users-list": [
         "libs/haraj-hub/feature-users-list/src/index.ts"
       ],
       "@org/feature-users-search": [
         "libs/haraj-hub/feature-users-search/src/index.ts"
       ],
+      "@org/hh-categories-data-access": [
+        "libs/haraj-hub/categories/data-access/src/index.ts"
+      ],
       "@org/layout": ["libs/haraj-hub/core/ui/layout/src/index.ts"],
       "@org/page-home": ["libs/haraj-hub/pages/home/src/index.ts"],
+      "@org/page-products": ["libs/haraj-hub/pages/products/src/index.ts"],
       "@org/page-users": ["libs/haraj-hub/pages/users/src/index.ts"],
       "@org/users-data-access": [
         "libs/haraj-hub/feature-users-list/src/lib/data-access/src/index.ts"

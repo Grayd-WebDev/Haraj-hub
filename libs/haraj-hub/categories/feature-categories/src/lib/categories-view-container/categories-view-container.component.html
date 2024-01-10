@@ -1,0 +1,9 @@
+<ng-container *ngrxLet="{
+  categories: categories$,
+  categoriesLoaded: categoriesLoaded$
+} as vm">
+  <button mat-raised-button color="accent" [mat-menu-trigger-for]="themeMenu" (click)="onOpenCategories()"><mat-icon>tune</mat-icon> categories</button>
+  <mat-menu #themeMenu="matMenu" xPosition="before" class="theme-menu">
+    <hh-categories-view (click)="$event.stopPropagation();" [categories]="vm.categories" [categoriesLoaded]="vm.categoriesLoaded"></hh-categories-view>
+  </mat-menu>
+</ng-container>

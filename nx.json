@@ -49,10 +49,15 @@
     },
     "@nx/angular:library": {
       "linter": "eslint",
-      "unitTestRunner": "jest"
+      "unitTestRunner": "jest",
+      "style": "scss",
+      "standalone": true,
+      "changeDetection": "OnPush"
     },
     "@nx/angular:component": {
-      "style": "scss"
+      "style": "scss",
+      "standalone": true,
+      "changeDetection": "OnPush"
     }
   }
 }
