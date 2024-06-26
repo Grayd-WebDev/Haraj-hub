@@ -1,0 +1,7 @@
+<ng-container *ngrxLet="{products: products$} as vm">
+    <div class="products-container">
+        <ng-container *ngFor="let product of vm.products">
+            <org-products-card [product]="product" class="product"/>
+        </ng-container>
+    </div>
+</ng-container>

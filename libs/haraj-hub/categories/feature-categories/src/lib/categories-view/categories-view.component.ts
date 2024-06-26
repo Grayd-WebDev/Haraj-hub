@@ -8,6 +8,7 @@ import { CategoriesViewParentComponent } from '../categories-view-parent/categor
 import { CategoriesViewChildComponent } from '../categories-view-child/categories-view-child.component';
 import { BehaviorSubject, Observable, Subject, of, switchMap } from "rxjs";
 import { LetDirective } from '@ngrx/component';
+import { RouterModule } from '@angular/router';
 
 @Component({
   selector: 'hh-categories-view',
@@ -19,7 +20,7 @@ import { LetDirective } from '@ngrx/component';
 })
 export class CategoriesViewComponent{
   @Input({required:true}) categories!: CategoryVM[];
-  @Input({required:true}) categoriesLoaded?: boolean;
+  @Input({required:true}) categoriesLoaded!: boolean;
   private hoveredCategoryId$ = new Subject<number>();
   public hoveredCategory$ = new BehaviorSubject<CategoryVM>({} as CategoryVM);
 
@@ -42,13 +43,13 @@ export class CategoriesViewComponent{
       });
   }
 
-  handleEmitter(categoryId: number){
+  public handleEmitter(categoryId: number){
     this.hoveredCategoryId$.next(categoryId);
   }
   
   ngOnDestroy() {
-    this.hoveredCategoryId$.complete();
-    this.hoveredCategory$.complete();
+    this.hoveredCategoryId$.unsubscribe();
+    this.hoveredCategory$.unsubscribe();
   }
 
   constructor() {

@@ -1,5 +1,5 @@
-<a href="#{{ category.name }}">
-<div class="subcategory" [class.nestedView]="!(category.subcategories.length > 0)">
+<a href="#{{ category.name }}" [routerLink]="['/products', category.id]">
+  <div [ngClass]="{'subcategory': category.parentCategoryId !== null, 'parentCategory': category.parentCategoryId === null}">
     <span>{{ category.name }}<mat-icon>
       chevron_right
      </mat-icon></span>

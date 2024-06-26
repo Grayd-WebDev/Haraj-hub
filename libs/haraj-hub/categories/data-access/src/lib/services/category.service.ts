@@ -6,7 +6,7 @@ import { CategoryVM } from '../+state/categories.models';
 
 @Injectable({
   providedIn: 'root',
-}) 
+})  
 export class CategoryService {
   private mockDataUrl = '/assets/mockData.json';
   private http = inject(HttpClient);

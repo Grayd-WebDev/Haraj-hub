@@ -1,0 +1,25 @@
+<div class="rating">
+    <ng-container *ngFor="let ratingItem of [1, 2, 3, 4, 5]">
+        <ng-container>
+            <button
+                (click)="onRated(ratingItem)"
+                [style]="{cursor: !readOnly? 'pointer':'auto'}"
+                mat-icon-button color="primary" 
+                class="action-button"
+                [class.lastStar]="Math.ceil(ratingScore) === ratingItem"
+            >
+                <ng-container *ngIf="Math.floor(ratingScore) + 1 === ratingItem && (ratingScore % 1) !== 0; else wholeStar">
+                    <mat-icon>star_half</mat-icon>
+                </ng-container>
+                <ng-template #wholeStar>
+                    <ng-container *ngIf="ratingItem <= ratingScore; else emptyStar">
+                        <mat-icon>star</mat-icon>
+                    </ng-container>
+                    <ng-template #emptyStar>
+                        <mat-icon>star_border</mat-icon>
+                    </ng-template>
+                </ng-template>
+            </button>
+        </ng-container>
+    </ng-container>    
+</div>
