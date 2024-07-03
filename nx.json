@@ -57,12 +57,14 @@
       "unitTestRunner": "jest",
       "style": "scss",
       "standalone": true,
-      "changeDetection": "OnPush"
+      "changeDetection": "OnPush",
+      "prefix": "hh"
     },
     "@nx/angular:component": {
       "style": "scss",
       "standalone": true,
-      "changeDetection": "OnPush"
+      "changeDetection": "OnPush",
+      "prefix": "hh"
     }
   },
   "nxCloudAccessToken": "Y2UzZGI4MWQtNTRkYS00ODVjLThjMTYtNzMxOGU2Mzk4MjlkfHJlYWQtd3JpdGU=",

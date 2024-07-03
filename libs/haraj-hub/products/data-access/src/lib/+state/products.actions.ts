@@ -25,3 +25,14 @@ export const addProduct = createAction(
   props<{ product: ProductsEntity }>()
 );
 
+export const likeProduct = createAction(
+  '[Products/API] Like Product',
+  props<{id: number}>()
+);
+
+
+export const dislikeProduct = createAction(
+  '[Products/API] Dislike Product',
+  props<{id: number}>()
+);
+

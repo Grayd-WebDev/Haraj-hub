@@ -15,6 +15,9 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
+      "@org/add-favorite": ["libs/haraj-hub/add-favorite/src/index.ts"],
+      "@org/auth": ["libs/haraj-hub/services/auth.service.ts"],
+      "@org/auth-guard": ["libs/haraj-hub/services/auth-guard.service.ts"],
       "@org/data-access": ["libs/haraj-hub/data-access/src/index.ts"],
       "@org/feature-categories": [
         "libs/haraj-hub/categories/feature-categories/src/index.ts"
@@ -39,8 +42,11 @@
         "libs/haraj-hub/products/data-access/src/index.ts"
       ],
       "@org/layout": ["libs/haraj-hub/core/ui/layout/src/index.ts"],
+      "@org/like-dislike": ["libs/haraj-hub/like-dislike/src/index.ts"],
+      "@org/page-auth": ["libs/haraj-hub/pages/auth/src/index.ts"],
       "@org/page-home": ["libs/haraj-hub/pages/home/src/index.ts"],
       "@org/page-products": ["libs/haraj-hub/pages/products/src/index.ts"],
+      "@org/page-profile": ["libs/haraj-hub/pages/profile/src/index.ts"],
       "@org/page-users": ["libs/haraj-hub/pages/users/src/index.ts"],
       "@org/star-rating": ["libs/haraj-hub/star-rating/src/index.ts"],
       "@org/users-data-access": [

@@ -6504,5 +6504,188 @@
         "images": ["bamboo_cutlery_set_1.jpg", "bamboo_cutlery_set_2.jpg", "bamboo_cutlery_set_3.jpg"],
         "categoryId": 42
       }
-    ]
+    ],
+    "users": [
+    {
+      "id": 1,
+      "username": "john_doe",
+      "email": "john@example.com",
+      "likes": 30,
+      "dislikes": 5,
+      "goodsQuantity": 5,
+      "password": "hashed_password_1",
+      "role": "user",
+      "address": {
+        "street": "123 Main St",
+        "city": "Anytown",
+        "state": "CA",
+        "zip": "12345",
+        "country": "USA",
+        "location": {
+          "latitude": 37.7749,
+          "longitude": -122.4194
+        }
+      },
+      "ratingScore": 4.2,
+      "messages": [
+        {
+          "fromUserId": 2,
+          "message": "Interested in your product. Let's discuss details."
+        }
+      ],
+      "paymentMethods": ["Credit Card", "PayPal"],
+      "image": "john_profile.jpg"
+    },
+    {
+      "id": 2,
+      "username": "jane_smith",
+      "email": "jane@example.com",
+      "likes": 45,
+      "dislikes": 3,
+      "goodsQuantity": 8,
+      "password": "hashed_password_2",
+      "role": "user",
+      "address": {
+        "street": "456 Elm St",
+        "city": "Othertown",
+        "state": "NY",
+        "zip": "67890",
+        "country": "USA",
+        "location": {
+          "latitude": 40.7128,
+          "longitude": -74.0060
+        }
+      },
+      "ratingScore": 4.7,
+      "messages": [
+        {
+          "fromUserId": 1,
+          "message": "I'm interested in buying your product."
+        }
+      ],
+      "paymentMethods": ["Credit Card", "Bitcoin"],
+      "image": "jane_profile.jpg"
+    },
+    {
+      "id": 3,
+      "username": "mark_twain",
+      "email": "mark@example.com",
+      "likes": 25,
+      "dislikes": 2,
+      "goodsQuantity": 10,
+      "password": "hashed_password_3",
+      "role": "user",
+      "address": {
+        "street": "789 Maple St",
+        "city": "Somewhere",
+        "state": "TX",
+        "zip": "54321",
+        "country": "USA",
+        "location": {
+          "latitude": 29.7604,
+          "longitude": -95.3698
+        }
+      },
+      "ratingScore": 3.9,
+      "messages": [
+        {
+          "fromUserId": 4,
+          "message": "Can you provide more details about your product?"
+        }
+      ],
+      "paymentMethods": ["PayPal", "Stripe"],
+      "image": "mark_profile.jpg"
+    },
+    {
+      "id": 4,
+      "username": "alice_jones",
+      "email": "alice@example.com",
+      "likes": 35,
+      "dislikes": 1,
+      "goodsQuantity": 7,
+      "password": "hashed_password_4",
+      "role": "user",
+      "address": {
+        "street": "101 Pine St",
+        "city": "Nowhere",
+        "state": "FL",
+        "zip": "67891",
+        "country": "USA",
+        "location": {
+          "latitude": 27.9942,
+          "longitude": -81.7603
+        }
+      },
+      "ratingScore": 4.5,
+      "messages": [
+        {
+          "fromUserId": 3,
+          "message": "Is the product still available?"
+        }
+      ],
+      "paymentMethods": ["Credit Card", "PayPal", "Bitcoin"],
+      "image": "alice_profile.jpg"
+    },
+    {
+      "id": 5,
+      "username": "bob_marley",
+      "email": "bob@example.com",
+      "likes": 50,
+      "dislikes": 0,
+      "goodsQuantity": 2,
+      "password": "hashed_password_5",
+      "role": "admin",
+      "address": {
+        "street": "202 Oak St",
+        "city": "Everytown",
+        "state": "NV",
+        "zip": "98765",
+        "country": "USA",
+        "location": {
+          "latitude": 36.1699,
+          "longitude": -115.1398
+        }
+      },
+      "ratingScore": 4.8,
+      "messages": [
+        {
+          "fromUserId": 2,
+          "message": "I'm interested in one of your listings."
+        }
+      ],
+      "paymentMethods": ["PayPal"],
+      "image": "bob_profile.jpg"
+    },
+    {
+      "id": 6,
+      "username": "charlie_brown",
+      "email": "charlie@example.com",
+      "likes": 20,
+      "dislikes": 4,
+      "goodsQuantity": 12,
+      "password": "hashed_password_6",
+      "role": "user",
+      "address": {
+        "street": "303 Birch St",
+        "city": "Anycity",
+        "state": "OR",
+        "zip": "12346",
+        "country": "USA",
+        "location": {
+          "latitude": 45.5234,
+          "longitude": -122.6762
+        }
+      },
+      "ratingScore": 3.5,
+      "messages": [
+        {
+          "fromUserId": 5,
+          "message": "Can we negotiate the price?"
+        }
+      ],
+      "paymentMethods": ["Credit Card", "Bitcoin", "Stripe"],
+      "image": "charlie_profile.jpg"
+    }
+  ]
+
   }

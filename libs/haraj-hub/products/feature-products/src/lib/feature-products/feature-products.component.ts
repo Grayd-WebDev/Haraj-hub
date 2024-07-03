@@ -1,5 +1,5 @@
-import { Subscription, takeUntil } from 'rxjs';
-import { ProductsFacade } from '@org/hh-products-data-access';
+import { Subscription, takeUntil, Observable } from 'rxjs';
+import { ProductsEntity, ProductsFacade } from '@org/hh-products-data-access';
 import { ChangeDetectionStrategy, Component, OnDestroy, OnInit, inject } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { ProductsCardComponent } from '../products-card/products-card.component';
@@ -15,21 +15,23 @@ import { takeUntilDestroyed } from '@angular/core/rxjs-interop'
   styleUrls: ['./feature-products.component.scss'],
   changeDetection: ChangeDetectionStrategy.OnPush,
 })
-export class FeatureProductsComponent {
+export class FeatureProductsComponent{
   private route = inject(ActivatedRoute);
   private categoryId!: string|null;
   private productsFacade = inject(ProductsFacade);
-  public products$ = this.productsFacade.allProducts$;
+  public products$ !: Observable<ProductsEntity[]>;
   public productsLoaded$ = this.productsFacade.loaded$;
 
+
   constructor(){
+    console.log("Re-instantiated");
+    
+    this.products$ = this.productsFacade.allProducts$;   
+
     this.route.paramMap.pipe(takeUntilDestroyed()).subscribe(params => {
       this.categoryId = params.get('id');
       console.log(this.categoryId);
     })
     
-    this.products$.subscribe((prods)=>{
-      console.log(prods);
-    })
   }
 }

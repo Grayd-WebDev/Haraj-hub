@@ -39,7 +39,35 @@ const reducer = createReducer(
     ...state,
     error,
   })),
-  on(ProductsActions.deleteProduct, (state, {id})=> productsAdapter.removeOne(id, state))
+  on(ProductsActions.deleteProduct, (state, {id})=> productsAdapter.removeOne(id, state)),
+  on(ProductsActions.likeProduct, (state, { id }) => {
+    const product = state.entities[id];
+    if (product) {
+      return productsAdapter.updateOne(
+        {
+          id,
+          changes: { likes: product.likes + 1 }
+        },
+        state
+      );
+    } else {
+      return state;
+    }
+  }),
+  on(ProductsActions.dislikeProduct, (state, { id }) => {
+    const product = state.entities[id];
+    if (product) {
+      return productsAdapter.updateOne(
+        {
+          id,
+          changes: { likes: product.likes - 1 }
+        },
+        state
+      );
+    } else {
+      return state;
+    }
+  })
 );
 
 export function productsReducer(

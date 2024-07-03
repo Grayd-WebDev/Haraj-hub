@@ -20,7 +20,7 @@ export class FeatureUsersListContainerComponent{
   
   onDeleteUser(userId:number){
     this.store.dispatch(deleteUser({userId}));
-  };
+  }
 
   onLikeUser(userData: IUser): void{
     this.store.dispatch(addLike({userData}));

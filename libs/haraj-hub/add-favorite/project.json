@@ -1,0 +1,17 @@
+{
+  "name": "add-favorite",
+  "$schema": "../../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "libs/haraj-hub/add-favorite/src",
+  "prefix": "hh",
+  "tags": [],
+  "projectType": "library",
+  "targets": {
+    "test": {
+      "executor": "@nx/jest:jest",
+      "outputs": ["{workspaceRoot}/coverage/{projectRoot}"],
+      "options": {
+        "jestConfig": "libs/haraj-hub/add-favorite/jest.config.ts"
+      }
+    }
+  }
+}

@@ -36,11 +36,10 @@ export class BackendInterceptorService implements HttpInterceptor{
   }
 
   private deleteProduct(id: number):Observable<HttpEvent<any>>{
-    const isDeleted = this.productsFacade.deleteProduct(id);
-    if(isDeleted){
-      return of(new HttpResponse({status: 201, body: {message:`Product ${id} is deleted`}}));
-    }
-    return of(new HttpResponse({status: 500, body: {message:"something went wrong..."}}));
+     this.productsFacade.deleteProduct(id);
+     return of(new HttpResponse({status: 201, body: {message:`Product ${id} is deleted`}}));
+ 
+    // return of(new HttpResponse({status: 500, body: {message:"something went wrong..."}}));
   }
 
   private addProduct(product: ProductsEntity):Observable<HttpEvent<any>>{

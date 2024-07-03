@@ -5,11 +5,13 @@ import { MatCardModule } from '@angular/material/card';
 import { MatIconModule } from '@angular/material/icon';
 import { MatButtonModule } from '@angular/material/button';
 import { StarRatingComponent } from '@org/star-rating';
+import { LikeDislikeComponent } from '@org/like-dislike';
+import { AddFavoriteComponent } from '@org/add-favorite';
 
 @Component({
   selector: 'org-products-card',
   standalone: true,
-  imports: [CommonModule, MatCardModule, MatIconModule, MatButtonModule, CurrencyPipe, StarRatingComponent],
+  imports: [CommonModule, MatCardModule, AddFavoriteComponent,MatIconModule, LikeDislikeComponent, MatButtonModule, CurrencyPipe, StarRatingComponent],
   templateUrl: './products-card.component.html',
   styleUrls: ['./products-card.component.scss'],
   changeDetection: ChangeDetectionStrategy.OnPush,

@@ -1,3 +1,4 @@
+import { AuthGuard } from '@org/auth-guard';
 import { Route } from '@angular/router';
 
 export const appRoutes: Route[] = [
@@ -7,8 +8,17 @@ export const appRoutes: Route[] = [
         pathMatch:"full"
     },
     {
+        path:"profile",
+        canActivate: [AuthGuard],
+        loadComponent: ()=>import('@org/page-profile').then((c)=>c.PageProfileComponent),
+    },
+    {
         path: 'home',
         loadComponent: ()=>import('@org/page-home').then((c)=> c.PageHomeComponent),        
+    },
+    {
+        path:"auth",
+        loadComponent: ()=>import('@org/page-auth').then((c)=>c.PageAuthComponent),
     },
     {
         path: 'users',

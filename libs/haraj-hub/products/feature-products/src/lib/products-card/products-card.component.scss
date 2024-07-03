@@ -12,6 +12,8 @@
     overflow: hidden;
     height: 100%;
     transition: transform 0.3s ease-in-out;
+    display: flex;
+    justify-content: space-between;
   }
 
   .product-card:hover .product-card-inner {
@@ -30,22 +32,19 @@
   }
 
   .product-actions {
-    display: grid;
-    grid-template-columns: 1fr 1fr 5fr;
+    display: flex;
+    margin-top: 40px;
+    min-height: 25px;
+    align-content: center;
+    align-items: center;
+    justify-content: space-around;
   }
 
-  .action-button {
-    transition: transform 0.3s ease-in-out;
-  }
-
-  .action-button:hover {
-    transform: scale(1.2);
-  }
 
   .product-rating{
     display: flex;
     justify-content: space-around;
     align-items: center;
     flex-direction: column;
-    
+ 
   }

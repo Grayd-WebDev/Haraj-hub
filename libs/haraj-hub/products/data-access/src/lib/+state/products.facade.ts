@@ -25,10 +25,15 @@ export class ProductsFacade {
   public addProduct(product: ProductsEntity){
     this.store.dispatch(ProductsActions.addProduct({product}));
   }
-  /**
-   * Use the initialization action to perform one
-   * or more tasks in your Effects.
-   */
+
+  public likeProduct(id: number):void{
+    this.store.dispatch(ProductsActions.likeProduct({id}));
+  }
+
+  public dislikeProduct(id: number):void{
+    this.store.dispatch(ProductsActions.dislikeProduct({id}));
+  }
+
   constructor(){
     this.store.dispatch(ProductsActions.initProducts({page:1}));
   }
